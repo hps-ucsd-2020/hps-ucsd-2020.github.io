@@ -159,6 +159,14 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/GitHub/Filename</li>
+
+<li>$:/GitHub/Path</li>
+
+<li>$:/GitHub/Repo</li>
+
+<li>$:/GitHub/Username</li>
+
 <li>$:/isEncrypted</li>
 
 <li>$:/palette</li>
@@ -176,6 +184,8 @@ Error message and password prompt
 <li>$:/state/tab--2112689675</li>
 
 <li>$:/state/tab-1749438307</li>
+
+<li>$:/state/tab-2065006209</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
 
@@ -9670,6 +9680,18 @@ Error message and password prompt
 <div created="20200702024430467" modified="20200709020442490" title="$:/DefaultTiddlers">
 <pre>Main</pre>
 </div>
+<div created="20200725224057932" modified="20200725224100052" title="$:/GitHub/Filename">
+<pre>index.html</pre>
+</div>
+<div created="20200725224054899" modified="20200725224054899" title="$:/GitHub/Path">
+<pre>/</pre>
+</div>
+<div created="20200725224048150" modified="20200725225250144" title="$:/GitHub/Repo">
+<pre>hps-ucsd-2020/hps-ucsd-2020.github.io</pre>
+</div>
+<div created="20200725223829311" modified="20200725223832317" title="$:/GitHub/Username">
+<pre>ArclingML</pre>
+</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -9694,11 +9716,14 @@ Error message and password prompt
 <div created="20200709020431866" modified="20200709020436727" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
-<div created="20200702024627010" modified="20200709022015324" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Settings</pre>
+<div created="20200702024627010" modified="20200725223815624" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20200702023737080" modified="20200718173322168" title="$:/state/tab/sidebar--595412856">
-<pre>Main</pre>
+<div created="20200725223817248" modified="20200725225230044" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+</div>
+<div created="20200702023737080" modified="20200725223811927" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20200702024228717" modified="20200709023207161" title="$:/state/toc/contents-test1-1637712383">
 <pre>close</pre>
@@ -9733,7 +9758,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200718170803221" list="[[04. Text Formatting]] [[03. Importing and Using Images]] Main" modified="20200718173604416" title="$:/StoryList">
+<div created="20200725223814209" list="$:/ControlPanel" modified="20200725225109776" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9749,19 +9774,19 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///home/arcling/hpsucsd/wiki-stuff/hps-wiki.html&quot;
+            &quot;text&quot;: &quot;https://hps-ucsd-2020.github.io/&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;hps-ucsd-2020.github.io&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;hps-ucsd-2020.github.io&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;https:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -9769,7 +9794,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/home/arcling/hpsucsd/wiki-stuff/hps-wiki.html&quot;
+            &quot;text&quot;: &quot;/&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9777,7 +9802,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;https://hps-ucsd-2020.github.io&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -9966,7 +9991,6 @@ And you'll get the numberless formatting of [[Main]] and [[Tutorials]]
 </div>
 <div created="20200718171820814" modified="20200718172954540" tags="Tutorials" title="03. Importing and Using Images">
 <pre>
-
 You can embed an image from the internet by using `[img [https://img-url.net]]` Where the fake url used here is replaced by the url of the image you want to embed.
 
 You can also reference an image in a folder outside the wiki. This is done by using `[img [./image-folder/image-name.png]]`, where the fake filepath here is replaced by the filepath to the image (be sure to start it with `./` to represent the wiki directory!)
