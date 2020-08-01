@@ -209,6 +209,8 @@ Error message and password prompt
 
 <li>$:/state/toc/Main/Teams-Admin--2050956917</li>
 
+<li>$:/state/toc/Main/Teams-Docs--22659171</li>
+
 <li>$:/state/toc/Main/Teams-Electronics--2050956917</li>
 
 <li>$:/state/toc/Main/Teams-Electronics--22659171</li>
@@ -246,6 +248,8 @@ Error message and password prompt
 <li>03. Importing and Using Images</li>
 
 <li>04. Text Formatting</li>
+
+<li>05. Saving</li>
 
 <li>Admin</li>
 
@@ -9705,7 +9709,7 @@ Error message and password prompt
 <div created="20200725224054899" modified="20200725224054899" title="$:/GitHub/Path">
 <pre>/</pre>
 </div>
-<div created="20200725224048150" modified="20200725225250144" title="$:/GitHub/Repo">
+<div created="20200725224048150" modified="20200801165425397" title="$:/GitHub/Repo">
 <pre>hps-ucsd-2020/hps-ucsd-2020.github.io</pre>
 </div>
 <div created="20200725223829311" modified="20200725223832317" title="$:/GitHub/Username">
@@ -9753,8 +9757,8 @@ Error message and password prompt
 <div created="20200709024138477" modified="20200718170709437" title="$:/state/toc/Main-Teams--2050956917">
 <pre>open</pre>
 </div>
-<div created="20200709023409001" modified="20200718173325040" title="$:/state/toc/Main-Teams--22659171">
-<pre>close</pre>
+<div created="20200709023409001" modified="20200801163532463" title="$:/state/toc/Main-Teams--22659171">
+<pre>open</pre>
 </div>
 <div created="20200718165417037" modified="20200718165417037" title="$:/state/toc/Main-Tutorials--2050956917">
 <pre>open</pre>
@@ -9764,6 +9768,9 @@ Error message and password prompt
 </div>
 <div created="20200718170711708" modified="20200718170712355" title="$:/state/toc/Main/Teams-Admin--2050956917">
 <pre>close</pre>
+</div>
+<div created="20200801163533470" modified="20200801163533470" title="$:/state/toc/Main/Teams-Docs--22659171">
+<pre>open</pre>
 </div>
 <div created="20200709024246861" modified="20200709024247507" title="$:/state/toc/Main/Teams-Electronics--2050956917">
 <pre>close</pre>
@@ -9777,7 +9784,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200801161221873" list="Main" modified="20200801161448710" title="$:/StoryList">
+<div created="20200801163534518" list="$:/ControlPanel [[05. Saving]] [[04. Text Formatting]] Main" modified="20200801164618395" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9965,7 +9972,7 @@ Error message and password prompt
 <div created="20200702025145428" modified="20200725225341237" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
 <pre>99%</pre>
 </div>
-<div created="20200709022059461" modified="20200718173538595" tags="Tutorials" title="00. So You Just Opened TiddlyWiki">
+<div created="20200709022059461" modified="20200801163742807" tags="Tutorials" title="00. So You Just Opened TiddlyWiki">
 <pre>Welcome to the UCSD HPS Wiki! This interactive information network uses a framework known as &quot;TiddlyWiki.&quot; This program is generally fairly intuitive, but a tutorial is nevertheless helpful. 
 
 So, how does this work?
@@ -9980,7 +9987,7 @@ Well, the icons below the title are a good place - there are some of the most im
 
 Below those icons is the search bar, which allows you to search tabs by title. This is a faster way to get to a specific category than flipping through the links from Main if you know exactly where you want to go. It's also useful for checking if a particular page has already been made yet.
 
-You should now have enough information to browse the wiki for information, but you'll likely want to read more tutorials before making tabs. I would advise checking out more of the tabs under the [[Tutorials]] category to start, if you've got time. And remember - if you want to learn how to do something you see in this wiki, you can always look at the way it was done in the edit screen, and learn/copy from it. Good luck!</pre>
+You should now have enough information to browse the wiki for information, but you'll likely want to read more tutorials (especially [[05. Saving]]) before making tabs. I would advise checking out more of the tabs under the [[Tutorials]] category to start, if you've got time. And remember - if you want to learn how to do something you see in this wiki, you can always look at the way it was done in the edit screen, and learn/copy from it. Good luck!</pre>
 </div>
 <div created="20200709021816480" modified="20200709023612073" tags="Tutorials" title="01. TiddlyWiki YouTube Tutorial">
 <pre>If these tabs aren't doing it for you, try out this YouTube Tutorial!
@@ -10073,6 +10080,52 @@ Knowing how these things are typed allows you to make inferences on behavior you
 # Numbered List right after Numbered List
 
 Remember when I mentioned HTML earlier? A useful tool when lines don't break properly is the `&lt;br&gt;`, which inserts a line break manually. Use this whenever you want to force a new line.</pre>
+</div>
+<div created="20200801163631911" modified="20200801171949478" tags="Tutorials" title="05. Saving">
+<pre>! Preparation
+
+You may notice that hitting the save button does not actually update the website, or throws an error. This is because the proper way to update the site requires you to input some information so that TiddlyWiki knows how to save!
+
+This TiddlyWiki saves to a [[GitHub|https://github.com/]] repository where it is converted to a website. Naturally, this means you will need a [[GitHub|https://github.com/]] account. 
+
+Once you have created a [[GitHub|https://github.com/]] account, have an HPS member who has administrator privileges over the team repository to add you to [[hps-ucsd-2020|https://github.com/hps-ucsd-2020]]. Documentation team members, the team captain, and perhaps a few others should have this admin privilege, so it shouldn't be hard for you to flag someone down as the process takes about 20 seconds.
+
+! Config
+
+Now that you have your GitHub account, you can begin configuring saving. Hit the gear icon next to the save icon (both are located below the Wiki Title) to open [[settings|$:/ControlPanel]], then go to Saving&gt;Github Saver. Here we have several options that should be filled out.
+
+!!Username 
+Simply your GitHub Username. Not particularly complicated.
+
+!! Personal Access Token
+GitHub prefers you don't use your account password offsite, and instead requests you generate a Personal Access Token for each purpose. This increases your account security, which is generally a good thing. Follow the instructions [[here|https://docs.github.com/en/enterprise/2.15/user/articles/creating-a-personal-access-token-for-the-command-line]] to create and copy a Personal Access Token (tl;dr: on GitHub go to Settings&gt;Developer settings&gt;Personal access tokens&gt;Generate new token&gt;check &quot;repo&quot;&gt;Generate Token&gt;copy to clipboard). Once you have a Personal Access Token, paste it into the relevant box.
+
+!! Target Repository
+this is the team repo, at `hps-ucsd-2020/hps-ucsd-2020.github.io`.
+
+!! Target Branch for Saving
+This is another step with a process. You need to make your own branch for editing, because otherwise each time you hit the save button the site will take 20 minutes to recompile. To do so, go to the [[page for the team website|https://github.com/hps-ucsd-2020/hps-ucsd-2020.github.io], click the button showing what branch you're looking at (it should read &quot;master&quot; or &quot;main&quot;) and in the box labeled &quot;Find or Create Branch,&quot; type your name. Below it, there should now be an option that reads &quot;Create branch: Name from master&quot; (or main). Select that to create your branch. The name of the branch you just made goes into the relevant box.
+
+!! Path to Target File
+The wiki is currently held in `/`. If this is changed, this tutorial will need to be updated.
+
+!! Filename of Target File
+The wiki file is currently named `index.html`. If this is changed, this tutorial will need to be updated.
+
+!! Server API URL
+This should have a default value you can leave alone, but just in case it doesn't, it should be `https://api.github.com`.
+
+! Actually Saving
+
+Now, when you press the save button, the site will update your GitHub branch with data. But if you reload the site, you'll get the version from master, not your branch - your changes will be lost. So how do you get your changes onto the site?
+
+You make a pull request.
+
+What's a pull request?
+
+It's a request to pull your changes into the master branch. You can make one by switching to your branch from the main branch (by using the same Find or Create Branch option you used earlier, this time clicking the relevant branch) and then clicking &quot;Pull Request.&quot; Fill out the form to complete the request, and an Admin will merge it into the main branch! 
+
+There you go, you now know everything you need to begin saving your wiki entries.</pre>
 </div>
 <div created="20200709020529713" modified="20200709023446189" tags="Teams" title="Admin">
 <pre>&lt;&lt;toc-selective-expandable 'Admin' sort[title]&gt;&gt;</pre>
