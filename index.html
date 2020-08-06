@@ -9786,7 +9786,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200806021645516" list="[[Git Basic Usage]] Main [[05. Saving]]" modified="20200806021648835" title="$:/StoryList">
+<div created="20200806022440512" list="[[03. Importing and Using Images]] [[05. Saving]] [[Git Basic Usage]]" modified="20200806031546404" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9974,16 +9974,16 @@ Error message and password prompt
 <div created="20200702025145428" modified="20200725225341237" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
 <pre>99%</pre>
 </div>
-<div created="20200709022059461" modified="20200801163742807" tags="Tutorials" title="00. So You Just Opened TiddlyWiki">
+<div created="20200709022059461" modified="20200806031614643" tags="Tutorials" title="00. So You Just Opened TiddlyWiki">
 <pre>Welcome to the UCSD HPS Wiki! This interactive information network uses a framework known as &quot;TiddlyWiki.&quot; This program is generally fairly intuitive, but a tutorial is nevertheless helpful. 
 
-So, how does this work?
+! So, how does this work?
 
 In TiddlyWiki, information is divided into pieces called &quot;tiddlers.&quot; This name is silly, and I will be referring to them as tabs within these tutorials to maintain some semblance of seriousness.
 
 Tabs can contain links, text, tables, and many other things I likely haven't figured out as of yet. Basically, they're each individual wiki pages. 
 
-How should you start interacting with the wiki?
+! How should I start interacting with the wiki?
 
 Well, the icons below the title are a good place - there are some of the most important actions for interacting with the notebook. Hovering over each icon should give a tooltip on what that button does, but the most important ones are the house (which returns you to the Main tab) and the plus (which creates a new tab).
 
@@ -9991,25 +9991,25 @@ Below those icons is the search bar, which allows you to search tabs by title. T
 
 You should now have enough information to browse the wiki for information, but you'll likely want to read more tutorials (especially [[05. Saving]]) before making tabs. I would advise checking out more of the tabs under the [[Tutorials]] category to start, if you've got time. And remember - if you want to learn how to do something you see in this wiki, you can always look at the way it was done in the edit screen, and learn/copy from it. Good luck!</pre>
 </div>
-<div created="20200709021816480" modified="20200709023612073" tags="Tutorials" title="01. TiddlyWiki YouTube Tutorial">
-<pre>If these tabs aren't doing it for you, try out this YouTube Tutorial!
-
-https://www.youtube.com/playlist?list=PLzZCajspPU_UjFn0uy-J9URz0LP4zhxRK</pre>
+<div created="20200709021816480" modified="20200806030405354" tags="Tutorials" title="01. TiddlyWiki YouTube Tutorial">
+<pre>If these tabs aren't doing it for you, try out this [[YouTube Tutorial!|https://www.youtube.com/playlist?list=PLzZCajspPU_UjFn0uy-J9URz0LP4zhxRK]]</pre>
 </div>
-<div created="20200709021116116" modified="20200718173617258" tags="Tutorials" title="02. Making a Category">
+<div created="20200709021116116" modified="20200806031542542" tags="Tutorials" title="02. Making a Category">
 <pre>You'll notice some tabs function like a table of contents - they show all the tabs within a certain category. For example, the [[Main]] tab - the tab that appears when you first start the wiki - shows all tabs with the tag &quot;Main&quot; in them (and their children).
 
+! Formatting Your Category
 You may, while editing this wiki, find a need to create a category, perhaps for a new sub team or a new project. Creating this is as simple as making a new tab and entering the following text into the text section:
-
 
 ```
 &lt;&lt;toc-selective-expandable 'your-tag-here' sort[title]&gt;&gt;
 ```
 Where &quot;your-tag-here&quot; is replaced with, well, the tag you want to associate with your team/project/category. After saving, you should get a nice list of everything with that tag.
 
-IMPORTANT: Make sure your-tag-here and the title of your tab are PRECISELY THE SAME, capitalization and all. This will make sure they will appear as drop-down categories in your tab. Failure to do this properly will result in you having to manually change each tag one. by. one. I failed so you don't have to, make sure your cats work right beforehand.
+!! IMPORTANT
+Make sure your-tag-here and the title of your tab are PRECISELY THE SAME, capitalization and all. This will make sure they will appear as drop-down categories in your tab. Failure to do this properly will result in you having to manually change each tag one. by. one. I failed so you don't have to, make sure your cats work right beforehand.
 
-BONUS: Want to get rid of those numbers? surround the table in a div like so:
+! Extra Formatting
+Want to get rid of those numbers? surround the table in a div like so:
 
 ```
 &lt;div class=&quot;tc-table-of-contents&quot;&gt;
@@ -10020,11 +10020,15 @@ BONUS: Want to get rid of those numbers? surround the table in a div like so:
 And you'll get the numberless formatting of [[Main]] and [[Tutorials]]
 </pre>
 </div>
-<div created="20200718171820814" modified="20200718172954540" tags="Tutorials" title="03. Importing and Using Images">
-<pre>You can embed an image from the internet by using `[img [https://img-url.net]]` Where the fake url used here is replaced by the url of the image you want to embed.
+<div created="20200718171820814" modified="20200806031403726" tags="Tutorials" title="03. Importing and Using Images">
+<pre>! Adding an image via GitHub
+Within your branch of the website, there is a button that says `Add file`. From there you can upload an image to the GitHub into the proper folder.
+You can then reference the image by using `[img [./image-folder/image-name.png]]`, where the fake filepath here is replaced by the filepath to the image (be sure to start it with `./` to represent the wiki directory!). For example, if you placed your image `submarine-drivetrain2.png` in the folder folder `./wikidata/images`, you would reference it using `[img [./wikidata/images/submarine-drivetrain2.png]]`
 
-You can also reference an image in a folder outside the wiki. This is done by using `[img [./image-folder/image-name.png]]`, where the fake filepath here is replaced by the filepath to the image (be sure to start it with `./` to represent the wiki directory!)
+! Adding an image from a URL
+You can also embed an image from the internet by using `[img [https://img-url.net]]` Where the fake url used here is replaced by the url of the image you want to embed.
 
+! Uploading Directly to the Wiki (Don't do this)
 While the above methods are preferred, TiddlyWiki can also store all data - including image files - within the html wiki file itself. To import an image directly into the wiki, simply drag and drop the image into the webpage. This will add the image to the wiki in the `$:/Import`  tab. From there, you can embed the image in a tab using `[[image-name.png]]` </pre>
 </div>
 <div created="20200718173651795" modified="20200718175150043" tags="Tutorials" title="04. Text Formatting">
@@ -10083,7 +10087,7 @@ Knowing how these things are typed allows you to make inferences on behavior you
 
 Remember when I mentioned HTML earlier? A useful tool when lines don't break properly is the `&lt;br&gt;`, which inserts a line break manually. Use this whenever you want to force a new line.</pre>
 </div>
-<div created="20200801163631911" modified="20200801171949478" tags="Tutorials" title="05. Saving">
+<div created="20200801163631911" modified="20200806025244948" tags="Tutorials" title="05. Saving">
 <pre>! Preparation
 
 You may notice that hitting the save button does not actually update the website, or throws an error. This is because the proper way to update the site requires you to input some information so that TiddlyWiki knows how to save!
@@ -10106,7 +10110,7 @@ GitHub prefers you don't use your account password offsite, and instead requests
 this is the team repo, at `hps-ucsd-2020/hps-ucsd-2020.github.io`.
 
 !! Target Branch for Saving
-This is another step with a process. You need to make your own branch for editing, because otherwise each time you hit the save button the site will take 20 minutes to recompile. To do so, go to the [[page for the team website|https://github.com/hps-ucsd-2020/hps-ucsd-2020.github.io], click the button showing what branch you're looking at (it should read &quot;master&quot; or &quot;main&quot;) and in the box labeled &quot;Find or Create Branch,&quot; type your name. Below it, there should now be an option that reads &quot;Create branch: Name from master&quot; (or main). Select that to create your branch. The name of the branch you just made goes into the relevant box.
+This is another step with a process. You need to make your own branch for editing, because otherwise each time you hit the save button the site will take 20 minutes to recompile. To do so, go to the [[page for the team website|https://github.com/hps-ucsd-2020/hps-ucsd-2020.github.io]], click the button showing what branch you're looking at (it should read &quot;master&quot; or &quot;main&quot;) and in the box labeled &quot;Find or Create Branch,&quot; type your name. Below it, there should now be an option that reads &quot;Create branch: Name from master&quot; (or main). Select that to create your branch. The name of the branch you just made goes into the relevant box.
 
 !! Path to Target File
 The wiki is currently held in `/`. If this is changed, this tutorial will need to be updated.
@@ -10147,8 +10151,11 @@ There you go, you now know everything you need to begin saving your wiki entries
 <div created="20200709020723894" modified="20200709023433612" tags="Teams" title="Electronics">
 <pre>&lt;&lt;toc-selective-expandable 'Electronics' sort[title]&gt;&gt;</pre>
 </div>
-<div created="20200806021730588" modified="20200806021815794" tags="Docs" title="Git Basic Usage">
-<pre>this is the text for git basic usage it will be done shortly</pre>
+<div created="20200806021730588" modified="20200806022447272" tags="Docs" title="Git Basic Usage">
+<pre>If you're just making wiki pages, a lot of this process is going to be automated for you. However, it's good to be acquainted to exactly how the git process works.
+
+[[Graphical Guide to Git|https://guides.github.com/introduction/flow/]]
+</pre>
 </div>
 <div created="20200709020800722" modified="20200709023404286" tags="Teams" title="Hull">
 <pre>&lt;&lt;toc-selective-expandable 'Hull' sort[title]&gt;&gt;</pre>
