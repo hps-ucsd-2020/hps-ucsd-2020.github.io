@@ -181,6 +181,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/image-picker/system--101881815</li>
+
 <li>$:/state/showeditpreview</li>
 
 <li>$:/state/sidebar</li>
@@ -9743,6 +9745,9 @@ Error message and password prompt
 <div created="20200702023133142" modified="20200702023255744" title="$:/SiteTitle">
 <pre>HPS WIKI (WIP)</pre>
 </div>
+<div created="20200808201802330" modified="20200808201805156" title="$:/state/image-picker/system--101881815">
+<pre>hide</pre>
+</div>
 <div created="20200718172033106" modified="20200718172033106" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
@@ -9764,7 +9769,7 @@ Error message and password prompt
 <div created="20200808180103866" modified="20200808180108297" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20200702023737080" modified="20200808183705166" title="$:/state/tab/sidebar--595412856">
+<div created="20200702023737080" modified="20200808195129438" title="$:/state/tab/sidebar--595412856">
 <pre>Main</pre>
 </div>
 <div created="20200808180147738" modified="20200808180149627" title="$:/state/tag-manager/Admin">
@@ -9815,7 +9820,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200808190103778" list="Main Hull [[Designing the Hull in SolidWorks]]" modified="20200808190110135" title="$:/StoryList">
+<div created="20200808190103778" list="[[05. Saving]] [[03. Importing and Using Images]] [[Designing the Hull in SolidWorks]]" modified="20200808201032780" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10169,10 +10174,36 @@ There you go, you now know everything you need to begin saving your wiki entries
 <div created="20200709023147891" modified="20200709023200729" tags="" title="Contents">
 <pre>&lt;&lt;toc-selective-expandable 'contents' sort[title]&gt;&gt;</pre>
 </div>
-<div created="20200808180550617" modified="20200808190151321" tags="Hull Design" title="Designing the Hull in SolidWorks">
-<pre>I will update this tutorial soon :)
+<div created="20200808180550617" modified="20200808204020560" tags="Hull Design SolidWorks" title="Designing the Hull in SolidWorks">
+<pre>I will try to make a youtube tutorial for this at some point ;-; .
 
-</pre>
+! Choosing Airfoils
+
+First you will need to go to http://airfoiltools.com to choose airfoils. 
+
+Important considerations:
+
+* We will only use symmetrical airfoils, which means you want a flat camber line. (max camber = 0)
+* You need a vertical and a horizontal profile.
+* Orientation convention: see picture below
+
+[img [./Antoinette/hull_profiles_convention.png]]
+
+! Importing Data into MATLAB (or Excel)
+
+Because the data provided on the site in in 2D, you will need to add a column of zeroes to make it 3D.
+
+Note: According to our convention, the vertical profile needs an x column of 0, and the horizontal profile requires a y column of 0s
+
+You can use Matlab or Excel to accomplish this.
+
+! Scaling
+
+Scale the curves to the desired height, width and length. Keep in mind that we are using inches for units.
+
+! Importing Curves into SolidWorks
+
+Go to &quot;Import&quot; </pre>
 </div>
 <div created="20200709020554808" modified="20200709023333007" tags="Teams" title="Dive">
 <pre>&lt;&lt;toc-selective-expandable 'Dive' sort[title]&gt;&gt;</pre>
