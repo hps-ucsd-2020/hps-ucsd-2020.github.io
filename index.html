@@ -14,7 +14,9 @@
       </div>
       <div class="main-navbar">
         {% for item in site.data.main_nav %}
-          <a href="{{ item.link }}">{{ item.name }}</a>
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% else %}class="not-current"{% endif %}>
+            {{ item.name }}
+          </a>
         {% endfor %}
       </div>
     </div>
