@@ -47,3 +47,17 @@ body {
   }
 }
 
+.footer {
+  background-color: $imperialblue;
+  color: $spanishgray;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
