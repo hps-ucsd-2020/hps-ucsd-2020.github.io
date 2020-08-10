@@ -1,0 +1,49 @@
+// Colors
+$palebud: #E0FFB2;
+$seaserpent: #57C9D1;
+$spanishgray: #979797;
+$deeplemon: #FCBA17;
+$imperialblue: #003F77;
+
+html {
+  background-color: $seaserpent;
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: $imperialblue;
+  color: $spanishgray;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 75px;
+}
+
+.main-title {
+  margin-left: 10px;
+}
+
+.main-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  a:link, a:visited {
+    color: $spanishgray;
+  }
+  a:hover {
+    color: $palebud;
+  }
+  a {
+    margin-left: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+}
+
