@@ -1,0 +1,26 @@
+<div class="slideshow">
+<script type="text/javascript"> 
+    $(document).ready(function() {
+      $("ul").lightSlider({
+        "item": {{ page.item | default: 1 }},
+        "loop": {{ page.loop | default: true }},
+        "mode": "{{ page.mode | default: slide }}",
+        "speed": {{ page.speed | default: 1000 }},
+        "pause": {{ page.pause | default: 5000 }},
+        "vertical": {{ page.vertical | default: false }},
+        "auto": {{ page.auto | default: true }},
+        "pauseOnHover": {{ page.pauseOnHover | default: false }},
+        "pager": {{ page.pager | default: true }},
+        "controls": {{ page.controls | default: false }},
+        "adaptiveHeight": {{ page.adaptiveHeight | default: false }}
+      });
+    });
+</script>
+<ul id="light-slider">
+  {% for item in site.data.slideshows[include.slideshow] %}
+  <li data-thumb="/assets/img/{{ item }}">
+	  <img src="/assets/img/{{ item }}"/>
+  </li>
+  {% endfor %}
+</ul>
+</div>

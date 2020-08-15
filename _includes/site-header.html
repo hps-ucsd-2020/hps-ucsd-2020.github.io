@@ -1,0 +1,12 @@
+<div class="main">
+  <div class="main-title">
+    <h1>UCSD HPS</h1>
+  </div>
+  <div class="main-navbar">
+    {% for item in site.data.main_nav %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% else %}class="not-current"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+  </div>
+</div>
