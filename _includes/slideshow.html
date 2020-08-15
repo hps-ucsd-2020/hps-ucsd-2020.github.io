@@ -4,13 +4,13 @@
         "item": {{ page.item | default: 1 }},
         "loop": {{ page.loop | default: true }},
         "mode": "{{ page.mode | default: slide }}",
-        "speed": {{ page.speed | default: 600 }},
-        "pause": {{ page.pause | default: 2000 }},
+        "speed": {{ page.speed | default: 1000 }},
+        "pause": {{ page.pause | default: 5000 }},
         "vertical": {{ page.vertical | default: false }},
         "auto": {{ page.auto | default: true }},
         "pauseOnHover": {{ page.pauseOnHover | default: false }},
         "pager": {{ page.pager | default: true }},
-        "controls": {{ page.cotrols | default: true }},
+        "controls": {{ page.controls | default: false }},
         "adaptiveHeight": {{ page.adaptiveHeight | default: false }}
       });
     });
