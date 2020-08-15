@@ -22,9 +22,13 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  height: 75px;
+  min-height: 75px;
   border-bottom: 5px solid $deeplemon;
+  h1 {
+    color: $deeplemon;
+  }
 }
 
 .main-title {
@@ -35,6 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: wrap;
 
   %a-main {
     margin-left: 10px;
@@ -69,17 +74,35 @@ body {
   color: $spanishgray;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  height: 75px;
+  min-height: 75px;
   width: 100%;
   border-top: 5px solid $deeplemon;
+  margin-top: 20px;
 }
 
 .slideshow {
   img {
     width: 100%;
+    max-height: 700px;
+    object-fit: cover;
   }
-  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.centered-flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  h1 {
+    font-size: 100px;
+    word-break: break-word;
+    color: $deeplemon;
+    margin: 20px;
+  }
 }

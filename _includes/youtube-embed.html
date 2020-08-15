@@ -5,11 +5,11 @@
   var player;
   player = new YT.Player("yt-embed-{{ include.video-id | default: "fC7oUOUEEi4" }}", {
     videoId: '{{ include.video-id | default: "fC7oUOUEEi4" }}', // YouTube Video ID
-	  width: {{ include.width | default: 700 }},               // Player width (in px)
-	  height: {{ include.height | default: 480 }},              // Player height (in px)
+	  width: {{ include.width | default: 720 }},               // Player width (in px)
+	  height: {{ include.height | default: 405 }},              // Player height (in px)
     playerVars: {
       autoplay: 1,        // Auto-play the video on load
-      controls: 0,        // Hide pause/play buttons in player
+      controls: 1,        // Hide pause/play buttons in player
       showinfo: 0,        // Hide the video title
       modestbranding: 1,  // Hide the Youtube Logo
       loop: 1,            // Run the video in a loop
