@@ -24,13 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the site description, located in _config.yml and displayed on your site and below the search result in google.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  hps-ucsd-2020
 
 # Build settings
-# theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: Drassil/git-wiki-theme@master
 
 # Github required settings
 lsi: false
@@ -42,6 +41,45 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+# Wiki options
+show_wiki_pages: true
+show_wiki_pages_limit: 10
+blog_feature: false
+show_wiki_posts: true
+show_wiki_posts_limit: 10
+paginate: 5
+paginate_path: "/blog/page:num"
+permalink: /blog/posts/:year/:month/:day/:title:output_ext
+show_downloads: true
+git_branch: "master"
+logo_url:
+google_analytics:
+wiki_folder: "wiki"
+use_github_wiki: false
+use_prose_io: true
+search_engine: "js"
+
+defaults:
+-
+  scope:
+    path: "wiki"
+  values:
+    permalink: /:basename
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "git-wiki-default"
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "git-wiki-post"
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
