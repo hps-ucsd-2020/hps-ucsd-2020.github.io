@@ -254,6 +254,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-remote-theme
+  kramdown (~> 2.3.0)
 
 BUNDLED WITH
    2.1.4
