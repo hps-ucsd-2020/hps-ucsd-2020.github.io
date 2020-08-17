@@ -16,6 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 # grab wiki theme
 gem "jekyll-remote-theme"
 
+# security req
+gem "kramdown", "~> 2.3.0"
+
 # Below is unecessary includes that have been removed.
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.

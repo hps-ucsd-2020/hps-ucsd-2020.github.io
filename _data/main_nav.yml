@@ -1,13 +1,13 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: about.html
 - name: Members
-  link: /members.html
+  link: members.html
 - name: Teams
-  link: /teams.html
+  link: teams.html
 - name: Donate!
-  link: /donate.html
+  link: donate.html
 - name: Wiki
   link: wiki.html
 - name: Blog
