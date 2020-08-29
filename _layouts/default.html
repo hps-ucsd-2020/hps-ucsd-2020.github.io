@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     {% include slideshow-head.html %}
   </head>
-  <body>
+  <body class={{ page.bodyclass | default: "markdown-quickstyle" }}>
     {% include site-header.html %} 
     {{ content }}
     {% include site-footer.html %}
