@@ -15,11 +15,11 @@ They make use of computer-aided modeling software as well as get their hands dir
 ### Dive
 The Dive subteam coordinates all dive related activities such as pool tests, scuba certification for new members and elaborating safety protocols.
 
-### HSI / Steering
-The HSI subteam is responsible for the pilot’s interaction with the submarine through controls and steering mechanisms.
-
 ### Electronics
 The Electronics subteam creates and programs experimental devices to enhance the submarine, developing projects like electronic steering and buoyancy control.
+
+### HSI / Steering
+The HSI subteam is responsible for the pilot’s interaction with the submarine through controls and steering mechanisms.
 
 
 ### Documentation / Media
