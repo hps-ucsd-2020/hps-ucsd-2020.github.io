@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     {% include slideshow-head.html %}
   </head>
-  <body class={{ page.bodyclass | default: "markdown-quickstyle" }}>
+  <body class="no-margin">
     {% include site-header.html %} 
+    <div class={{ page.bodyclass | default: "markdown-quickstyle" }}>
     {{ content }}
+    </div>
     {% include site-footer.html %}
   </body>
 </html>
