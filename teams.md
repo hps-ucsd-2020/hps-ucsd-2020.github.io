@@ -2,7 +2,7 @@
 layout: default
 title: Teams
 ---
-
+# Teams
 ### Drivetrain
 The Drivetrain subteam designs and manufactures the propulsion mechanism of the submarine. 
 They efficiently convert the pilot’s pedaling motion to power a propellor or a non-propellor system (like a fish tail, for instance), 

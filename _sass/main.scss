@@ -7,6 +7,13 @@ $deeplemon: #FCBA17;
 $imperialblue: #003F77;
 $imperialblue-light: #104F87;
 
+// Mixins
+@mixin headings {
+  h1, h2, h3, h4, h5, h6 {
+    @content;
+  }
+}
+
 html {
   background-color: $imperialblue-light;
   font-family: Arial;
@@ -111,4 +118,7 @@ html {
 .markdown-quickstyle{
   margin: 10px;
   color: $spanishgray-dark;
+  @include headings {
+    color: $deeplemon;
+  }
 }
