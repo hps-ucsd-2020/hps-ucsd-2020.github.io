@@ -12,4 +12,4 @@ Each year, students dedicate their time to manufacturing and testing their subma
 
 Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership.  Many have gone on to pursue research or internships related to their work on the team. While the students’ specific interests are varied, their dedication and enthusiasm are reflected in their final product.
 
-Check out our wiki and [youtube channel](https://www.youtube.com/user/hpsucsd) to see how we make the submarine!
+Check out our wiki and [youtube channel](https://www.youtube.com/user/hpsucsd){:target="_blank"} to see how we make the submarine!

@@ -121,4 +121,7 @@ html {
   @include headings {
     color: $deeplemon;
   }
+  a {
+    color: $palebud;
+  }
 }
