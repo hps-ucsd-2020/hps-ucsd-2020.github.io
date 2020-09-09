@@ -1,0 +1,22 @@
+- year: 2019-20
+  teams:
+- year: 2020-21
+  teams:
+  - team: Team Captain
+    members:
+    - name: Sharron Perez
+      position:
+      quote: This is a test
+  - team: Dive
+    members:
+    - name: Kylan Dennis
+      position: Dive Lead
+      quote: This, too, is a test
+  - team: Documentation
+    members:
+    - name: Antoinette Gautier
+      position: Documentation Lead
+      quote:
+    - name: Parth Patel
+      position: Wikilord
+      quote: wow fam desu

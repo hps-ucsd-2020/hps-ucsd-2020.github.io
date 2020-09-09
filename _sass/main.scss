@@ -130,9 +130,10 @@ html {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   align-content: space-between;
   .element{
+    flex-grow: 1;
     img{
       width: 250px;
       height: 250px;
