@@ -127,23 +127,19 @@ html {
 }
 
 .image-board{
+  text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: baseline;
   align-content: space-between;
   .element{
-    flex-grow: 1;
+    margin: 5px;
     img{
       width: 250px;
       height: 250px;
 
     }
-    p{
-      text-align: center;
-      font-style: italic;
-    }
-    margin: 5px;
   }
 }
 
