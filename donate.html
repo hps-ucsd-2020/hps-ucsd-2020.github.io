@@ -2,6 +2,12 @@
 layout: default
 title: Donate!
 ---
-
-<h1>Support Us!</h1>
-<p>We are so happy that you are considering supporting us, but our donation page is not set up yet!<p>
+<h1 style="text-align:center">Our Sponsors</h1>
+<div class="image-board">
+  {% for item in site.data.sponsors %}
+  <div class="element">
+    <img src="/assets/img/{{ item.img }}" class="circle-bkg">
+    <p>{{ item.name }}</p>
+  </div>
+  {% endfor %}
+</div>

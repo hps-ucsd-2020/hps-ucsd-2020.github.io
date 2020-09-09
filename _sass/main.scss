@@ -122,3 +122,30 @@ html {
     color: $deeplemon;
   }
 }
+
+.image-board{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  .element{
+    img{
+      width: 250px;
+      height: 250px;
+
+    }
+    p{
+      text-align: center;
+      font-style: italic;
+    }
+    margin: 5px;
+  }
+}
+
+.circle-bkg{
+  background: white;
+  -moz-border-radius: 200px; 
+  -webkit-border-radius: 200px; 
+  border-radius: 200px;
+}
