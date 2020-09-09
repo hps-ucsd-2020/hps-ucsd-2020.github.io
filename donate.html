@@ -1,0 +1,13 @@
+---
+layout: default
+title: Donate!
+---
+<h1 style="text-align:center">Our Sponsors</h1>
+<div class="image-board">
+  {% for item in site.data.sponsors %}
+  <div class="element">
+    <img src="/assets/img/{{ item.img }}" class="circle-bkg">
+    <p>{{ item.name }}</p>
+  </div>
+  {% endfor %}
+</div>
