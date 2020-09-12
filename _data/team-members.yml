@@ -1,17 +1,17 @@
-- year: 2019-20
-  teams:
+# - year: 2019-20
+#  teams:
 - year: 2020-21
   teams:
   - team: Team Captain
     members:
     - name: Sharron Perez
       position:
-      quote: This is a test
+      quote:
   - team: Dive
     members:
     - name: Kylan Dennis
       position: Dive Lead
-      quote: This, too, is a test
+      quote:
   - team: Documentation
     members:
     - name: Antoinette Gautier
@@ -27,7 +27,7 @@
       quote:
     - name: Jared Benge
       position: Manufacturing Lead
-      quote:
+      quote: Satisfaction
   - team: Electronics
     members:
     - name: Tyler Jang
@@ -57,3 +57,5 @@
     - name: Carson Black
       position: Treasurer
       quote:
+# - year: 2021-22
+#   teams:
