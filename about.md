@@ -6,6 +6,8 @@ title: About HPS
 
 ## General
 
+[Team photo from 2019](assets/img/team-img/team_3.jpg)
+
 Human-Powered Submarine (HPS) is a UC San Diego based student organization that designs, constructs, and competes with a human-propelled, fully flooded submarine.  
 
 Each year, students dedicate their time to manufacturing and testing their submarine in preparation for the International Submarine Races (ISR) in Bethesda, Maryland, and the European International Submarine Races (eISR) in Gosport, UK. 
@@ -20,9 +22,12 @@ Check out our wiki and [youtube channel](https://www.youtube.com/user/hpsucsd){:
 We alternate between racing in the International Submarine Races (ISR) and the European International Submarine Races (eISR) every year. For more information about these races, visit their websites!
 
 [https://internationalsubmarineraces.org](https://internationalsubmarineraces.org){:target="_blank"}
+
 [https://www.subrace.eu](https://www.subrace.eu){:target="_blank"}
 
 ## Latest Submarine
+
+[Santiana Hull at ISR 2019](assets/img/sub-gallery-img/santiana-2019.jpg)
 
 Our latest submarine is Santiana, which we intended to race in eISR 2020, unfortunately cancelled due to COVID-19.  
 
