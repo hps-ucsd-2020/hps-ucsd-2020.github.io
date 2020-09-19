@@ -1,26 +1,43 @@
-## Here is all the markdown you will need
+## Markdown for Dummies
 
-### Headers and Text
+### Headers
 Start your article with a title like this:
-```## Super cool article about something```
+```
+## Super cool article about something
+```
 
 To make headers for the different sections of the article, type
-```### Materials you'll need```
+```
+### Materials you'll need
+```
 
-As you may have noticed, the more "#" you add, the smaller the header will be. We will stick with these ones for consistency, though.
+As you may have noticed, the more "#" you add, the smaller the header will be. We will stick with these ones for consistency, though. 
+Also, the wiki will automatically create a table of contents for you!
 
+### Text Formatting
+You can write text normally in markdown. 
+Skipping a line will make a new paragraph.
+
+To make text bold, surround it with two asterisks on either side like this:
+```
+** This is some bold text. **
+```
 
 ### Adding Links
 To add a link, type:
 
-```[Click me!](website.com){:target="_blank"}```
+```
+[Click me!](website.com){:target="_blank"}
+```
 
 The part in curly brackets is optional, but it is convenient because it ensures that the link opens in a new tab.
 
 ### Adding Pictures
 To add a picture from online, type:
 
-```![Brief description of picture](image-url)```
+```
+![Brief description of picture](image-url)
+```
 
 To add your own picture, first you have to upload it to the team's github.
 First, give the picture a descriptive title with the name of the team involved.
@@ -29,12 +46,14 @@ It will ask you to make a commit message, just explain that you're uploading a p
 If you put it in the correct place, the path to the image should read "assets/img/wiki-img/descriptive-name.png" 
 
 Finally, in your tutorial, type:
-```![Brief description of picture](assets/img/wiki-img/descriptive-name.png)```
+```
+![Brief description of picture](assets/img/wiki-img/descriptive-name.png)
+```
 
 Voila!
 
 ### Lists
-To make a ****bullet list****, simply put a "*" "+" or "-" in front of your list items like this:
+To make a **bullet list**, simply put a "*" "+" or "-" in front of your list items like this:
 ```
 * Eggs
 * Bananas
@@ -45,7 +64,7 @@ This is how it will look:
 * Bananas
 * Orange
 
-To make a ****numbered list****, just put a number in front of your list items. You only need to make sure that the first number is 1, then markdown will take care of the numbering for you.
+To make a **numbered list**, just put a number in front of your list items. You only need to make sure that the first number is 1, then markdown will take care of the numbering for you.
 
 ```
 1. Wake up
