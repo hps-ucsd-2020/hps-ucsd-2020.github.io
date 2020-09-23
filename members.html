@@ -4,17 +4,9 @@ title: Members
 ---
 <h1 style="text-align:center">Members</h1>
 {% for year in site.data.team-members %}
-<h2 style="text-align:center">{{ year.year }}</h2>
-{% for team in year.teams %}
-<h3 style="text-align:center">{{ team.team }}</h3>
-<div class="image-board">
-  {% for member in team.members %}
-  <div style="height:150px;width:250px;background:#003f77" class="element circle-bkg">
-    <h4>{{ member.name | default }}</h4>
-    <p>{{ member.position | default }}</p>
-    <p><i>{{ member.quote | default }}</i></p>
-  </div>
-  {% endfor %}
-</div>
-{% endfor %}
+  <h2 style="text-align:center">{{ year.year }}</h2>
+    {% for team in year.teams %}
+      <h3 style="text-align:center">{{ team.team }}</h3>
+        {% include image-board.html data=team.members element="member-element.html" %}
+    {% endfor %}
 {% endfor %}
