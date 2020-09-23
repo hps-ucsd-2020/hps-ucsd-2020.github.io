@@ -1,0 +1,5 @@
+<div class="image-board">
+  {% for item in include.data %}
+    {% include {{ include.element }} e=item %}
+  {% endfor %}
+</div>
