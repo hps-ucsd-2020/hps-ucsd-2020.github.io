@@ -1,0 +1,61 @@
+# - year: 2019-20
+#  teams:
+- year: 2020-21
+  teams:
+  - team: Team Captain
+    members:
+    - name: Sharron Perez
+      position:
+      quote:
+  - team: Dive
+    members:
+    - name: Kylan Dennis
+      position: Dive Lead
+      quote:
+  - team: Documentation
+    members:
+    - name: Antoinette Gautier
+      position: Documentation Lead
+      quote:
+    - name: Parth Patel
+      position: WikiLord
+      quote: wow fam desu
+  - team: Drivetrain
+    members:
+    - name: Jack Donohoe
+      position: Drivetrain Lead
+      quote:
+    - name: Jared Benge
+      position: Manufacturing Lead
+      quote: Satisfaction
+  - team: Electronics
+    members:
+    - name: Tyler Jang
+      position: Electronics Lead
+      quote:
+    - name: Parth Patel
+      position:
+      quote: 
+  - team: Hull
+    members:
+    - name: Signe Laundrup
+      position: Hull Lead
+      quote:
+    - name: Alexander "Xander" Westra
+      position:
+      quote:
+    - name: Antoinette Gautier
+      position:
+      quote:
+  - team: Media
+    members:
+    - name: Jeffery Han
+      position: Media Lead
+      quote:
+  - team: Treasury
+    members:
+    - name: Carson Black
+      position: Treasurer
+      quote:
+# - year: 2021-22
+#   teams:
