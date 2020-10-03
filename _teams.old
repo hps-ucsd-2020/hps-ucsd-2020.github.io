@@ -1,0 +1,6 @@
+---
+layout: default
+title: Teams
+---
+<h1 style="text-align:center">Teams</h1>
+{% include image-board.html data=site.data.teams element="team-element.html" %}
