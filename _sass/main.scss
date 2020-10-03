@@ -147,3 +147,23 @@ html {
   -webkit-border-radius: 200px; 
   border-radius: 200px;
 }
+
+.teams-boxes{
+  @extend .markdown-quickstyle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  .team-box{
+    height: 4em;
+    width: 80%;
+    margin: 1%;
+    background-color: $imperialblue;
+    overflow: hidden;
+  }
+  .active-window{
+    background-color: $imperialblue;
+  }
+
+}
