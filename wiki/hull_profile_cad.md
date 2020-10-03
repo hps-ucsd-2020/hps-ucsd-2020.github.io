@@ -2,7 +2,7 @@
 
 ### Choosing Airfoils
 
-First you will need to go to [http://airfoiltools.com](http://airfoiltools.com) to choose airfoils. 
+First you will need to go to [http://airfoiltools.com](http://airfoiltools.com){:target="_blank"} to choose airfoils. 
 
 Important considerations:
 
@@ -10,7 +10,8 @@ Important considerations:
 * You need a vertical and a horizontal profile.
 * We will use this orientation convention: see picture below
 
-(insert img here)
+![Hull Profile Orientation Convention](assets/img/hull_profiles_convention.png)
+
 
 ### Importing Data into MATLAB (or Excel)
 
@@ -24,6 +25,14 @@ You can use Matlab or Excel to accomplish this.
 
 Scale the curves to the desired height, width and length. Keep in mind that we are using inches for units.
 
-### Importing Curves into SolidWorks
+Considerations:
+* pilot's height
+* pilot's shoulder width
+* Our past hulls have been around 120 inches long.
 
-I will come back to this part.
+### Importing Curves into SolidWorks
+(Work in progress)
+In the Top Ribbon, click Insert > Curve > from Points. You should be able to copy paste the curve data.
+You might need to add or connect points to join the profiles at the end (dont worry about accuracy here, because the back end of the hull is cut off anyway.)
+
+Then, you can make a spline at an arbitrary distance from the front of the sub, and use that as a guiding curve to loft the submarine into existence.
