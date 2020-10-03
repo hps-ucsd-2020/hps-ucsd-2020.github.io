@@ -1,4 +1,4 @@
-<div class="image-board">
+<div class="{{ include.style | default: image-board }}">
   {% for item in include.data %}
     {% include {{ include.element }} e=item %}
   {% endfor %}
