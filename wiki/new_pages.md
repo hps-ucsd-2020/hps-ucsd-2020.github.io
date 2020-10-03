@@ -8,4 +8,6 @@ After that setup, creating new wiki pages is as easy as hitting "Add new" at the
 
 There are two options for adding pages - using GitHub's file editor, and using Prose.io. Use whichever system is more comfortable to you.
 
+Note: if you are using Prose, you will need to authorize it on Github before writing your first article. To do this, click to add a new article in Prose, then in the bottom right corner there will be a green button saying authorize on Github. Make sure to authorize for the hps repository, and it will prompt you to put in your Github password. You will only need to do this once.
+
 Happy Editing!
