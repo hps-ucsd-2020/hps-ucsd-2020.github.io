@@ -121,4 +121,29 @@ html {
   @include headings {
     color: $deeplemon;
   }
+  a {
+    color: $palebud;
+  }
+}
+
+.image-board{
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-between;
+  .element{
+    margin: 5px;
+    img{
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
+
+.circle-bkg{
+  -moz-border-radius: 200px; 
+  -webkit-border-radius: 200px; 
+  border-radius: 200px;
 }

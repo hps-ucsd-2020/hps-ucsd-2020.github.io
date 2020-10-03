@@ -1,0 +1,25 @@
+- name: ASME
+  img: sponsor-img/ASME.svg
+- name: ASNE
+  img: sponsor-img/ASNE.svg
+- name: Aeromarine
+  img: sponsor-img/Aeromarine.svg
+- name: Collins Aerospace
+  img: sponsor-img/Collins-Aerospace.svg
+- name: DroneLab
+  img: sponsor-img/DroneLab.svg
+- name: House of Scuba
+  img: sponsor-img/House-of-Scuba.svg
+- name: Lormac Plastics
+  img: sponsor-img/Lormac-Plastics.svg
+- name: SDORC
+  img: sponsor-img/SDORC.svg
+- name: Stark Labs
+  img: sponsor-img/Stark-Labs.svg
+- name: SunRez
+  img: sponsor-img/SunRez.svg
+- name: TESC
+  img: sponsor-img/TESC.svg
+- name: UCSD Jacobs
+  img: sponsor-img/UCSD-Jacobs.svg
+
