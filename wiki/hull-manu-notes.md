@@ -13,3 +13,4 @@ We also suggest contacting:
 	Ray Guardiano - rguardiano@hotmail.com
 Ray was in HPS back in the 90’s and made the hull of one of the first subs, Subshimi. He’s super friendly and knows a lot about hull manufacturing. His help was invaluable.
 
+Wear a mask
