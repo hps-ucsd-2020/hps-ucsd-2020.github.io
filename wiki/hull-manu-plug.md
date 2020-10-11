@@ -34,7 +34,7 @@
 
 6. Add a reinforcement sheet of wood on the bottom, this effectively makes the table an I-beam (super strong), and prevents it from twisting and flexing.
 
-### III. Print and cut the cross-sections
+### III. Print, cut, and attach the cross-sections
 1. Acquire large sheets of wood for the cross sections. Can be OSB, plywood, MDF, anything. Thickness should be > 0.25” and < 1”. We found a 0.75” thick 4x8’ sheet in a dumpster. Definitely fair game!
 
 2. Print out the cross section PDFs and the plan-view PDF at FedEX. Use the cheapest printer they have.
@@ -85,8 +85,56 @@
 
 25. Screw the small wood blocks to the plan-view cutout to attach the cross-sections.
 
-### IV. Cut the stringers
+### IV. Cut, attach, and sand the stringers
 1. Acquire wood to make the stringers. No lumber stores in San Diego sell pre-cut stringers (as of 2020). Need to cut them DIY out of wood planks, it’s important to use a soft wood like redwood or pine, so it bends around the cross-sections. We used 0.5” x 5” x 8’ planks. Make sure the planks have little to no voids! Voids = bad
+
+2. Cut the pine planks into as many stringers as you can. We set our table saw guide to cut 0.25” thick, 0.5” wide stringers.
+
+3. Use a nail gun to attach the stringers to the cross-sections. Start with the middlemost (or topmost) stringer going right down the middle.
+
+4. If the stringer can conform to the curvature of the nose without cracking, great. If it cannot, you may need to offset it a cross-section or two from the tip of the nose. See the picture below:
+
+5. Start nailing more stringers down. As you add more, you will need to start again in a different location. Due to the nature of the shape, it’s impossible to perfectly line up all the stringers side by side.
+
+6. To fill the gaps between two groups of stringers, cut the ends to make wedges that fit nicely together. We used a razor blade to cut the wedges because the pine wood was soft enough.
+
+7. Several hours later . . .
+Make sure to add stingers all the way down to the table
+
+8. Some gaps are okay, see the nose in the photo below. At this point we started calling it a plug.
+
+9. Use a hammer and punch to hide any nails that are sticking out. Nail heads sticking out will ruin the sandpaper in the following steps
+
+10. Use power sanders to round down the areas where stringers butt up against one another. We suggest using 40 grit sandpaper with power sanders and sanding the whole plug.
+
+11. Use a jigsaw at the nose and tail to trim off any stringers that are sticking out. Cut the stringers back to the nearest cross-section.
+
+12. Construct forms at the nose and tail that are sealed off around the table and the plug. These function as containers to put pour foam into.
+
+13. Pour “pour foam” into the forms. We used a two part pour foam that we bought at Fiberlay. insert how-to video
+
+14. Wait a while for the foam to cure fully (we waited overnight). When it is hard, trim it roughly to size using a wood saw. Make sure it’s slightly larger than you want it to be.
+
+15. Sand down the nose and tail with power sanders + 40 grit sandpaper. Be careful not to oversand and keep the power sander moving so you don’t introduce flat spots.
+
+### V. Add a layer of fiberglass over the plug
+1. Vacuum the plug to get it clean for fiberglass.
+
+2. Acquire the thinnest fiberglass weave you can, and drape it over the plug. Trim off the excess around the perimeter.
+
+3. You will likely have to patch different sheets of fiberglass together
+
+4. Paint the resin into the fiberglass. We used paint brushes, paint rollers, and one part UV-cured resin (donated to us by SunRez). If you are using two part resin (e.g. from home depot) be sure to add your catalyst and work quickly!
+
+5. You may have to spend extra attention on the nose and tail because of the sharp contours, try to get the glass to lay as flat as possible (i.e. no air voids)
+
+6. Trim the excess fiberglass so that no fiberglass is stuck to the table (i.e. it’s all on the plug).
+
+7. If you are using UV-cure resin, cure it with UV light!
+
+8. Use power sanders + 40 grit paper to sand down any fiberglass strands sticking up
+
+9. 
 
 
 
