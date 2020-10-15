@@ -6,4 +6,4 @@ Created to convert rotational to sinusoidal motion
  
  Jack knows the most about the spherical linkage. What a beast!
 
-![Drivetrain full assembly](assets/img/drive-img/Full Drivetrain Assembly.jpg)
+![Drivetrain full assembly](assets/img/drive-img/Full_Drivetrain_Assembly.jpg)
