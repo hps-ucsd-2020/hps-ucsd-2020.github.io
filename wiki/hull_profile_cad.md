@@ -2,7 +2,7 @@
 
 ### Choosing Airfoils
 
-First you will need to go to [http://airfoiltools.com](http://airfoiltools.com){:target="_blank"} to choose airfoils. 
+First you will need to go to [http://airfoiltools.com](http://airfoiltools.com){:target="_blank"} to choose airfoils (best page ever). 
 
 Change the number of points to 200 to generate a more precise curve.
 
