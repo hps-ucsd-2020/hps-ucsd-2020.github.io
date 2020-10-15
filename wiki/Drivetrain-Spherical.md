@@ -3,7 +3,5 @@
 ### Design Intent
 Created to convert rotational to sinusoidal motion  
  Beautiful
- 
- Jack knows the most about the spherical linkage. What a beast!
 
 ![Drivetrain full assembly](assets/img/drive-img/Full_Drivetrain_Assembly.jpg)
