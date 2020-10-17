@@ -61,19 +61,16 @@ use_prose_io: true
 search_engine: "js"
 
 defaults:
--
-  scope:
+- scope:
     path: "wiki"
   values:
-    permalink: /:basename
--
-  scope:
+    dummy: true
+- scope:
     path: ""
     type: "pages"
   values:
     layout: "git-wiki-default"
--
-  scope:
+- scope:
     path: ""
     type: "posts"
   values:
@@ -91,13 +88,4 @@ sass:
 #
 exclude:
   - lightslider/README.md
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
