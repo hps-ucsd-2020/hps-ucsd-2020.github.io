@@ -17,3 +17,5 @@
 ![Official Group Photo](assets/img/ISR Group Photo.JPG)
 
 ![Holding up the submarine](assets/img/Holding up the sub.JPG)
+
+![Landies Sitting](assets/img/Landies Sitting.JPG)
