@@ -10,6 +10,8 @@
 
 ![Blond Xander](assets/img/Blond_Xander.JPG)
 
+![Shhh](assets/img/Shhh.JPG)
+
 ### Facing Challenges to Overcome at ISR
 ![Broken Prop](assets/img/RIP_Prop.JPG)
 
@@ -20,5 +22,10 @@
 
 ![Landies Sitting](assets/img/Landies Sitting.JPG)
 
+![Packing up](assets/img/Packing up.JPG)
+
+
+### Xander Section lol
+![Xander at the river](assets/img/Xander at the river.JPG)
 ### ISR Results
 ![ISR Results](assets/img/Results.JPG)
