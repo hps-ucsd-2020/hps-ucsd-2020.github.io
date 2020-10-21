@@ -19,5 +19,18 @@ Markdown Documentation:
 Github Workflow Guide:
 [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/){:target="_blank"}
 
+Flexbox Guide:
+[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/){:target="_blank"}
+
+HTML Tags Documentation:
+[https://www.w3schools.com/tags/default.asp](https://www.w3schools.com/tags/default.asp){:target="_blank"}
 
 
+CSS Tags Documentation:
+[https://www.w3schools.com/cssref/default.asp](https://www.w3schools.com/cssref/default.asp){:target="_blank"}
+
+Sass Guide:
+[https://sass-lang.com/guide](https://sass-lang.com/guide){:target="_blank"}
+
+Liquid Guide:
+[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/){:target="_blank"}
