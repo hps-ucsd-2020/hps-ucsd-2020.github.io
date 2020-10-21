@@ -143,8 +143,8 @@ html {
 }
 
 .circle-bkg{
-  -moz-border-radius: 200px; 
-  -webkit-border-radius: 200px; 
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
   border-radius: 200px;
 }
 
@@ -166,4 +166,10 @@ html {
     background-color: $imperialblue;
   }
 
+}
+
+.aboutRoundedBox {
+  background-color:red;
+  border:2px solid blue;
+  border-radius:10px;
 }
