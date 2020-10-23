@@ -2,11 +2,13 @@
 layout: default
 title: Members
 ---
-<h1 style="text-align:center">Members</h1>
+<h1 class="fade-in" style="text-align:center">Members</h1>
 {% for year in site.data.team-members %}
-  <h2 style="text-align:center">{{ year.year }}</h2>
+  <h2 class="fade-in" style="text-align:center">{{ year.year }}</h2>
     {% for team in year.teams %}
-      <h3 style="text-align:center">{{ team.team }}</h3>
+      <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
         {% include image-board.html data=team.members element="member-element.html" %}
     {% endfor %}
 {% endfor %}
+<script src="assets/js/anime.min.js"></script>
+<script src="assets/js/members.js"></script>
