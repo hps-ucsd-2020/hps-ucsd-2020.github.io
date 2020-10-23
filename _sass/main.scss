@@ -168,8 +168,39 @@ html {
 
 }
 
-.aboutRoundedBox {
-  background-color:red;
-  border:2px solid blue;
-  border-radius:10px;
+
+.about-rounded-box {
+  background-color:white;
+  border-radius:12px;
+  margin-top: 10px;
+  .box-body {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+  }
+  .box-title {
+    background-color: $deeplemon;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+
+    h2 {
+      color: $imperialblue-light;
+      padding:5px;
+      margin: 5px;
+    }
+  }
+}
+
+.about-layout {
+  display: flex;
+  flex-flow:row wrap;
+  align-items: center;
+  justify-content: space-between;
+  .about-layout-element {
+    flex: 1 1 40%;
+    padding:5px;
+    img {
+      width:100%;
+    }
+  }
 }
