@@ -124,14 +124,21 @@ footer {
 
 .markdown-quickstyle {
   margin: 10px;
-  color: $spanishgray-dark;
+  color: $seaserpent;
 
   @include headings {
     color: $deeplemon;
   }
 
-  a {
-    color: $palebud;
+  a{
+    text-decoration: none;
+    &:link, &:visited {
+      color: $deeplemon;
+    }
+
+    &:hover {
+      color: $palebud;
+    }
   }
 }
 
@@ -220,9 +227,19 @@ footer {
   }
 }
 
+// Below are git-wiki things ---------------
+
 .git-wiki-page{
   @extend .markdown-quickstyle;
   margin: 50px;
+  font-size: 15px;
+  
+
+  .tools-element{
+    border-left: 3px solid $deeplemon;
+    padding-left: 5px;
+    margin: 5px;
+  }
 }
 
 .git-wiki-copyrights {
@@ -230,3 +247,4 @@ footer {
   flex-grow: 10; // force to the left (janky solution)
   text-align: left;
 }
+
