@@ -34,6 +34,7 @@ html {
   align-items: center;
   min-height: 75px;
   border-bottom: 5px solid $deeplemon;
+
   h1 {
     color: $deeplemon;
   }
@@ -58,9 +59,11 @@ html {
 
   a.current {
     @extend %a-main;
+
     &:link, &:visited {
       color: $palebud;
     }
+
     &:hover {
       color: $palebud;
     }
@@ -68,9 +71,11 @@ html {
 
   a.not-current {
     @extend %a-main;
-    &:link, &:visited{
+
+    &:link, &:visited {
       color: $spanishgray;
     }
+
     &:hover {
       color: $palebud;
     }
@@ -98,15 +103,17 @@ html {
     max-height: 700px;
     object-fit: cover;
   }
+
   margin-bottom: 20px;
 }
 
-.centered-flexbox{
+.centered-flexbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+
   h1 {
     font-size: 100px;
     word-break: break-word;
@@ -115,58 +122,63 @@ html {
   }
 }
 
-.markdown-quickstyle{
+.markdown-quickstyle {
   margin: 10px;
   color: $spanishgray-dark;
+
   @include headings {
     color: $deeplemon;
   }
+
   a {
     color: $palebud;
   }
 }
 
-.image-board{
+.image-board {
   text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
   align-content: space-between;
-  .element{
+
+  .element {
     margin: 5px;
-    img{
+
+    img {
       width: 250px;
       height: 250px;
     }
   }
 }
 
-.circle-bkg{
-  -moz-border-radius: 200px; 
-  -webkit-border-radius: 200px; 
+.circle-bkg {
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
   border-radius: 200px;
 }
 
-.teams-boxes{
+.teams-boxes {
   @extend .markdown-quickstyle;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin: 0 auto;
-  .team-box{
+
+  .team-box {
     height: 4em;
     width: 80%;
     margin: 1%;
     background-color: $imperialblue;
     overflow: hidden;
   }
-  .active-window{
+
+  .active-window {
     background-color: $imperialblue;
   }
 }
-
 
 .teams-include-format{
   display: flex;
@@ -177,15 +189,54 @@ html {
 .teams-info{
   width: 50%;
   font-size: 20px;
-}
 
-.teams-slideshows{
-  width: 50%;
-  img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+  .about-layout {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    .about-column {
+      flex: 1 1 50%;
+      padding-right: 5px;
+      padding-left: 5px;
+
+      img {
+        width: 100%;
+      }
+
+      .about-rounded-box {
+        background-color: $imperialblue;
+        border-radius: 12px;
+        margin-bottom: 10px;
+
+        .box-body {
+          padding: 10px;
+          padding-top: 0px;
+          padding-bottom: 3px;
+        }
+
+        .box-title {
+          background-color: $deeplemon;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+
+          h2 {
+            color: $imperialblue-light;
+            padding: 5px;
+            margin: 5px;
+          }
+        }
+      }
+    }
   }
-  margin-bottom: 20px;
-}
 
+  .teams-slideshows{
+    width: 50%;
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    margin-bottom: 20px;
+  }
+}
