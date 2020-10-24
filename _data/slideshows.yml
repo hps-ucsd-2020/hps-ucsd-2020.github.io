@@ -21,10 +21,12 @@ dive:
 - dive-img/dive_4.JPG
 
 drive:
-- drive-img/drive_1.jpg
-- drive-img/drive_2.png
-- drive-img/drive_3.jpg
 - drive-img/drive_4.png
+- drive-img/Full_Drivetrain_Assembly.jpg
+- drive-img/drive-render-2.png
+- drive-img/drive_1.jpg
+- drive-img/drive-machine-shop.jpg
+
 
 elec:
 - elec-img/elec_1.png
