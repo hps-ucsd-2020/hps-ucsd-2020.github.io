@@ -82,7 +82,7 @@ html {
   }
 }
 
-.footer {
+footer {
   background-color: $imperialblue;
   color: $spanishgray;
   text-align: center;
@@ -218,4 +218,15 @@ html {
       }
     }
   }
+}
+
+.git-wiki-page{
+  @extend .markdown-quickstyle;
+  margin: 50px;
+}
+
+.git-wiki-copyrights {
+  @extend .markdown-quickstyle;
+  flex-grow: 10; // force to the left (janky solution)
+  text-align: left;
 }
