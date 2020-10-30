@@ -7,7 +7,7 @@ var fade_in = anime({
   delay: anime.stagger(50, {start: 100}),
   duration: 1000,
   easing: 'easeOutQuad'
-})    
+})
 
 function expand(obj){
   anime({
@@ -16,6 +16,16 @@ function expand(obj){
     height: '40em',
     duration: 500,
     easing: 'easeInOutQuad'
+  })
+  anime({
+    targets: obj.children[0],
+    backgroundColor: '#FCBA17',
+    duration: 500
+  })
+  anime({
+    targets: obj.children[0].children[0],
+    color: '#003F77',
+    duration: 500
   })
 }
 
@@ -26,6 +36,16 @@ function contract(obj){
     height: '4em',
     duration: 500,
     easing: 'easeInOutQuad'
+  })
+  anime({
+    targets: obj.children[0],
+    backgroundColor: '#003F77',
+    duration: 500
+  })
+  anime({
+    targets: obj.children[0].children[0],
+    color: '#FCBA17',
+    duration: 500
   })
 }
 
