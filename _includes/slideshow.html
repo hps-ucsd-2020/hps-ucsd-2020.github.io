@@ -1,5 +1,5 @@
 <div class="slideshow">
-<script type="text/javascript"> 
+<script type="text/javascript">
     $(document).ready(function() {
       $("ul").lightSlider({
         "item": {{ page.item | default: 1 }},
@@ -18,7 +18,7 @@
 </script>
 <ul id="light-slider">
   {% for item in site.data.slideshows[include.slideshow] %}
-  <li data-thumb="/assets/img/{{ item }}">
+  <li>
 	  <img src="/assets/img/{{ item }}"/>
   </li>
   {% endfor %}
