@@ -10,43 +10,13 @@ var fade_in = anime({
 })
 
 function expand(obj){
-  anime({
-    targets: obj,
-    width: '96%',
-    height: '40em',
-    duration: 500,
-    easing: 'easeInOutQuad'
-  })
-  anime({
-    targets: obj.children[0],
-    backgroundColor: '#FCBA17',
-    duration: 500
-  })
-  anime({
-    targets: obj.children[0].children[0],
-    color: '#003F77',
-    duration: 500
-  })
+  obj.querySelector('.teams-title').classList.toggle('expanded');
+  obj.classList.toggle('expanded');
 }
 
 function contract(obj){
-  anime({
-    targets: obj,
-    width: '80%',
-    height: '4em',
-    duration: 500,
-    easing: 'easeInOutQuad'
-  })
-  anime({
-    targets: obj.children[0],
-    backgroundColor: '#003F77',
-    duration: 500
-  })
-  anime({
-    targets: obj.children[0].children[0],
-    color: '#FCBA17',
-    duration: 500
-  })
+  obj.querySelector('.teams-title').classList.toggle('expanded');
+  obj.classList.toggle('expanded');
 }
 
 function select(obj){
