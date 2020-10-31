@@ -1,0 +1,9 @@
+{% if site.inc_before_styles %}
+{% include {{ site.inc_before_styles }} %}
+{% endif %}
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% if site.inc_after_styles %}
+{% include {{ site.inc_after_styles }} %}
+{% endif %}
