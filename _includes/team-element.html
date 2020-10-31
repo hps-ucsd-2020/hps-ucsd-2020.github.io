@@ -1,6 +1,6 @@
 <div class="team-box fade-in" onclick="select(this)">
-  <h2 style="margin-left:10px">{{ item.name }}</h2>
-  <div style="margin:10px">
-  {% include teams-page-includes/{{item.contents}} %}
+  <div class = "teams-title">
+  <h2>{{ item.name }}</h2>
   </div>
+  {% include teams-page-includes/{{item.contents}} %}
 </div>
