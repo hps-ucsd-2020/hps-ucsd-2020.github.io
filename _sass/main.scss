@@ -231,7 +231,10 @@ footer {
 
 .git-wiki-page{
   @extend .markdown-quickstyle;
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   font-size: 15px;
   
 
