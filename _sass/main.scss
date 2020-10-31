@@ -102,6 +102,16 @@ html {
   margin-top: 20px;
 }
 
+.slideshow {
+  img {
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+  }
+
+  margin-bottom: 20px;
+}
+
 .centered-flexbox {
   display: flex;
   flex-direction: row;
