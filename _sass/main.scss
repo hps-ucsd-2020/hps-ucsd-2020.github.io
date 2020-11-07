@@ -185,10 +185,34 @@ html {
       background-color: $imperialblue;
       padding: 1px 15px;
 
+      // Making the title box display flex boxes
+      display: flex;
+      flex-flow: rows;
+      //justify-content: space-between;
+      width: 100%;
+      //padding: 1px 15px;
+      align-items: center;
+      
+
+
       h2 {
         transition: color 0.3s 0.4s;
         color: $deeplemon;
       }
+
+      /* Arrows */ 
+
+      .arrow {
+        border: solid black;
+        border-width: 0 10px 20px 0;
+        display: inline-block;
+        // padding: 30px;
+        align: right;
+        //vertical-align: baseline;
+        margin-top: auto;
+      }
+
+
     }
 
     .teams-include-format {
@@ -234,6 +258,7 @@ html {
       background-color: $deeplemon;
       transition: background-color 0.3s 0s;
 
+
       h2 {
         color: $imperialblue;
         transition: background-color 0.3s 0s;
@@ -243,8 +268,12 @@ html {
 
   .active-window {
     background-color: $imperialblue;
+
   }
 }
+
+
+
 
 .about-layout {
   display: flex;
