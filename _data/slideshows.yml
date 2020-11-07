@@ -21,7 +21,6 @@ dive:
 - dive-img/dive_4.JPG
 
 drive:
-- drive-img/drive_4.png
 - drive-img/Full_Drivetrain_Assembly.jpg
 - drive-img/drive-render-2.png
 - drive-img/drive_1.jpg
@@ -37,3 +36,6 @@ elec:
 hsi:
 - hsi-img/steering_1.png
 - hsi-img/Cycloidal_drive.gif
+
+doc:
+- drive-img/drive_4.png
