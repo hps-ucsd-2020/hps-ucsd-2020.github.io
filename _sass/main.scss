@@ -188,8 +188,9 @@ html {
       // Making the title box display flex boxes
       display: flex;
       flex-flow: rows;
-      //justify-content: space-between;
-      width: 100%;
+      align-items: baseline;
+      justify-content: space-between;
+      //width: 100%;
       //padding: 1px 15px;
       align-items: center;
       
@@ -202,14 +203,29 @@ html {
 
       /* Arrows */ 
 
-      .arrow {
+      .arrow-box {
+        min-width: 10px;
+        padding: 10px;
+      }
+
+      .arrow{
         border: solid black;
-        border-width: 0 10px 20px 0;
+        border-width: 0 4px 4px 0;
         display: inline-block;
-        // padding: 30px;
+        padding: 5px;
         align: right;
         //vertical-align: baseline;
         margin-top: auto;
+      }
+
+      .right{
+          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+        }
+
+      .down{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
       }
 
 
@@ -220,14 +236,16 @@ html {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: space-around;
 
       .teams-slideshows {
         flex: 1;
-        margin: 10px 10px 10px 30px;
+        //margin: 20px 20px 20px 20px;
 
         img {
           width: 100%;
           min-height: 250px;
+          max-height: 600px;
           object-fit: cover;
           vertical-align: middle;
         }
@@ -236,10 +254,10 @@ html {
       .teams-info {
         flex: 1;
         font-size: 20px;
-        margin: 15px;
         padding: 15px 15px 15px;
         background-color: $spanishgray-dark;
         border-radius: 12px;
+        margin: 20px;
 
         p {
         color: $imperialblue;
