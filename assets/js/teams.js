@@ -11,13 +11,11 @@ var fade_in = anime({
 
 function expand(obj){
   obj.querySelector('.teams-title').classList.toggle('expanded');
-  //obj.querySelector('.arrow').classList.toggle('down');
   obj.classList.toggle('expanded');
 }
 
 function contract(obj){
   obj.querySelector('.teams-title').classList.toggle('expanded');
-  //obj.querySelector('.right').classList.toggle('right');
   obj.classList.toggle('expanded');
 }
 
