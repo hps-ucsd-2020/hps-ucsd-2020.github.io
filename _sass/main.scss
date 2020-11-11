@@ -216,17 +216,10 @@ html {
         align: right;
         //vertical-align: baseline;
         margin-top: auto;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
       }
 
-      .right{
-          transform: rotate(-45deg);
-          -webkit-transform: rotate(-45deg);
-        }
-
-      .down{
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-      }
 
 
     }
@@ -281,6 +274,12 @@ html {
         color: $imperialblue;
         transition: background-color 0.3s 0s;
       }
+
+      .arrow{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+
     }
   }
 
