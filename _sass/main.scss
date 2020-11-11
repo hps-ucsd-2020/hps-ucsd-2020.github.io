@@ -209,7 +209,7 @@ html {
       }
 
       .arrow{
-        border: solid black;
+        border: solid $deeplemon;
         border-width: 0 4px 4px 0;
         display: inline-block;
         padding: 5px;
@@ -276,6 +276,8 @@ html {
       }
 
       .arrow{
+        border: solid $imperialblue; 
+        border-width: 0 4px 4px 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
       }
