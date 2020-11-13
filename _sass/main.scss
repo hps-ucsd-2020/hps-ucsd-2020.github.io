@@ -193,7 +193,7 @@ html {
       //width: 100%;
       //padding: 1px 15px;
       align-items: center;
-      
+
 
 
       h2 {
@@ -201,7 +201,7 @@ html {
         color: $deeplemon;
       }
 
-      /* Arrows */ 
+      /* Arrows */
 
       .arrow-box {
         min-width: 10px;
@@ -233,7 +233,7 @@ html {
 
       .teams-slideshows {
         flex: 1;
-        margin: 20px 20px 0px 0px; 
+        margin: 20px 20px 0px 0px;
 
         img {
           width: 100%;
@@ -263,7 +263,7 @@ html {
     transition: max-height 0.7s ease-out 0s, width 0.3s 0s;
     width: 96%;
     // Not optimal solution as max height changes and not height. Increase if needed
-    max-height: 800px;
+    max-height: 850px;
 
     .teams-title {
       background-color: $deeplemon;
@@ -276,7 +276,7 @@ html {
       }
 
       .arrow{
-        border: solid $imperialblue; 
+        border: solid $imperialblue;
         border-width: 0 4px 4px 0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
