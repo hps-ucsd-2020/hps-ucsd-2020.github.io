@@ -108,7 +108,6 @@ html {
     max-height: 700px;
     object-fit: cover;
   }
-
   margin-bottom: 20px;
 }
 
@@ -173,7 +172,7 @@ html {
 
   .team-box {
     // Timings are different as same timings do not give perfect sync
-    transition: max-height 0.7s ease-in 0s, width 0.3s 0.4s;
+    transition: max-height 0.5s ease-in 0s, width 0.3s 0.2s;
     max-height: 4em;
     height: auto;
     overflow: hidden;
@@ -181,10 +180,9 @@ html {
     width: 80%;
 
     .teams-title {
-      transition: background-color 0.3s 0.4s;
+      transition: background-color 0.3s 0.2s;
       background-color: $imperialblue;
       padding: 1px 15px;
-
       // Making the title box display flex boxes
       display: flex;
       flex-flow: rows;
@@ -194,22 +192,20 @@ html {
       //padding: 1px 15px;
       align-items: center;
 
-
-
       h2 {
-        transition: color 0.3s 0.4s;
+        transition: color 0.3s 0.2s;
         color: $deeplemon;
       }
-
       /* Arrows */
-
       .arrow-box {
         min-width: 10px;
         padding: 10px;
       }
 
-      .arrow{
-        border: solid $deeplemon;
+      .arrow {
+        transition: border-color 0.3s 0.2s, transform 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
+        border-style: solid;
+        border-color: $deeplemon;
         border-width: 0 4px 4px 0;
         display: inline-block;
         padding: 5px;
@@ -219,9 +215,6 @@ html {
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
       }
-
-
-
     }
 
     .teams-include-format {
@@ -233,7 +226,7 @@ html {
 
       .teams-slideshows {
         flex: 1;
-        margin: 20px 20px 0px 0px;
+        margin: 20px 20px 0 0;
 
         img {
           width: 100%;
@@ -247,13 +240,13 @@ html {
       .teams-info {
         flex: 1;
         font-size: 20px;
-        padding: 15px 15px 15px;
+        padding: 15px;
         background-color: $spanishgray-dark;
         border-radius: 12px;
         margin: 20px;
 
         p {
-        color: $imperialblue;
+          color: $imperialblue;
         }
       }
     }
@@ -269,30 +262,24 @@ html {
       background-color: $deeplemon;
       transition: background-color 0.3s 0s;
 
-
       h2 {
         color: $imperialblue;
         transition: background-color 0.3s 0s;
       }
 
-      .arrow{
-        border: solid $imperialblue;
-        border-width: 0 4px 4px 0;
+      .arrow {
+        border-color: $imperialblue;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+        transition: border-color 0.3s 0s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
       }
-
     }
   }
 
   .active-window {
     background-color: $imperialblue;
-
   }
 }
-
-
-
 
 .about-layout {
   display: flex;
