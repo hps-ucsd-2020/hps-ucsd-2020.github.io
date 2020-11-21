@@ -4,6 +4,9 @@
 
 First you will need to go to [http://airfoiltools.com](http://airfoiltools.com){:target="_blank"} to choose airfoils (best page ever). 
 
+Here is a helpful diagram of an airfoil with all of the relevant nomenclature!
+![airfoil diagram](http://airfoiltools.com/images/display/camberedairfoil3.jpg)
+
 Change the number of points to 200 to generate a more precise curve.
 
 Important considerations:
