@@ -13,7 +13,7 @@ Important considerations:
 * You need a vertical and a horizontal profile.
 * We will use this orientation convention - with the front of the submarine at the origin: see picture below
 
-![Hull Profile Orientation Convention](assets/img/wiki-img/hull_profiles_convention.png)
+![Hull Profile Orientation Convention](../../assets/img/wiki-img/hull_profiles_convention.png)
 
 
 ### Importing Data into MATLAB (or Excel)
