@@ -1,5 +1,9 @@
 ## Plug Manufacturing
 ### I. Acquire cross-section data from SolidWorks
+
+Here is a video tutorial of steps 1-5!
+[Hull Cross Sections in Solidworks demo](https://youtu.be/7tulC0F3ioQ)
+
 1. Open the CAD model of the hull in SolidWorks.
 
 2. We need to divide the hull into cross-sections. Create regularly spaced reference planes. We did ours 6 inches apart (enough to fit a drill between). Closer cross-sections = more work but better splining. (note - you can do one feature, and set the distance and number of instances to save you some work!)
@@ -10,6 +14,9 @@
 4. Use an extruded cut to remove half the hull.
 
 5. Generate pdf of cross sections - one method is to export each face to autoCAD as a DXF/DWG. -> Take care to conserve verticality, you cannot assume that each cross-section is taller than it is wide.
+
+Here is a video tutorial of steps 6 and 7!
+[Cleaning Up Hull Cross sections in AutoCAD](https://youtu.be/czgiSbn9Umc)
 
 6. Open the DXF in AutoCAD
 
