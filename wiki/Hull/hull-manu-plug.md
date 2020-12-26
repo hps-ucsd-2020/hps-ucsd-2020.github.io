@@ -2,14 +2,14 @@
 ### I. Acquire cross-section data from SolidWorks
 1. Open the CAD model of the hull in SolidWorks.
 
-2. We need to divide the hull into cross-sections. Create regularly spaced reference planes. We did ours 6 inches apart (enough to fit a drill between). Closer cross-sections = more work but better splining.
-	- On either side of the largest cross-section, we referenced one side from the nose and the other from the tail because the cross-sections have a thickness, and if you don’t account for it, the hull will be slightly bigger on one side. Think of it like a Riemann sum. See the image below.
+2. We need to divide the hull into cross-sections. Create regularly spaced reference planes. We did ours 6 inches apart (enough to fit a drill between). Closer cross-sections = more work but better splining. (note - you can do one feature, and set the distance and number of instances to save you some work!)
+	- On either side of the largest cross-section, we referenced one side from the nose and the other from the tail because the cross-sections have a thickness, and if you don’t account for it, the hull will be slightly bigger on one side. Think of it like a Riemann sum. See the image below. (Signe's explanation)
     
 3. Extrude the the cross-sections of the hull so it looks like the image below.
 
 4. Use an extruded cut to remove half the hull.
 
-5. Generate pdf of cross sections - one method is to export each face to autoCAD as a DXF/DWG.
+5. Generate pdf of cross sections - one method is to export each face to autoCAD as a DXF/DWG. -> Take care to conserve verticality, you cannot assume that each cross-section is taller than it is wide.
 
 6. Open the DXF in AutoCAD
 
