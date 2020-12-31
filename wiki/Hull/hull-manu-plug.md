@@ -141,7 +141,48 @@ Make sure to add stingers all the way down to the table
 
 8. Use power sanders + 40 grit paper to sand down any fiberglass strands sticking up
 
-9. 
+### VI. Paint the plug with bondo and sand it (a lot)
+1. Use squeegees to paint bondo on to the plug. Remember to catalyze it and work quickly! Cover the whole thing so no wood is showing. We used two gallons for this operation.
 
+2. Use acetone to clean your tools between every batch of bondo. If you don’t, hardened pieces of bondo will chip off your squeegee and get caught in the bondo you’re applying
+
+3. Paint the table with bondo, at least six inches from the base of the plug. We suggest painting the entire table with bondo (not picture here) to get a large flange going.
+
+4. Wait until the bondo gets hard enough and start sanding it with power sanders + 60 grit sandpaper. Sand until the whole thing feels smooth.
+
+5. We can now start getting rid of high points and low points. Spray a thin layer of spray paint over the sub. As you sand the paint off, the high points and low points will reveal themselves.
+
+6. Before you begin sanding, keep in mind there is a way to sand methodically so you don’t introduce low frequency waves into the plug surface. You want to sand in long diagonal motions. Pick one half of the plug (long-ways), start at one end, and sand at 45 degrees (bottom to top) uniformly down the full length of the plug.
+See the picture below to help visualize:
+
+7. There are two things going on: surface smoothness and surface fairness. A fair surface has no low/high points, but could be rough. A smooth surface is very smooth but could have low/high points. We want to achieve both fairness and smoothness. Get multiple people doing it to make it go faster (this step should take at least a few days)
+
+8. An example of a high point (the wood underneath has revealed itself), try to sand less on these spots.
+
+9. An example of a low point (blue spray paint disappears around low point). Fill these with bondo and sand again.
+
+10. Use a long sanding block to reveal low frequency waves. Low frequency waves cannot be revealed using power sander. Sanding blocks take longer than the power sander but they are necessary to fix low frequency waves. See the diagram below:
+
+11. Make sure to sand horizontally along the bottom
+
+12. Trim the corner of a squeegee to make a rounded tip
+
+13. Create a corner fillet by putting bondo along the bottom and running the rounded squeegee over it
+
+14. If you haven’t done so yet, coat the entire table with bondo
+
+15. Keeping applying/sanding off layers of spray paint. If you fill the low points each time, it should get progressively smoother/fairer.
+
+16. Circle the low points in sharpie to make them more visible
+
+14. Towards the end of the sanding cycles, you may wish to apply a skim coat to fill the finer low points. Skim coat is a finishing filler used to achieve better smoothness.
+
+15. When fairing the hull is complete, it should look similar to the photo below:
+
+### VII. Spray the plug with duratec and sand it
+
+1. Spray the entire plug with a thick coat of Duratec high build primer. A wide nozzle is required for the spray gun. Wet sanding the high build primer can create a mirror-smooth finish.
+
+2. 
 
 
