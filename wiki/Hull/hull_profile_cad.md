@@ -22,11 +22,12 @@ Important considerations:
 ### Importing Data into MATLAB (or Excel)
 
 #### Excel Instructions
-* Be sure to label your separate columns! Color coding might also be helpful.
+* The data we need from this site can be found in the "Dat file" element at the top. Copy both columns into excel starting from the zero entries.
 * Copy paste the coordinates from airfoiltools.com into Excel.
-* Make sure your coordinates are in separate columns (you may want to use the text to columns button)
+* Be sure to label your separate columns! Color coding might also be helpful.
+* Make sure your coordinates are in separate columns.
 * Because the data provided on the site in in 2D, you will need to add a column of zeroes to make it 3D. So add the extra dimensions according to our convention! This means the vertical profile needs an x column of 0, and the horizontal profile requires a y column of 0s.
-* Notice that airfoiltools gives you the top and bottom curve in succession.
+* Notice that airfoiltools gives you the top and bottom curve in succession; they are separated by a blank row in the middle of each x and y column.
 * Manually add bookend curves with (0 0 0) and (0 0 1) so that the separate curves meet in those points. It's ideal to have the same number of points for the curves, and avoid duplicate points within the same curve.
 
 #### Matlab Instructions
