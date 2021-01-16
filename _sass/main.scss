@@ -318,3 +318,18 @@ html {
   padding: 5px;
   margin: 5px;
 }
+
+#donate-button {
+  color: $imperialblue;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: $deeplemon;
+  text-align: center;
+  padding: 32px 32px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  width: 20%;
+  margin: auto;
+
+}
