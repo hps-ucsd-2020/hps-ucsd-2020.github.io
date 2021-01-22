@@ -319,6 +319,15 @@ html {
   margin: 5px;
 }
 
+
+#donate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
 #donate-button {
   color: $imperialblue;
   font-size: 25px;
@@ -329,7 +338,6 @@ html {
   border-radius: 25px;
   display: inline-block;
   text-decoration: none;
-  width: 20%;
   margin: auto;
 
 }
