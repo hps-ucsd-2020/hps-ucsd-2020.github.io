@@ -87,7 +87,7 @@ html {
   }
 }
 
-.footer {
+footer {
   background-color: $imperialblue;
   color: $spanishgray;
   text-align: center;
@@ -110,7 +110,7 @@ html {
   }
   margin-bottom: 20px;
 }
-
+team
 .centered-flexbox {
   display: flex;
   flex-direction: row;
@@ -129,12 +129,20 @@ html {
 .markdown-quickstyle {
   margin: 10px;
   color: $spanishgray-dark;
+
   @include headings {
     color: $deeplemon;
   }
 
-  a {
-    color: $palebud;
+  a{
+    text-decoration: none;
+    &:link, &:visited {
+      color: $deeplemon;
+    }
+
+    &:hover {
+      color: $palebud;
+    }
   }
 }
 
@@ -318,3 +326,28 @@ html {
   padding: 5px;
   margin: 5px;
 }
+
+// Below are git-wiki things ---------------
+
+.git-wiki-page{
+  @extend .markdown-quickstyle;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  
+
+  .tools-element{
+    border-left: 3px solid $deeplemon;
+    padding-left: 5px;
+    margin: 5px;
+  }
+}
+
+.git-wiki-copyrights {
+  @extend .markdown-quickstyle;
+  flex-grow: 10; // force to the left (janky solution)
+  text-align: left;
+}
+
