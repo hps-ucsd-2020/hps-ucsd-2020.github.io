@@ -5,11 +5,14 @@ $spanishgray: #979797;
 $spanishgray-dark: #A8A8A8;
 $deeplemon: #FCBA17;
 $imperialblue: #003F77;
-$imperialblue-light: #104F87;
-
-// Mixins
+$imperialblue-light: #104F87; // Mixins
 @mixin headings {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @content;
   }
 }
@@ -60,7 +63,8 @@ html {
   a.current {
     @extend %a-main;
 
-    &:link, &:visited {
+    &:link,
+    &:visited {
       color: $palebud;
     }
 
@@ -72,7 +76,8 @@ html {
   a.not-current {
     @extend %a-main;
 
-    &:link, &:visited {
+    &:link,
+    &:visited {
       color: $spanishgray;
     }
 
@@ -103,10 +108,9 @@ footer {
     max-height: 700px;
     object-fit: cover;
   }
-
   margin-bottom: 20px;
 }
-
+team
 .centered-flexbox {
   display: flex;
   flex-direction: row;
@@ -124,7 +128,7 @@ footer {
 
 .markdown-quickstyle {
   margin: 10px;
-  color: $seaserpent;
+  color: $spanishgray-dark;
 
   @include headings {
     color: $deeplemon;
@@ -175,11 +179,109 @@ footer {
   margin: 0 auto;
 
   .team-box {
-    height: 4em;
-    width: 80%;
-    margin: 1%;
-    background-color: $imperialblue;
+    // Timings are different as same timings do not give perfect sync
+    transition: max-height 0.5s ease-in 0s, width 0.3s 0.2s;
+    max-height: 4em;
+    height: auto;
     overflow: hidden;
+    margin: 1%;
+    width: 80%;
+
+    .teams-title {
+      transition: background-color 0.3s 0.2s;
+      background-color: $imperialblue;
+      padding: 1px 15px;
+      // Making the title box display flex boxes
+      display: flex;
+      flex-flow: rows;
+      align-items: baseline;
+      justify-content: space-between;
+      //width: 100%;
+      //padding: 1px 15px;
+      align-items: center;
+
+      h2 {
+        transition: color 0.3s 0.2s;
+        color: $deeplemon;
+      }
+      /* Arrows */
+      .arrow-box {
+        min-width: 10px;
+        padding: 10px;
+      }
+
+      .arrow {
+        transition: border-color 0.3s 0.2s, transform 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
+        border-style: solid;
+        border-color: $deeplemon;
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 5px;
+        align: right;
+        //vertical-align: baseline;
+        margin-top: auto;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    }
+
+    .teams-include-format {
+      background-color: $imperialblue;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+
+      .teams-slideshows {
+        flex: 1;
+        margin: 20px 20px 0 0;
+
+        img {
+          width: 100%;
+          min-height: 250px;
+          max-height: 600px;
+          object-fit: cover;
+          vertical-align: middle;
+        }
+      }
+
+      .teams-info {
+        flex: 1;
+        font-size: 20px;
+        padding: 15px;
+        background-color: $spanishgray-dark;
+        border-radius: 12px;
+        margin: 20px;
+
+        p {
+          color: $imperialblue;
+        }
+      }
+    }
+  }
+
+  .team-box.expanded {
+    transition: max-height 0.7s ease-out 0s, width 0.3s 0s;
+    width: 96%;
+    // Not optimal solution as max height changes and not height. Increase if needed
+    max-height: 850px;
+
+    .teams-title {
+      background-color: $deeplemon;
+      transition: background-color 0.3s 0s;
+
+      h2 {
+        color: $imperialblue;
+        transition: background-color 0.3s 0s;
+      }
+
+      .arrow {
+        border-color: $imperialblue;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: border-color 0.3s 0s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
+      }
+    }
   }
 
   .active-window {
@@ -191,40 +293,38 @@ footer {
   display: flex;
   flex-flow: row;
   align-items: center;
+}
 
-  .about-column {
-    flex: 1 1 50%;
-    padding-right: 5px;
-    padding-left: 5px;
+.about-column {
+  flex: 1 1 50%;
+  padding-right: 5px;
+  padding-left: 5px;
 
-    img {
-      width: 100%;
-    }
-
-    .about-rounded-box {
-      background-color: $imperialblue;
-      border-radius: 12px;
-      margin-bottom: 10px;
-
-      .box-body {
-        padding: 10px;
-        padding-top: 0px;
-        padding-bottom: 3px;
-      }
-
-      .box-title {
-        background-color: $deeplemon;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
-
-        h2 {
-          color: $imperialblue-light;
-          padding: 5px;
-          margin: 5px;
-        }
-      }
-    }
+  img {
+    width: 100%;
   }
+}
+
+.about-rounded-box {
+  background-color: $imperialblue;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.box-body {
+  padding: 0 10px 3px;
+}
+
+.box-title {
+  background-color: $deeplemon;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.box-title h2 {
+  color: $imperialblue-light;
+  padding: 5px;
+  margin: 5px;
 }
 
 // Below are git-wiki things ---------------

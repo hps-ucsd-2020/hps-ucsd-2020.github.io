@@ -5,3 +5,38 @@ home:
 - home-slideshow/hull_7.jpg
 - home-slideshow/drive_4.png
 - home-slideshow/elec_3.jpg
+
+hull:
+- hull-img/hull_1.jpg
+- hull-img/hull_7.jpg
+- hull-img/hull_3.png
+- hull-img/hull_4.jpg
+- hull-img/hull_5.jpg
+- hull-img/hull_6.jpg
+
+dive:
+- dive-img/dive_1.JPG
+- dive-img/dive_2.jpeg
+- dive-img/dive_3.jpeg
+- dive-img/dive_4.JPG
+
+drive:
+- drive-img/Full_Drivetrain_Assembly.jpg
+- drive-img/drive-render-2.png
+- drive-img/drive_1.jpg
+- drive-img/drive-machine-shop.jpg
+
+
+elec:
+- elec-img/elec_1.png
+- elec-img/elec_2.png
+- elec-img/elec_3.jpg
+- elec-img/elec_4.jpg
+
+hsi:
+- hsi-img/steering_1.png
+- hsi-img/cycloid-gearbox.gif
+- hsi-img/Cycloidal_drive.gif
+
+doc:
+- doc-img/doc_1.png

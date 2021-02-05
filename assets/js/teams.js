@@ -7,26 +7,16 @@ var fade_in = anime({
   delay: anime.stagger(50, {start: 100}),
   duration: 1000,
   easing: 'easeOutQuad'
-})    
+})
 
 function expand(obj){
-  anime({
-    targets: obj,
-    width: '96%',
-    height: '40em',
-    duration: 500,
-    easing: 'easeInOutQuad'
-  })
+  obj.querySelector('.teams-title').classList.toggle('expanded');
+  obj.classList.toggle('expanded');
 }
 
 function contract(obj){
-  anime({
-    targets: obj,
-    width: '80%',
-    height: '4em',
-    duration: 500,
-    easing: 'easeInOutQuad'
-  })
+  obj.querySelector('.teams-title').classList.toggle('expanded');
+  obj.classList.toggle('expanded');
 }
 
 function select(obj){
