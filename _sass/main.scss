@@ -341,3 +341,15 @@ html {
   margin: auto;
 
 }
+
+#copy-button {
+  color: $deeplemon;
+  background-color: $imperialblue;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-color: $deeplemon;
+  border-radius: 6px;
+  padding: 5px;
+}
