@@ -8,9 +8,39 @@ title: Donate!
 
 <div id="donate-container">
 
-	<h4 class="fade-in"> * To find us, you can copy <button id="copy-button">Human Powered Submarine Project (ASME)</button> into the "search for more giving options" box. * </h4> <br>
+	<h4 class="fade-in"> * To find us, you can copy 
+    <div class="tooltip">
+      <button id="copy-button" onclick="copyText('Human Powered Submarine Project (ASME)')" onmouseout="outFunc()">
+        <span class="tooltiptext" id="copy-tooltip-text">Click to copy</span>
+        Human Powered Submarine Project (ASME)
+      </button>
+    </div> into the "search for more giving options" box. *
+  </h4> <br>
+
 
 	<script>
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch(err) {
+        console.log('Error in copying text: ', err);
+      }
+
+      var tooltip = document.getElementById("copy-tooltip-text");
+      tooltip.innerHTML = "Copied to clipboard!";
+    }
+    function outFunc() {
+      var tooltip = document.getElementById("copy-tooltip-text");
+      tooltip.innerHTML = "Click to copy"
+    }
+  </script>
+
+
+
+
+
+<!--
+<script>
       document.getElementById("copy-button").onclick = function() {
           let text = 'Human Powered Submarine Project (ASME)';
           copyTextToClipboard(text);
@@ -24,6 +54,7 @@ title: Donate!
         }
       }
     </script>
+-->
 
 	<div> <a class="fade-in" href="https://giveto.ucsd.edu/giving/home/add-gift" id="donate-button" target="_blank"> Give To UC San Diego <br> Human Powered Submarine</a> </div>
 	<br>
