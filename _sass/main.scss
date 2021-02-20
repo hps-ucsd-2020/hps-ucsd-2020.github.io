@@ -325,6 +325,78 @@ team
   color: $imperialblue-light;
   padding: 5px;
   margin: 5px;
+
+#donate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+#donate-button {
+  color: $imperialblue;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: $deeplemon;
+  text-align: center;
+  padding: 32px 32px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+
+}
+
+#copy-button {
+  color: $deeplemon;
+  background-color: $imperialblue;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-color: $deeplemon;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: $seaserpent;
+  color: $imperialblue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $seaserpent transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 // Below are git-wiki things ---------------
@@ -350,4 +422,3 @@ team
   flex-grow: 10; // force to the left (janky solution)
   text-align: left;
 }
-
