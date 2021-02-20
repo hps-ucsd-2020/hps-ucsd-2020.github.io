@@ -7,19 +7,7 @@
     - name: Sharron Perez
       position:
       quote:
-  - team: Dive
-    members:
-    - name: Kylan Dennis
-      position: Dive Lead
-      quote:
-  - team: Documentation
-    members:
-    - name: Antoinette Gautier
-      position: Documentation Lead
-      quote:
-    - name: Parth Patel
-      position: WikiLord
-      quote: wow fam desu
+
   - team: Drivetrain
     members:
     - name: Jack Donohoe
@@ -28,6 +16,76 @@
     - name: Jared Benge
       position: Manufacturing Lead
       quote: Satisfaction
+    - name: Aryian Schreiner
+      position: 
+      quote: 
+    - name: Cynthia Guzman
+      position: 
+      quote: 
+    - name: Kyle Venstrom
+      position: 
+      quote:
+    - name: Loren Phillips
+      position: 
+      quote:
+    - name: Miles Chen
+      position: 
+      quote:
+    - name: Paul Barnhouse
+      position: 
+      quote:
+    - name: Victor Leung
+      position: 
+      quote:
+
+  - team: Hull
+    members:
+    - name: Signe Laundrup
+      position: Hull Lead
+      quote:
+    - name: Alexander "Xander" Westra
+      position: Hull Lead
+      quote:
+    - name: Kristina Koharchik
+      position: 
+      quote:
+    - name: Asa Head
+      position: 
+      quote:
+    - name: Antoinette Gautier
+      position:
+      quote:
+    - name: Andy Vu
+      position: 
+      quote:
+    - name: Saul Chaplin
+      position:
+      quote:
+
+  - team: Pilot
+    members:
+    - name: Carson Black
+      position: Pilot
+      quote:
+
+  - team: Dive
+    members:
+    - name: Kylan "Ky" Dennis
+      position: Dive Lead
+      quote:
+
+  - team: Documentation
+    members:
+    - name: Antoinette Gautier
+      position: Documentation Lead
+      quote:
+    - name: Parth Patel
+      position: WikiLord
+      quote: wow fam desu
+    - name: Shubham Bhargava
+      position: 
+      quote:
+  
   - team: Electronics
     members:
     - name: Tyler Jang
@@ -36,22 +94,14 @@
     - name: Parth Patel
       position:
       quote: 
-  - team: Hull
-    members:
-    - name: Signe Laundrup
-      position: Hull Lead
-      quote:
-    - name: Alexander "Xander" Westra
-      position:
-      quote:
-    - name: Antoinette Gautier
-      position:
-      quote:
+
+
   - team: Media
     members:
     - name: Jeffery Han
       position: Media Lead
       quote:
+
   - team: Treasury
     members:
     - name: Carson Black
