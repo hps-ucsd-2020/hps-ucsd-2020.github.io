@@ -8,14 +8,16 @@ Here is the overall plan:
 #### Agenda:
 
 - Took plug and materials to SunRez
-- Detached plug from current tabletop, because it was not level.
+- Detached plug from current tabletop to repair extensive damage, and also it was not level.
 - Bought new plywood to replace table top. 
-- Broke down current mold, because not airtight.
+- Discarded female mold, due to air leaks and poor surface quality.
 
 #### For next time:
 
 - Make new tabletop.
 - Create new mold the correct way (Mark from SunRez will show us!)
+- Attach plug to tabletop
+- Seal tabletop and repair plug surface
 
 #### NOTES:
 
