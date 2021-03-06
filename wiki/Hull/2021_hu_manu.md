@@ -1,5 +1,8 @@
 ## 2021 Hull Manufacturing notes
 
+Here is the overall plan:
+[https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing)
+
 ### 3/5/21
 
 #### Agenda:
