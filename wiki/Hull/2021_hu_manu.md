@@ -108,3 +108,29 @@ What we did
 Tips:
 - Draw a circle on areas that need to be filled up, and draw an X on areas that need to be sanded down
 - Use a pencil to draw circles and X's. Pen ink can interact poorly with the resin, whereas graphite does not.
+
+### 4/2/21
+
+What we did
+- Faired the nose of the submarine (because it was oversanded)
+
+Fairing Instructions:
+- remove dust from plug with a bit of acetone and a rag (not a shop rag bc it desintegrates and sticks to the plug)
+- apply resin (dont use UV cure resin when working outside, but if you are inside it means you have infinite work time!)
+- fair carefully with a scraper (keep curve consistent)
+- cure!!! (see what happens when you don't let it cure properly)
+- sand at +- 45 degrees from the grain of the sub and maximize surface area to avoid holes
+- wash tools with acetone after
+
+Differences between resins!
+- Q Cell : finer, mixes well, sands well, glass microballoons more brittle
+- Cabosil : good for thickening (can mix with Q Cell)
+- Duratec : black, sands smooth as a baby's bottom 
+
+Random Tips
+- hold the sharpie like a paintbrush
+- for fairing, cover in spray paint, lightly sand, reveals low spots
+- MAKE SURE RESIN IS CURED BEFORE SANDING, otherwise it gets gummy and messes up the sandpaper
+
+For next time;
+- fill crack near tail and hole near nose
