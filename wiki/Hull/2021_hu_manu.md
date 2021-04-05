@@ -134,3 +134,20 @@ Random Tips
 
 For next time;
 - fill crack near tail and hole near nose
+
+### 4/3/21
+
+Xander or somebody plz fill this out
+
+### 4/5/21
+
+Members: Antoinette Gautier, Kylan Dennis, Sharron Perez
+
+What we did:
+- Sanded down hull plug for smoothness (not fairness).
+- Quick acetone "wash" for the hull plug and tabletop for smoothness and to get rid of dust. Light sanding for tabletop.
+- Concluded that perfect fairness for plug was not possible, proceeded to plan holes for plug fastening to tabletop.
+- Holes pre-drilled and screws added part-way into tabletop. Holes (6) had to be cut out of certain points under the table support to access drilling points. 
+
+For next time:
+- Another layer of resin for tabletop. Fasten hull plug to tabletop and start next resining step for plug to table connection edge. 
