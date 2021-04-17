@@ -1,9 +1,9 @@
-## 2021 Hull Manufacturing notes
+# 2021 Hull Manufacturing notes
 
 Here is the overall plan:
 [https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing)
 
-### 3/5/21
+## 3/5/21
 
 ### What we did
 - Took plug and materials to SunRez
@@ -34,7 +34,7 @@ Methods for Removing Fiberglass:
 - Use a vacuum - with the nozzle removed.
 - d o g
 
-### 3/12/21
+## 3/12/21
 
 What we did
 - table not level
@@ -60,7 +60,7 @@ More fiberglass tips
 - Use back of sponge for fiberglass on hands and  s c r u b
 - or use reallllly hot water, then reallly cold water (pores will close up and eject the fiberglass?? appearantly)
 
-### 3/19/21
+## 3/19/21
 
 What we did
 - Covered screw heads with bondo, on the table, and sanded the areas flat
@@ -72,7 +72,7 @@ What we did
 Tips
 - When painting on resin, go over any given area three times in a criss-cross pattern. Make sure to hold the brush very lightly on the final pass. This reduces brush marks (also called "roping."
 
-### 3/23/21
+## 3/23/21
 
 What we did
 - Flipped the plug upsidedown and sanded the bottom extensively with a large sander. The goal was to make the bottom of the plug flat.
@@ -85,7 +85,7 @@ What we did
 Tips:
 - Make sure to check a smaller batch of resin first to make sure it cures properly.
 
-### 3/24/21
+## 3/24/21
 
 What we did
 - Used 60 grit sandpaper on long sanding blocks (called "blocking") to sand smooth the areas where resin was painted on.
@@ -98,7 +98,7 @@ Tips
 - Sand very lightly (let the sandpaper do the work). As soon as one area is smooth, move on. 
 - Sand at 45 degree angles only (w.r.t. ground), to ensure surface fairness.
 
-### 3/26/21
+## 3/26/21
 
 What we did
 - Very carefully sanded the entire sealed plug surface with sanding blocks (120 grit), until smooth.
@@ -109,7 +109,7 @@ Tips:
 - Draw a circle on areas that need to be filled up, and draw an X on areas that need to be sanded down
 - Use a pencil to draw circles and X's. Pen ink can interact poorly with the resin, whereas graphite does not.
 
-### 4/2/21
+## 4/2/21
 
 What we did
 - Faired the nose of the submarine (because it was oversanded)
@@ -135,11 +135,11 @@ Random Tips
 For next time;
 - fill crack near tail and hole near nose
 
-### 4/3/21
+## 4/3/21
 
 Xander or somebody plz fill this out
 
-### 4/5/21
+## 4/5/21
 
 Members: Antoinette Gautier, Kylan Dennis, Sharron Perez
 
@@ -151,3 +151,16 @@ What we did:
 
 For next time:
 - Another layer of resin for tabletop. Fasten hull plug to tabletop and start next resining step for plug to table connection edge. 
+
+## 4/16/21
+
+-scraping excess bondo off of table with razors so that we can make a more accurate 90 degree angle with the plug
+
+-note on precision bondo work: use teeny tiny batches
+
+shopping list: 
+- high build polyurethene primer spray can
+- flashlight
+
+
+
