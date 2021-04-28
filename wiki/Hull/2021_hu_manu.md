@@ -161,6 +161,23 @@ For next time:
 shopping list: 
 - high build polyurethene primer spray can
 - flashlight
+ 
+## 4/17/21
+
+Members: Signe, Kylan, Victor
+
+- Squared up edges with right angle square. Dragged square across Bondo while still workable and sanded with 150 grit to achieve 90 degrees.
+	 -Make sure to look at eye level and use a flashlight to check for gaps.
+- Purchased 4 cans of 2-1 fillable and sandable primer and a polyurethane glossy top sealant coat. Read instructions before use. 
+
+## 4/23/21
+
+Members: Antoinette, Victor, Paul
+
+- Sprayed glossy polyurethane outside. Set up Eazyup with grey tarp against wall with dumpster to block wind.
+	-Remember to bring somethings to do (homework, laptop, cards, games, etc.) since it takes 2 hours to dry between coats. 
+- Spray a thick coat but not so thick that it runs. Sand with 220 girt before final coat.
+
 
 ## 4/26/21
 
