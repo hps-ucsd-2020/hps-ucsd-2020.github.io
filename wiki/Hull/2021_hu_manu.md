@@ -162,5 +162,15 @@ shopping list:
 - high build polyurethene primer spray can
 - flashlight
 
+## 4/26/21
 
+### Members: Signe and Sharron
+
+### What we did:
+
+-Went over the radius again with Bondo
+	-Scraped away any excess cured bondo we could and sanded down prominent ridges and bumps
+    -Filled in any gaps with bondo (use fingers to push the bondo into the negatives, then firm but light pass with radius piece)
+    -Bondo done in moderately hot and small batches
+-Note: do NOT do workday in the rain with the canopy...the canopy is temporary...the rain is eternal
 
