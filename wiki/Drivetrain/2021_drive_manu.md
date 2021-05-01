@@ -1,5 +1,17 @@
 ## 2021 Drivetrain Manufacturing Notes
 
+#### Speeds and Feeds log
+
+|Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
+|---|---|---|---|---|---|---|
+|4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
+|4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
+|4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
+|date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!|
+
+
+
+
 ### 3/6/21
 
 #### Agenda:
@@ -34,7 +46,7 @@ This project deserves much more documentation but today will be a start.  Look f
 	Our main goal was to manufacture the mdf wasteboard that sits on top of the shapeoko.  This board will provide mounting locations with these [1/4-20 T nuts](https://www.amazon.com/gp/product/B01MSVU3WF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).  Next time I would go with the screw in type of insert because these need to be countersunk.  This requires us to do 2 operstions because the bolts that mount the wasteboard to the Shapeoko will also need to be countersunk.  We are not sure how to accomplish this yet, but we have thought of some ideas to get the positions right on the machine.  It is likely going to be a manual drill with a centerpunch, but it would be so nice to perfectly align the bolt holes to the X and Y of the machine.  We have to figure out how to get it perfect.
     We ran into a few issues with the tram plate to the spindle not being tightened, this resulted in imperfect bore holes for the T nuts.  After fixing that issue, the left side Y belt was incredibly loose, leading to even worse counterbores.  We ended up needing to re-face the wasteboard... but that is what it is for!  It is quite a tough thing trying to set up a full machine shop at home.  There are so many odds and ends that end up being really important to get everything done right.  You may have a CNC, but we need a way to mount stuff to it!
     
-#The superglue method
+# The superglue method
 	I forgort how important it is to pass this down!  Look up NYC CNC or titans of CNC on youtube and look at their superglue videos.  Take 2 pieces of blue painters tape and lay them perfectly on each part.  Just put some superglue between the tape and you have a great workholding solution!  They run some pretty crazy ops on just superglue and tape.  This worked perfect for holding down the wasteboard.
     
     Even though the box for the shapeoko is pretty crappy, I am really happy that I buiilt it.  It helps IMMENSLY with the mess.  I am so surprised how quite the shapeoko is!  The vacuum is far louder than the machine, even when it is cutting.  Hopefully we can make some more noise with it soon.
