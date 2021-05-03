@@ -191,3 +191,13 @@ Members: Antoinette, Victor, Paul
     -Bondo done in moderately hot and small batches
 -Note: do NOT do workday in the rain with the canopy...the canopy is temporary...the rain is eternal
 
+## 4/30/21
+
+Members: Antoinette, Victor, Paul
+- Redid the bondo'd radius by applying small batches of bondo with a finger and then running smooth with a radius.
+- Sanded bondo with 220 grit sandpaper in between passes as well as cleaned with a small amount of acetone.
+- Remember to use a razor to scrape off the squeezeout on top.
+- Applied 2 liberal coats of priper to fill any small holes or gaps in the bondo.
+- Applied 2 coats of polyurethane to redone area.
+- Played many rounds of the card game "James Bond" to pass the time in between coats and escape the 93 degree weather.
+
