@@ -7,8 +7,44 @@
 |4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
 |4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
 |4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
-|date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!|
+|4/24/21|1/4" 1F|1200|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
 
+|date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
+
+
+### 5/3/21 Summary of Work
+UCSD Drive Team Notes - Shapeoko + Manufacturing
+Began with creation of worktable to put shapeoko on
+
+Preceded to make enclosure with large plexiglass front doors. Done to Reduce noise and keep chips from going everywhere. (safer too)
+- Roof is removable which is essential
+- Could be tiny bit taller so wires don’t scrape
+- Need to cut hole for vacuum hose to go through and attach to spindle
+
+Wasteboard Manufacturing followed.
+- Many setbacks occurred- turns out, the cutting area is much smaller than it appears to be
+- 2 sets of holes were drilled into the shapeoko baseboard after the first ones were misaligned.     The ones on the right are properly spaced.
+- Wasteboard is mounted into the baseboard using these 8 holes. The top of the wasteboard has 8       counterbores for the heads of these screws to go into
+- The rest of the board contains holes for clamping fixtures to screw into. They have nail in screw   inserts placed in counterbores on the bottom of the board.
+  * These inserts have been known to fall out of both the wasteboard and baseboard. Hammer them back   in if needed, rotating them so they go into a different position in the counterbore
+  * Screw inserts would be more effective in the future
+- Ran into issue where the fixture inserts had only a set height. They could not screw deeper as     they would hit the baseboard, and could not screw in shallower because the inserts had a short     threaded section. Two solutions were devised:
+  * One, we could shim the wasteboard by putting thin strips of wood between the baseboard and         wasteboard, the the fixture screws could go farther in
+  * Two, we could have the bolts screw all the way in and stick out far, and then place nuts on the     bolts to effectively adjust their height. This was selected.
+- Used MDF. To face, the blue facing bit worked great when adjusted properly, at the speeds listed   in the table.
+- Insert holes were manually drilled after being pecked by the shapeoko for accurate dimensioning.
+- Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED   for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
+  * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the     edges which could be scraped off. Mostly an MDF thing
+Aluminum Cutting then Took place.
+- First, we attempted to cut ¼ in aluminum pieces with jigsaws and metal cutting blades. 
+  * Cut through fine, albeit with a good deal of rattling. Cutting oil was needed to keep heat down     ect
+  * Does NOT cut straight, especially with curves. Cannot expect any accuracy.
+  * Cut out using glued on drawing files. Make sure the printer is scaling correctly. Try not to       tear the paper- maybe trace with sharpie
+- We then tried facing a block to make metal clamps. 
+  * First, our clamping system was poor and led to rattling. The clamps were on one edge and facing     occurred on the other, which was somewhat ineffective. The wood clamps worked ok, but not           incredibly. Cam lock clamps would be super helpful in restricting lateral movement.
+  * Instead, we could face the middle of the block and clamp each end?
+  * Carson Quotes: “Clamps gotta go on all operations, that’s just general workholding.  We can use     the superglue method if we really have to face the the top down.  Another change we could make     to the can to make our lives easier is to buy stock that is thicker than our final OD.  For ex:     the clamps: we just machine out the top 0.5” of our 0.75” stock, then we can flip it over and       face everything to the perfect height.  We wouldn’t have to mess around with drilling into our     wasteboard”
+  * The blue facing bit was not very good, and extremely loud. Single flute endmill was much           better, 12000 rpm, 25in/min (allegedly, may have been adjusted.)
 
 
 ### 3/6/21
