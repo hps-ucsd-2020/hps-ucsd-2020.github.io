@@ -12,16 +12,18 @@
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 
 
-### 5/3/21 Summary of Work
-UCSD Drive Team Notes - Shapeoko + Manufacturing
-Began with creation of worktable to put shapeoko on
+### 5/3/21 Summary of Work for Quarter
 
-Preceded to make enclosure with large plexiglass front doors. Done to Reduce noise and keep chips from going everywhere. (safer too)
+# Worktable
+- to put shapeoko, computer on, storage underneath.
+
+# Enclosure Made
+- Done to Reduce noise and keep chips from going everywhere. (safer too)
 - Roof is removable which is essential
 - Could be tiny bit taller so wires don’t scrape
 - Need to cut hole for vacuum hose to go through and attach to spindle
 
-Wasteboard Manufacturing followed.
+# Wasteboard Manufacturing
 - Many setbacks occurred- turns out, the cutting area is much smaller than it appears to be
 - 2 sets of holes were drilled into the shapeoko baseboard after the first ones were misaligned.     The ones on the right are properly spaced.
 - Wasteboard is mounted into the baseboard using these 8 holes. The top of the wasteboard has 8       counterbores for the heads of these screws to go into
@@ -35,7 +37,8 @@ Wasteboard Manufacturing followed.
 - Insert holes were manually drilled after being pecked by the shapeoko for accurate dimensioning.
 - Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED   for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
   * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the     edges which could be scraped off. Mostly an MDF thing
-  Aluminum Cutting then Took place.
+  
+# Aluminum Cutting
 - First, we attempted to cut ¼ in aluminum pieces with jigsaws and metal cutting blades. 
   * Cut through fine, albeit with a good deal of rattling. Cutting oil was needed to keep heat down     ect
   * Does NOT cut straight, especially with curves. Cannot expect any accuracy.
