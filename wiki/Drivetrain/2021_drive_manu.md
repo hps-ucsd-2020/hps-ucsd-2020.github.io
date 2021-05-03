@@ -35,7 +35,7 @@ Wasteboard Manufacturing followed.
 - Insert holes were manually drilled after being pecked by the shapeoko for accurate dimensioning.
 - Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED   for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
   * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the     edges which could be scraped off. Mostly an MDF thing
-Aluminum Cutting then Took place.
+  Aluminum Cutting then Took place.
 - First, we attempted to cut ¼ in aluminum pieces with jigsaws and metal cutting blades. 
   * Cut through fine, albeit with a good deal of rattling. Cutting oil was needed to keep heat down     ect
   * Does NOT cut straight, especially with curves. Cannot expect any accuracy.
