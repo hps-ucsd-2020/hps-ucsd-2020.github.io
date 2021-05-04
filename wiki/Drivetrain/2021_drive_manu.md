@@ -59,8 +59,10 @@ I forgot how important it is to pass this down!  Look up NYC CNC or titans of CN
 Even though the box for the shapeoko is pretty crappy, I am really happy that I buiilt it.  It helps IMMENSLY with the mess.  I am so surprised how quite the shapeoko is!  The vacuum is far louder than the machine, even when it is cutting.  Hopefully we can make some more noise with it soon.
 
 ### Useful Links
-- Speed and feed information: https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/feeds-and-speeds-basics
-wired VFD with this tutorial
+- Speed and feed information: 
+ - [https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/feeds-and-speeds-basics
+wired VFD with this tutorial](https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/feeds-and-speeds-basics)
+- wired VFD with this tutorial
   - [https://www.youtube.com/watch?v=1sf2zLQu5CU&t=559s](https://www.youtube.com/watch?v=1sf2zLQu5CU&t=559s)
   - [https://www.youtube.com/watch?v=7OszQS_BQMk](https://www.youtube.com/watch?v=7OszQS_BQMk)
   - [https://www.youtube.com/watch?v=tZObm96Yf34&list=PLbTgCoEmMHVHJqVL7QpzmLGCx1S9UNNnQ&index=26](https://www.youtube.com/watch?v=tZObm96Yf34&list=PLbTgCoEmMHVHJqVL7QpzmLGCx1S9UNNnQ&index=26)
