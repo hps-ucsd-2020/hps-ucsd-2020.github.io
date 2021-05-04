@@ -3,7 +3,7 @@
 ### Speeds and Feeds Log
 
 |Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
-|---|---|---|---|---|---|---|
+|:--------|:-------:|:-------:|:-------:|:-------:|:-------:|--------:|
 |4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
 |4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
 |4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
