@@ -1,35 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: UCSD Human Powered Submarine
+title: HPS @ UCSD
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the site description, located in _config.yml and displayed on your site and below the search result in google.
+  Site for details about Human Powered Submarine at UCSD!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hps-ucsd-2020
 
 # Build settings
 plugins:
+  - jekyll-feed
   - jekyll-remote-theme
-remote_theme: Drassil/git-wiki-theme@master
+  - jekyll-optional-front-matter
+remote_theme: hps-ucsd-2020/jekyll-theme-santiana@main
 
 # Github required settings
 lsi: false
@@ -38,54 +20,24 @@ incremental: false
 highlighter: rouge
 gist:
   noscript: false
+markdown: kramdown
+highlighter: rouge
 kramdown:
+  input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
 
-# Wiki options
-show_wiki_pages: true
-show_wiki_pages_limit: 10
-blog_feature: false
-show_wiki_posts: true
-show_wiki_posts_limit: 10
-paginate: 5
-paginate_path: "/blog/page:num"
-permalink: /blog/posts/:year/:month/:day/:title:output_ext
-show_downloads: true
-git_branch: "master"
-logo_url:
-google_analytics:
-wiki_folder: "wiki"
-use_github_wiki: false
-use_prose_io: true
-search_engine: "js"
-
-defaults:
-- scope:
-    path: "wiki"
-  values:
-    dummy: true
-- scope:
-    path: ""
-    type: "pages"
-  values:
-    layout: "git-wiki-default"
-- scope:
-    path: ""
-    type: "posts"
-  values:
-    layout: "git-wiki-default"
-sass:
-  style: compressed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
   - lightslider/README.md
 
+optional_front_matter:
+  remove_originals: true
+
+defaults:
+-
+  scope:
+    path: "wiki"
+  values:
+    output: true
+    layout: "wikipage"
+    permalink: /wiki/:basename
