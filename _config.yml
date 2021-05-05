@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hps-ucsd-2020
 
+homepage: "/Home.html"
+
 # Build settings
 plugins:
   - jekyll-feed
@@ -40,4 +42,3 @@ defaults:
   values:
     output: true
     layout: "wikipage"
-    permalink: /wiki/:basename
