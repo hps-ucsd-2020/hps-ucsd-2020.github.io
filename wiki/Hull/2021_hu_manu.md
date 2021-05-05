@@ -201,3 +201,13 @@ Members: Antoinette, Victor, Paul
 - Applied 2 coats of polyurethane to redone area.
 - Played many rounds of the card game "James Bond" to pass the time in between coats and escape the 93 degree weather.
 
+## 5/1/21
+Members: Signe, Kylan, Asa, Victor
+-Looked for uncovered bondo spots and sprayed with quick-drying primer and polyurethane coating.Wait 10-15 minutes between coats for primer, about the same time for the polyurethane (ckeck instructions)
+-Wiped down plug with dry shop towel and then a slightly damp shop towel to remove dust before moving on.
+-DO NOT USE TOO MUCH TEFLON COATING! ONE BOTTLE COST ~$75! Use about 1/3 of a bottle (one bottle was 1 quart?)
+	-Use a shop rag to wipe a THIN layer of teflon over the plug AND table
+	-Shake off any loose fibers when using the shop rag
+	-Have people switch sides to ensure even coat
+	-Wait ~30 minutes between coats (bring something to do, i.e. cards)
+	-Coat a total of 3 times.
