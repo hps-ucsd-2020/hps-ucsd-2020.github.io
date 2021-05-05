@@ -8,7 +8,7 @@
 |4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
 |4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
 |4/24/21|1/4" 1F|12000|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
-[5/4/21|1/4" 1F|18k->13.5k|25->25*110%|Aluminum (unsure of type)|.015| Started fast to try to be "safe" .... we were too catious.  We produced a ton of heat and tool deflection on our superglue method workholding that ended up freeing the part.  We made it through a facing operation at 0.015 and failed on our second pass.  Single flute endmill has a fair bit of tram error still that we couldn't see in the MDF  This could be where the aluminu was melting out.  We weren't even producing many chips, the machine was basically melting through the metal.  It's ripping hot.|
+|5/4/21|1/4" 1F|18k->13.5k|25->25*110%|Aluminum (unsure of type)|.015| Started fast to try to be "safe" .... we were too catious.  We produced a ton of heat and tool deflection on our superglue method workholding that ended up freeing the part.  We made it through a facing operation at 0.015 and failed on our second pass.  Single flute endmill has a fair bit of tram error still that we couldn't see in the MDF  This could be where the aluminu was melting out.  We weren't even producing many chips, the machine was basically melting through the metal.  It's ripping hot.|
 
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 #### Speeds and Feeds Notes
@@ -85,6 +85,14 @@ Our main goal was to manufacture the mdf wasteboard that sits on top of the shap
 
 We ran into a few issues with the tram plate to the spindle not being tightened, this resulted in imperfect bore holes for the T nuts.  After fixing that issue, the left side Y belt was incredibly loose, leading to even worse counterbores.  We ended up needing to re-face the wasteboard... but that is what it is for!  It is quite a tough thing trying to set up a full machine shop at home.  There are so many odds and ends that end up being really important to get everything done right.  You may have a CNC, but we need a way to mount stuff to it!
     
+#### 5/4/21
+See cut log from today for fun notes about our new heat generator.
+
+We cut way too slow today in aluminum.  Our RPMs were very high at 18k to be "safe" but that ended up hurting us.  it would be a good idea for us to buy clamps, take lighter DOC, and increase our feed rate.  This machine can handle quite a bit thrown at it.  It's ok not to baby it, but it's hard to build that confidence when we really are just learning what it can do.  On the bright side, the surface finish of the torn up part ain't too (on 1 side).
+
+Notice in this linked video how it did at the beginning, but it quickly got too hot to do anything.  It throw chips at the very beginning, that is what we are looking for to get that heat away from the part.  
+
+![]({{site.baseurl}}/https://drive.google.com/file/d/1Tf0aHiJYn9jxIuZfn1pFTvZ05TfxPd4C/view?usp=sharing)
 
     
     
