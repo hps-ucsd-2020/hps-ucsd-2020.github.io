@@ -181,15 +181,13 @@ Members: Antoinette, Victor, Paul
 
 ## 4/26/21
 
-### Members: Signe and Sharron
-
-### What we did:
-
--Went over the radius again with Bondo
-	-Scraped away any excess cured bondo we could and sanded down prominent ridges and bumps
-    -Filled in any gaps with bondo (use fingers to push the bondo into the negatives, then firm but light pass with radius piece)
-    -Bondo done in moderately hot and small batches
--Note: do NOT do workday in the rain with the canopy...the canopy is temporary...the rain is eternal
+Members: Signe and Sharron
+What we did:
+- Went over the radius again with Bondo
+	- Scraped away any excess cured bondo we could and sanded down prominent ridges and bumps
+    - Filled in any gaps with bondo (use fingers to push the bondo into the negatives, then firm but light pass with radius piece)
+    - Bondo done in moderately hot and small batches
+- Note: do NOT do workday in the rain with the canopy...the canopy is temporary...the rain is eternal
 
 ## 4/30/21
 
@@ -212,3 +210,25 @@ Members: Signe, Kylan, Asa, Victor
 	- Have people switch sides to ensure even coat
 	- Wait ~30 minutes between coats (bring something to do, i.e. cards)
 	- Coat a total of 3 times.
+
+## 5/3/21
+
+Members: Antoinette, Sharron, Alex
+What we did:
+- Waxing the plug
+	- Product: TR Mold Release Wax (High-Temp) (White lid)
+    - Application: 
+    	- Initial layer applied in small circles, even coating, using the sponge in the tin.
+        - Start on one side of the plug and start at one end. We started on the right at the front/nose of the plug, slowly making our way down to the tail tip.
+        - After doing one side of the plug, move on to the next. Then do the same method for the table.
+    - Buffing:
+    	- Start buffing on one side 12 minutes after you started waxing. You can go a little slower than the person waxing, and we had two people buffing at a time, one person behind the other, just to ensure we got it as smooth as possible.
+    	- Microfiber cloths. Took them back to campus after workday to wash off the wax.
+    - Layering
+    	- Wait about 45 to 60 minutes between initial applications (also given in the instructions on the can) when layering the wax. 
+        - We did 4 layers of wax overall.      
+- Ordered Black Tooling Gel Coat from RevChem
+	- We ran the numbers and estimated that 1 gallon would be enough to cover an estimated 60 sq-ft area with an 18-20 mil thick coat for the plug and table.
+    - I (Sharron) called RevChem directly and got redirected to Mark Prince. I sent an email with our request, and some details about our project and past projects, and had a follow up call (05/04) about receiving the product.
+    - Should expect to receive the shipment at SunRez Wednesday morning (05/05 around 7 am).
+    - Details about payment or receiving for free and distributing a sponsorship packet will be discussed later.
