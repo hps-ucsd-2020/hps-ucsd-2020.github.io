@@ -1,6 +1,6 @@
-## 2021 Drivetrain Manufacturing Page
+# 2021 Drivetrain Manufacturing Page
 
-### Speeds and Feeds Log
+## Speeds and Feeds Log
 
 |Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
 |:--------|:-------:|:-------:|:-------:|:-------:|:-------:|--------:|
@@ -13,34 +13,39 @@
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 #### Speeds and Feeds Notes
 I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
-
-### Projects
-
-#### Worktable
-- to put shapeoko, computer on, storage underneath.
-
-#### Enclosure
-- Done to Reduce noise and keep chips from going everywhere. (safer too)
-- Roof is removable which is essential
-- Could be tiny bit taller so wires don’t scrape
-- Need to cut hole for vacuum hose to go through and attach to spindle
-
-#### Wasteboard
-- Many setbacks occurred- turns out, the cutting area is much smaller than it appears to be
-- 2 sets of holes were drilled into the shapeoko baseboard after the first ones were misaligned.     The ones on the right are properly spaced.
-- Wasteboard is mounted into the baseboard using these 8 holes. The top of the wasteboard has 8       counterbores for the heads of these screws to go into
-- The rest of the board contains holes for clamping fixtures to screw into. They have nail in screw   inserts placed in counterbores on the bottom of the board.
-  * These inserts have been known to fall out of both the wasteboard and baseboard. Hammer them back   in if needed, rotating them so they go into a different position in the counterbore
-  * Screw inserts would be more effective in the future
-- Ran into issue where the fixture inserts had only a set height. They could not screw deeper as     they would hit the baseboard, and could not screw in shallower because the inserts had a short     threaded section. Two solutions were devised:
-  * One, we could shim the wasteboard by putting thin strips of wood between the baseboard and         wasteboard, the the fixture screws could go farther in
-  * Two, we could have the bolts screw all the way in and stick out far, and then place nuts on the     bolts to effectively adjust their height. This was selected.
-- Used MDF. To face, the blue facing bit worked great when adjusted properly, at the speeds listed   in the table.
-- Insert holes were manually drilled after being pecked by the shapeoko for accurate dimensioning.
-- Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED   for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
-  * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the     edges which could be scraped off. Mostly an MDF thing
   
+### Workholding
+#### The Superglue Method
+I forgot how important it is to pass this down!
+ * [NYC CNC superglue workholding video](https://www.youtube.com/watch?v=r6DCvtcU8_M)
+  - They run some pretty crazy ops on just superglue and tape.  This worked perfect for holding down the wasteboard.
+
+The method:
+1) apply blue painters tape to underside of part stock surface.  Ensure surface is clean, and that there is a lot of surface area for the glue.
+2) Ensure good contact is made, tape is flat, and there are no ridges between the seams.
+3) Apply blue painters tape to the wasteboard or cutting surface.
+4) apply a //////// pattern of superglue lines, (less than you think).  Not much superglue is needed.  Maybe space them 0.5" ~ 1" apart.  It may be less or more depending on the size of your part.  The product of too much glue is a slipping and sliding mess, too little and you your part will move on you. 
+5) Align the part as best you can to the machine axis.  You can try fun things like running the side of a smooth shaft in the cnc and squaring things up that way.  You could mark the outline of the part in pencil.  You shouldn't ever count on this alignment being perfect coming off the CNC.  It is good practice to machine all the critical faces that matter to you.  But how you get things mostly correct is your call. 
+
+You can actually do many operations using this method.  It works better than you think.  Watch the video to see some examples, Titans of CNC has som crazy ones too really push this style of workholding, but I would reccomend an aluminum baseplate if you are doing any serious operations.
+
+#### The thick Onion
+It is common in CNC machining to leave an "Onion skin" layer at the bottom of your part.  Tabs would be another method to easily hold a part in material.  This can be quite a clean method, but requires a good deal of precision to get right.  The thick onion skin method has the positive of being much more reliable and precise, but at the cost of material thickeness.
+
+When making 2.5D parts, one can easily use thicker material stock than needed and machine the object with respect to the top surface.  Then, in a second operation, the part can be flipped and the bottom surface can now be faced down to the correct height.  You can get creative wwith the kind of "reverse" tabs you'll have to create.
+
 ### Techniques
+#### Fusion (CAM)
+It should go wihtout saying, but you always need to be thinking 10 steps ahead when doing CAM.  It is very complicated, especially when you are learning.  You will make mistakes, but you will also learn from them when you WRITE THEM DOWN.  This isn't to shame you or embarass you, it is for us to be better machinists in the future.
+##### Stock creation and sizing
+ It is a good idea to create stock that is larger than your real stock.  This will help ensure adpatives clear all material something is slightly misaligned, will help facing operations not overcut, and help all mating faces be machined accurately.  Our reccomendation is to use the following setup:
+ * Fixed size box
+ * Model coordinate offsets from the origin or sides of the material from 1 locating corner
+ 
+##### Custom cut area geometry
+ It is common for us to use the design tab in fusion to create a custom 2d sketch to highly a specific cut area for facing, or a tab using the Thick Onion method.
+
+ 
 #### Aluminum Cutting
 - First, we attempted to cut ¼ in aluminum pieces with jigsaws and metal cutting blades. 
   * Cut through fine, albeit with a good deal of rattling. Cutting oil was needed to keep heat down     ect
@@ -55,9 +60,32 @@ I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufactur
 #### Wood Cutting
 Information on wood cutting (particularly MDF) can be found in the wasteboard project section.
 
-#### The Superglue Method
-I forgot how important it is to pass this down!  Look up NYC CNC or titans of CNC on youtube and look at their superglue videos.  Take 2 pieces of blue painters tape and lay them perfectly on each part.  Just put some superglue between the tape and you have a great workholding solution!  They run some pretty crazy ops on just superglue and tape.  This worked perfect for holding down the wasteboard.
+### Projects
+
+#### Worktable
+- to put shapeoko, computer on, storage underneath.
+
+#### Enclosure
+- Done to Reduce noise and keep chips from going everywhere. (safer too)
+- Roof is removable which is essential
+- Could be tiny bit taller so wires don’t scrape
+- Need to cut hole for vacuum hose to go through and attach to spindle
 Even though the box for the shapeoko is pretty crappy, I am really happy that I buiilt it.  It helps IMMENSLY with the mess.  I am so surprised how quite the shapeoko is!  The vacuum is far louder than the machine, even when it is cutting.  Hopefully we can make some more noise with it soon.
+
+#### Wasteboard
+- Many setbacks occurred- turns out, the cutting area is much smaller than it appears to be
+- 2 sets of holes were drilled into the shapeoko baseboard after the first ones were misaligned. The ones on the right are properly spaced.
+- Wasteboard is mounted into the baseboard using these 8 holes. The top of the wasteboard has 8 counterbores for the heads of these screws to go into
+- The rest of the board contains holes for clamping fixtures to screw into. They have nail in screw inserts placed in counterbores on the bottom of the board.
+  * These inserts have been known to fall out of both the wasteboard and baseboard. Hammer them back in if needed, rotating them so they go into a different position in the counterbore
+  * Screw inserts would be more effective in the future
+- Ran into issue where the fixture inserts had only a set height. They could not screw deeper as they would hit the baseboard, and could not screw in shallower because the inserts had a short     threaded section. Two solutions were devised:
+  * One, we could shim the wasteboard by putting thin strips of wood between the baseboard and wasteboard, the the fixture screws could go farther in
+  * Two, we could have the bolts screw all the way in and stick out far, and then place nuts on the bolts to effectively adjust their height. This was selected.
+- Used MDF. To face, the blue facing bit worked great when adjusted properly, at the speeds listed in the table.
+- Insert holes were manually drilled after being pecked by the shapeoko for accurate dimensioning.
+- Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
+  * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the edges which could be scraped off. Mostly an MDF thing
 
 ### Useful Links
 - Speed and feed information: 
