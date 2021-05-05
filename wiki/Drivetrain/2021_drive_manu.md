@@ -120,7 +120,7 @@ We cut way too slow today in aluminum.  Our RPMs were very high at 18k to be "sa
 
 Notice in this linked video how it did at the beginning, but it quickly got too hot to do anything.  It throw chips at the very beginning, that is what we are looking for to get that heat away from the part.  
 
-![]({{site.baseurl}}/https://drive.google.com/file/d/1Tf0aHiJYn9jxIuZfn1pFTvZ05TfxPd4C/view?usp=sharing)
+[PHOTO OF SHINY ALUMINUM FROM TODAY]({{site.baseurl}}/https://drive.google.com/file/d/1Tf0aHiJYn9jxIuZfn1pFTvZ05TfxPd4C/view?usp=sharing)
 
     
     
