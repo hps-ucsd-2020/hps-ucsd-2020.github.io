@@ -1,3 +1,9 @@
+body{
+  @include headings {
+    color: $color-ac;
+  }
+}
+
 .markdown-quickstyle {
   margin: 10px;
   color: $color-fg-d;
@@ -58,7 +64,7 @@
 
     .teams-title {
       transition: background-color 0.3s 0.2s;
-      background-color: $color-bg;
+      background-color: $color-bg-d;
       padding: 1px 15px;
       // Making the title box display flex boxes
       display: flex;
@@ -95,7 +101,7 @@
     }
 
     .teams-include-format {
-      background-color: $color-bg;
+      background-color: $color-bg-d;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -229,5 +235,12 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.member-element{
+  height: 150px;
+  width: 250px;
+  margin: 5px;
+  background: $color-bg-d;
 }
 
