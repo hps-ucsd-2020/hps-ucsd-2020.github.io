@@ -7,7 +7,8 @@
 |4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
 |4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
 |4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
-|4/24/21|1/4" 1F|1200|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
+|4/24/21|1/4" 1F|12000|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
+[5/4/21|1/4" 1F|18k->13.5k|25->25*110%|Aluminum (unsure of type)|.015| Started fast to try to be "safe" .... we were too catious.  We produced a ton of heat and tool deflection on our superglue method workholding that ended up freeing the part.  We made it through a facing operation at 0.015 and failed on our second pass.  Single flute endmill has a fair bit of tram error still that we couldn't see in the MDF  This could be where the aluminu was melting out.  We weren't even producing many chips, the machine was basically melting through the metal.  It's ripping hot.|
 
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 #### Speeds and Feeds Notes
@@ -94,3 +95,4 @@ We ran into a few issues with the tram plate to the spindle not being tightened,
 - Side rail stop made out of aluminum to quickly index the corner of parts
 - Hold down clamps that work witht the wasteboard
 - Instruction booklet for getting started with the shapeoko (I guess that is what this will turn into isn't it?)
+
