@@ -202,6 +202,7 @@ Members: Antoinette, Victor, Paul
 - Played many rounds of the card game "James Bond" to pass the time in between coats and escape the 93 degree weather.
 
 ## 5/1/21
+
 Members: Signe, Kylan, Asa, Victor
 -Looked for uncovered bondo spots and sprayed with quick-drying primer and polyurethane coating.Wait 10-15 minutes between coats for primer, about the same time for the polyurethane (ckeck instructions)
 -Wiped down plug with dry shop towel and then a slightly damp shop towel to remove dust before moving on.
