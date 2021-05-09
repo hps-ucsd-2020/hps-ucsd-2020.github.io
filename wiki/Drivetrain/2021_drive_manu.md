@@ -19,12 +19,6 @@ I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufactur
 <a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
 <script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
 
-Summaries:
-- https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
-- https://www.harveyperformance.com/in-the-loupe/speeds-and-feeds-101/
-
-[Crash Course Video](https://www.youtube.com/watch?v=S9bceJxpqG0){:target="_blank"}
-
 We can change 2 main things while the machine is running:
 
 **Feed Rate** (inches/minute) - How fast the spindle travels (in translation) when cutting
@@ -36,17 +30,20 @@ These effect one big factor: **Chip Load**
 chip load is the size of the pieces getting cleared by the machine, or the chips.
 - **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
 - **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
-
-[Material Based IPR Reccomendations](https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
  
  Tool reccomendations are specified for each tool and should be researched (by manufacturer, ect)
 
 **SFM**, or Surface Feet Per Minute, is also specified in tool parameters, but should be less important on the shapeoko as it tends to reccomend RPMS we can't achieve (too low) because the shapeoko is so unstable.
 
+Summaries:
+- https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
+- https://www.harveyperformance.com/in-the-loupe/speeds-and-feeds-101/
+
+[Crash Course Video](https://www.youtube.com/watch?v=S9bceJxpqG0){:target="_blank"}
 
 [Shapeoko Reccomendations for 3F 1/4" endmill](http://www.myerswoodshop.com/uploads/1/0/4/1/104162506/shapeoko-3-feeds-and-speeds_orig.jpg)
 
-
+[Material Based IPR Reccomendations](https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
 
 ## Workholding
 ### The Superglue Method
