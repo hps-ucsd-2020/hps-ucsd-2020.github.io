@@ -37,11 +37,13 @@ chip load is the size of the pieces getting cleared by the machine, or the chips
 - **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
 - **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
 
-[**Material Reccomendations:**] (https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
+[**Material Reccomendations:**](https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
  
  Tool reccomendations are specified for each tool and should be researched (by manufacturer, ect)
 
 **SFM**, or Surface Feet Per Minute, is also specified in tool parameters, but should be less important on the shapeoko as it tends to reccomend RPMS we can't achieve (too low) because the shapeoko is so unstable.
+
+
 ![Shapeoko Reccomendations for 3F 1/4" endmill](https://community.carbide3d.com/uploads/default/optimized/2X/4/41447a149444c047ffa18b19c78e61b29811137f_2_1024x848.jpg)
 
 
