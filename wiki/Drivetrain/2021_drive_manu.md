@@ -35,7 +35,7 @@ chip load is the size of the pieces getting cleared by the machine, or the chips
 - **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
 - **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
 
-**Reccomendations:**__ https://www.harveytool.com/resources/general-machining-guidelines
+[**Reccomendations:**] https://www.harveytool.com/resources/general-machining-guidelines
  
 
 ## Workholding
