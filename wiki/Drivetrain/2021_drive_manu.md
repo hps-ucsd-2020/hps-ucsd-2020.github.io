@@ -9,7 +9,7 @@
 |4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
 |4/24/21|1/4" 1F|12000|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
 |5/4/21|1/4" 1F|18k->13.5k|25->25*110%|Aluminum (unsure of type)|.015| Started fast to try to be "safe" .... we were too catious.  We produced a ton of heat and tool deflection on our superglue method workholding that ended up freeing the part.  We made it through a facing operation at 0.015 and failed on our second pass.  Single flute endmill has a fair bit of tram error still that we couldn't see in the MDF  This could be where the aluminu was melting out.  We weren't even producing many chips, the machine was basically melting through the metal.  It's ripping hot.|
-
+|5/8/21|1/4" 1F|17.5k|30|Aluminum (unsure of type)|.015|Could stepdown be too small? shapeoko reccomends .03 and we do half (rest of specs is thier reccomended.) This essentially just tore through. cutting oil was used - wierd smell but slightly helpful- still just pushing it out the way BAD|
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 #### Speeds and Feeds Notes
 I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
@@ -131,4 +131,3 @@ Notice in this linked video how it did at the beginning, but it quickly got too 
 - Side rail stop made out of aluminum to quickly index the corner of parts
 - Hold down clamps that work witht the wasteboard
 - Instruction booklet for getting started with the shapeoko (I guess that is what this will turn into isn't it?)
-
