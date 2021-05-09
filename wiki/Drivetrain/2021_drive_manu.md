@@ -28,10 +28,11 @@ We can change 2 main things while the machine is running:
 **Spindle Speed** (RPM) - How fast the spindle rotates
 
 These effect one big factor: **Chip Load**
-**Chip Load**: = Feed Rate /(RPM x number of flutes)
+
+**Chip Load**: = Feed Rate /(RPM x number of flutes) (IPR) or Cutting Feed.
 chip load is the size of the pieces getting cleared by the machine, or the chips.
- - Too big: biting off more than we can chew. ****
- -Too small: essentially just rubbing. creates a ton of heat, ****
+**Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
+**Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
  
  We can effect other factors
 
