@@ -44,7 +44,7 @@ chip load is the size of the pieces getting cleared by the machine, or the chips
 **SFM**, or Surface Feet Per Minute, is also specified in tool parameters, but should be less important on the shapeoko as it tends to reccomend RPMS we can't achieve (too low) because the shapeoko is so unstable.
 
 
-![Shapeoko Reccomendations for 3F 1/4" endmill](http://www.myerswoodshop.com/uploads/1/0/4/1/104162506/shapeoko-3-feeds-and-speeds_orig.jpg)
+[Shapeoko Reccomendations for 3F 1/4" endmill](http://www.myerswoodshop.com/uploads/1/0/4/1/104162506/shapeoko-3-feeds-and-speeds_orig.jpg)
 
 
 
