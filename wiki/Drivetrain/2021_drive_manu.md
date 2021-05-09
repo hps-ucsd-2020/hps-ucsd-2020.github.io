@@ -21,8 +21,8 @@ I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufactur
 
 We can change 2 main things while the machine is running:
 
-**Feed Rate** (inches/minute) - How fast the spindle travels (in translation) when cutting
-**Spindle Speed** (RPM) - How fast the spindle rotates
+- **Feed Rate** (inches/minute) - How fast the spindle travels (in translation) when cutting
+- **Spindle Speed** (RPM) - How fast the spindle rotates
 
 These effect one big factor: **Chip Load**
 
