@@ -13,7 +13,27 @@
 |date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
 #### Speeds and Feeds Notes
 I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
-  
+
+#### Jack's Research
+Calculator: https://www.custompartnet.com/calculator/milling-speed-and-feed
+
+<a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
+<script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
+
+Summary: https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
+We can change 2 main things while the machine is running:
+
+**Feed Rate** (inches/minute) - How fast the spindle travels (in translation) when cutting
+**Spindle Speed** (RPM) - How fast the spindle rotates
+
+These effect one big factor: **Chip Load**
+**Chip Load**: = Feed Rate /(RPM x number of flutes)
+chip load is the size of the pieces getting cleared by the machine, or the chips.
+ - Too big: biting off more than we can chew. ****
+ -Too small: essentially just rubbing. creates a ton of heat, ****
+ 
+ We can effect other factors
+
 ### Workholding
 #### The Superglue Method
 I forgot how important it is to pass this down!
