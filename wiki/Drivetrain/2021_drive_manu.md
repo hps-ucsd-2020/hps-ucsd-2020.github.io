@@ -16,12 +16,13 @@
 I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
 
 #### Jack's Research
-Calculator: https://www.custompartnet.com/calculator/milling-speed-and-feed
-
 <a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
 <script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
 
-Summary: https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
+Summaries:
+- https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
+- https://www.harveyperformance.com/in-the-loupe/speeds-and-feeds-101/
+
 We can change 2 main things while the machine is running:
 
 **Feed Rate** (inches/minute) - How fast the spindle travels (in translation) when cutting
@@ -29,15 +30,15 @@ We can change 2 main things while the machine is running:
 
 These effect one big factor: **Chip Load**
 
-**Chip Load**: = Feed Rate /(RPM x number of flutes) (IPR) or Cutting Feed.
+**Chip Load**: = Feed Rate /(RPM x number of flutes) (IPR) or **Cutting Feed**.
 chip load is the size of the pieces getting cleared by the machine, or the chips.
-**Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
-**Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
+- **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
+- **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
  
  We can effect other factors
 
-### Workholding
-#### The Superglue Method
+## Workholding
+### The Superglue Method
 I forgot how important it is to pass this down!
  * [NYC CNC superglue workholding video](https://www.youtube.com/watch?v=r6DCvtcU8_M)
   - They run some pretty crazy ops on just superglue and tape.  This worked perfect for holding down the wasteboard.
@@ -51,24 +52,24 @@ The method:
 
 You can actually do many operations using this method.  It works better than you think.  Watch the video to see some examples, Titans of CNC has som crazy ones too really push this style of workholding, but I would reccomend an aluminum baseplate if you are doing any serious operations.
 
-#### The thick Onion
+### The thick Onion
 It is common in CNC machining to leave an "Onion skin" layer at the bottom of your part.  Tabs would be another method to easily hold a part in material.  This can be quite a clean method, but requires a good deal of precision to get right.  The thick onion skin method has the positive of being much more reliable and precise, but at the cost of material thickeness.
 
 When making 2.5D parts, one can easily use thicker material stock than needed and machine the object with respect to the top surface.  Then, in a second operation, the part can be flipped and the bottom surface can now be faced down to the correct height.  You can get creative wwith the kind of "reverse" tabs you'll have to create.
 
-### Techniques
-#### Fusion (CAM)
+## Techniques
+### Fusion (CAM)
 It should go wihtout saying, but you always need to be thinking 10 steps ahead when doing CAM.  It is very complicated, especially when you are learning.  You will make mistakes, but you will also learn from them when you WRITE THEM DOWN.  This isn't to shame you or embarass you, it is for us to be better machinists in the future.
-##### Stock creation and sizing
+#### Stock creation and sizing
  It is a good idea to create stock that is larger than your real stock.  This will help ensure adpatives clear all material something is slightly misaligned, will help facing operations not overcut, and help all mating faces be machined accurately.  Our reccomendation is to use the following setup:
  * Fixed size box
  * Model coordinate offsets from the origin or sides of the material from 1 locating corner
  
-##### Custom cut area geometry
+#### Custom cut area geometry
  It is common for us to use the design tab in fusion to create a custom 2d sketch to highly a specific cut area for facing, or a tab using the Thick Onion method.
 
  
-#### Aluminum Cutting
+### Aluminum Cutting
 - First, we attempted to cut ¼ in aluminum pieces with jigsaws and metal cutting blades. 
   * Cut through fine, albeit with a good deal of rattling. Cutting oil was needed to keep heat down     ect
   * Does NOT cut straight, especially with curves. Cannot expect any accuracy.
@@ -79,22 +80,22 @@ It should go wihtout saying, but you always need to be thinking 10 steps ahead w
   * Carson Quotes: “Clamps gotta go on all operations, that’s just general workholding.  We can use     the superglue method if we really have to face the the top down.  Another change we could make     to the can to make our lives easier is to buy stock that is thicker than our final OD.  For ex:     the clamps: we just machine out the top 0.5” of our 0.75” stock, then we can flip it over and       face everything to the perfect height.  We wouldn’t have to mess around with drilling into our     wasteboard”
   * The blue facing bit was not very good, and extremely loud. Single flute endmill was much           better, 12000 rpm, 25in/min (allegedly, may have been adjusted.)
   
-#### Wood Cutting
+### Wood Cutting
 Information on wood cutting (particularly MDF) can be found in the wasteboard project section.
 
-### Projects
+## Projects
 
-#### Worktable
+### Worktable
 - to put shapeoko, computer on, storage underneath.
 
-#### Enclosure
+### Enclosure
 - Done to Reduce noise and keep chips from going everywhere. (safer too)
 - Roof is removable which is essential
 - Could be tiny bit taller so wires don’t scrape
 - Need to cut hole for vacuum hose to go through and attach to spindle
 Even though the box for the shapeoko is pretty crappy, I am really happy that I buiilt it.  It helps IMMENSLY with the mess.  I am so surprised how quite the shapeoko is!  The vacuum is far louder than the machine, even when it is cutting.  Hopefully we can make some more noise with it soon.
 
-#### Wasteboard
+### Wasteboard
 - Many setbacks occurred- turns out, the cutting area is much smaller than it appears to be
 - 2 sets of holes were drilled into the shapeoko baseboard after the first ones were misaligned. The ones on the right are properly spaced.
 - Wasteboard is mounted into the baseboard using these 8 holes. The top of the wasteboard has 8 counterbores for the heads of these screws to go into
@@ -109,7 +110,7 @@ Even though the box for the shapeoko is pretty crappy, I am really happy that I 
 - Counterbores were created using the shapeoko and a 3 flute endmill. A FINISHING PASS IS REQUIRED for these to get proper tolerance. Otherwise, pretty big variation occurs, ~.005 in, and may not   be circular. In general, finishing passes are a good idea.
   * Another note- the bores ended up tearing more than cutting, leaving a lot of fraying around the edges which could be scraped off. Mostly an MDF thing
 
-### Useful Links
+## Useful Links
 - Speed and feed information: 
  - [https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/feeds-and-speeds-basics
 wired VFD with this tutorial](https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/feeds-and-speeds-basics)
@@ -118,8 +119,8 @@ wired VFD with this tutorial](https://shapeokoenthusiasts.gitbook.io/shapeoko-cn
   - [https://www.youtube.com/watch?v=7OszQS_BQMk](https://www.youtube.com/watch?v=7OszQS_BQMk)
   - [https://www.youtube.com/watch?v=tZObm96Yf34&list=PLbTgCoEmMHVHJqVL7QpzmLGCx1S9UNNnQ&index=26](https://www.youtube.com/watch?v=tZObm96Yf34&list=PLbTgCoEmMHVHJqVL7QpzmLGCx1S9UNNnQ&index=26)
 
-### Journals
-#### 3/6/21
+## Journals
+### 3/6/21
 Used fusion 360 for CAM and tried to get adaptive clearing set up for the wasteboar but ran into issues.  Eventually landed on peck drilling with a chamfer tool to eventuall hand drill all the mounting holes for the wasteboard.  
 
 Jack worked on creating a tool library for our current endmills.
@@ -130,12 +131,12 @@ Wasteboard was cut out of 3/4" mdf that can be resurfaced every month or so depe
 
 This project deserves much more documentation but today will be a start.  Look for future logs
 
-#### 4/6/21
+### 4/6/21
 Our main goal was to manufacture the mdf wasteboard that sits on top of the shapeoko.  This board will provide mounting locations with these [1/4-20 T nuts](https://www.amazon.com/gp/product/B01MSVU3WF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).  Next time I would go with the screw in type of insert because these need to be countersunk.  This requires us to do 2 operstions because the bolts that mount the wasteboard to the Shapeoko will also need to be countersunk.  We are not sure how to accomplish this yet, but we have thought of some ideas to get the positions right on the machine.  It is likely going to be a manual drill with a centerpunch, but it would be so nice to perfectly align the bolt holes to the X and Y of the machine.  We have to figure out how to get it perfect.
 
 We ran into a few issues with the tram plate to the spindle not being tightened, this resulted in imperfect bore holes for the T nuts.  After fixing that issue, the left side Y belt was incredibly loose, leading to even worse counterbores.  We ended up needing to re-face the wasteboard... but that is what it is for!  It is quite a tough thing trying to set up a full machine shop at home.  There are so many odds and ends that end up being really important to get everything done right.  You may have a CNC, but we need a way to mount stuff to it!
     
-#### 5/4/21
+### 5/4/21
 See cut log from today for fun notes about our new heat generator.
 
 We cut way too slow today in aluminum.  Our RPMs were very high at 18k to be "safe" but that ended up hurting us.  it would be a good idea for us to buy clamps, take lighter DOC, and increase our feed rate.  This machine can handle quite a bit thrown at it.  It's ok not to baby it, but it's hard to build that confidence when we really are just learning what it can do.  On the bright side, the surface finish of the torn up part ain't too (on 1 side).
@@ -146,7 +147,7 @@ Notice in this linked video how it did at the beginning, but it quickly got too 
 
     
     
-### Goals for the Future
+## Goals for the Future
 - I'd really like an E-stop button.  The only way to operate the machine now is to cut the power to the motors and turn of the spindle manually.
 - a physical remote with job buttons would also be incredible.  It helps so much to be able to interact without the need of a computer.
 - I WANT THE WASTEBOARD TO BE OVER WTIH ahhhh
