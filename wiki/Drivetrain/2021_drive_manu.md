@@ -23,7 +23,7 @@ Summaries:
 - https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
 - https://www.harveyperformance.com/in-the-loupe/speeds-and-feeds-101/
 
-[**Crash Course Video**](https://www.youtube.com/watch?v=S9bceJxpqG0){:target="_blank"}
+[Crash Course Video](https://www.youtube.com/watch?v=S9bceJxpqG0){:target="_blank"}
 
 We can change 2 main things while the machine is running:
 
@@ -37,7 +37,7 @@ chip load is the size of the pieces getting cleared by the machine, or the chips
 - **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
 - **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
 
-[**Material Based IPR Reccomendations**](https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
+[Material Based IPR Reccomendations](https://www.harveytool.com/resources/general-machining-guidelines){:target="_blank"}
  
  Tool reccomendations are specified for each tool and should be researched (by manufacturer, ect)
 
