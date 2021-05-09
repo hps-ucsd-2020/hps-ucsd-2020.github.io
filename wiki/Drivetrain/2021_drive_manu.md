@@ -15,7 +15,7 @@
 #### Speeds and Feeds Notes
 I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
 
-#### Jack's Research
+### Feed and Speed Calculations
 <a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
 <script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
 
