@@ -45,6 +45,11 @@ src="https://www.youtube.com/embed/S9bceJxpqG0">
 ### The Superglue Method
 I forgot how important it is to pass this down!
  * [NYC CNC superglue workholding video](https://www.youtube.com/watch?v=r6DCvtcU8_M)
+ 
+  <iframe width="420" height="315"
+src="https://www.youtube.com/embed/r6DCvtcU8_M">
+</iframe> 
+
   - They run some pretty crazy ops on just superglue and tape.  This worked perfect for holding down the wasteboard.
 
 The method:
