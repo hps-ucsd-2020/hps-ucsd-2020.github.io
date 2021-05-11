@@ -30,7 +30,12 @@ Summaries:
 - https://static1.squarespace.com/static/59efc96d90badec50a4afa15/t/5a21f4b6e2c483bcf39a2c84/1512174775486/FeedsandSpeeds.pdf
 - https://www.harveyperformance.com/in-the-loupe/speeds-and-feeds-101/
 
+
 [Crash Course Video](https://www.youtube.com/watch?v=S9bceJxpqG0){:target="_blank"}
+
+ <iframe width="420" height="315"
+src="https://www.youtube.com/embed/S9bceJxpqG0">
+</iframe> 
 
 [Shapeoko Reccomendations for 3F 1/4" endmill](http://www.myerswoodshop.com/uploads/1/0/4/1/104162506/shapeoko-3-feeds-and-speeds_orig.jpg)
 
