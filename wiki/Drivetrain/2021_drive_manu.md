@@ -17,8 +17,8 @@ We can change 2 main things while the machine is running:
 
 These effect one big factor: **Chip Load**
 
-**Chip Load**: = Feed Rate /(RPM x number of flutes) (**IPR**) or **Cutting Feed**. **IPT** is inches per tooth, and is often reccomended in the tool specifications.
-chip load is the size of the pieces getting cleared by the machine, or the chips.
+**Chip Load**: = Feed Rate /(RPM x number of flutes). Chip load is the size of the pieces getting cleared by the machine, or the chips.(**IPR**, or Inches per Rotation) or **Cutting Feed**. **IPT** is Inches Per tooth, and is often reccomended in the tool specifications.
+
 - **Too Big:** A chip load that is too large can pack up chips in the cutter, causing poor chip evacuation and eventual breakage. 
 - **Too Small:** A chip load that is too small can cause rubbing, chatter, deflection, and a poor overall cutting action.
  
@@ -61,7 +61,7 @@ The method:
 
 You can actually do many operations using this method.  It works better than you think.  Watch the video to see some examples, Titans of CNC has som crazy ones too really push this style of workholding, but I would reccomend an aluminum baseplate if you are doing any serious operations.
 
-### The thick Onion
+### The Thick Onion
 It is common in CNC machining to leave an "Onion skin" layer at the bottom of your part.  Tabs would be another method to easily hold a part in material.  This can be quite a clean method, but requires a good deal of precision to get right.  The thick onion skin method has the positive of being much more reliable and precise, but at the cost of material thickeness.
 
 When making 2.5D parts, one can easily use thicker material stock than needed and machine the object with respect to the top surface.  Then, in a second operation, the part can be flipped and the bottom surface can now be faced down to the correct height.  You can get creative wwith the kind of "reverse" tabs you'll have to create.
