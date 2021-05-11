@@ -6,6 +6,8 @@ Our Speeds and Feeds Log is done in Sheets and embedded below. You can edit the 
 
 <iframe style="width:100%; height:50vw;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false" ></iframe>
 
+The purpose of recording data in this table is to see trends in what makes good feeds and speeds. This information is intended to assist future users of the Shapeoko and to give reccomendations for future cuts. Log any new attempts in here, no matter the change, and don't be afraid to bash yourself a little bit! Its all a learning experience. 
+
 ### Feed and Speed Calculations
 <a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
 <script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
