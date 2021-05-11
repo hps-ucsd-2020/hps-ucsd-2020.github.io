@@ -4,21 +4,6 @@
 
 <iframe style="width:100%; height:50vw;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false" ></iframe>
 
-|Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
-|:--------|:-------:|:-------:|:-------:|:-------:|:-------:|--------:|
-|4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
-|4/24/21|#201 1/4" 3F|12500|60|high dens mdf|0.07|great.  Roughing adaptive and then finishing contour|
-|4/24/21|Tool 6 Spot Drill|8300|13.33 (plunge)|high dens mdf||good, slight burn- started at 12k and slowed due to burning|
-|4/24/21|1/4" 1F|12000|25|Aluminum (unsure of type)|.015|Worked, but rattly due to poor clamping- inconclusive.|
-|5/4/21|1/4" 1F|18k->13.5k|25->25*110%|Aluminum (unsure of type)|.015| Started fast to try to be "safe" .... we were too catious.  We produced a ton of heat and tool deflection on our superglue method workholding that ended up freeing the part.  We made it through a facing operation at 0.015 and failed on our second pass.  Single flute endmill has a fair bit of tram error still that we couldn't see in the MDF  This could be where the aluminu was melting out.  We weren't even producing many chips, the machine was basically melting through the metal.  It's ripping hot.|
-|5/8/21|1/4" 1F|17.5k|30|Aluminum (unsure of type)|.015|Could stepdown be too small? shapeoko reccomends .03 and we do half (rest of specs is thier reccomended.) This essentially just rubbed through. cutting oil was used - wierd smell but slightly helpful- still just pushing it out the way BAD|
-|5/8/21|1/4" 1F|17.5k-15k|30|Aluminum (unsure of type)|.03| Still bad - Depth of cut didn't help with the clearing. Wasn't really worse, but definitely did not fix the problems- would a 3f help to perfectly match shapeoko reccomendations? Note- wires connecting spindal vibrated off. make sure clamps and machine are tight periodically|
-|5/8/21|1/4" 3F|17.5k-15k|30|Aluminum (unsure of type)|.03| Even still this is bad - Makes sense because this decreases chip load even further. we want a higher load. After some extensive research which could be found in the calculations section, we decided RPMs must come WAY down, to ~10k maybe or lower. Winston uses 10k/25in/min|
-|date|tool|rpm|feed|material|depth of cut|outcome (keep this row on the bottom for easy editing!)|
-
-#### Speeds and Feeds Notes
-I have started an excel sheet in the 20-21 HPS drive under drivetrain/manufacturing to log the results of some of the speed/feed tests I have done.  The end goal will be to arrive at a custome set of parameters that work best for this machine.  I see this excel sheet becoming the go-to for future CNC information.
-
 ### Feed and Speed Calculations
 <a class="cpn_l" href="https://www.custompartnet.com/calculator/milling-speed-and-feed">Milling Speed and Feed Calculator</a>
 <script type="text/javascript" src="https://www.custompartnet.com/gembed/milling-speed-and-feed.js"></script>
