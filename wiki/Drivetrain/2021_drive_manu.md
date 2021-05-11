@@ -4,7 +4,7 @@
 
 Our Speeds and Feeds Log is done in Sheets and embedded below. You can edit the table here: [Manufacturing Log](https://docs.google.com/spreadsheets/d/17wtE6dioKRdUfbwWF88CBMi5Qvfgx0ehQS78kkqmdQ4/edit?usp=sharing){:target="_blank"}
 
-<iframe style="width:100%; height:50vw;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false" ></iframe>
+<iframe style="width:100%; height:30vw;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false" ></iframe>
 
 The purpose of recording data in this table is to see trends in what makes good feeds and speeds. This information is intended to assist future users of the Shapeoko and to give reccomendations for future cuts. Log any new attempts in here, no matter the change, and don't be afraid to bash yourself a little bit! Its all a learning experience. 
 
