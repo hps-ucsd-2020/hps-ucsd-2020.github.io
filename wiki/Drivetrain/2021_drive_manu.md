@@ -2,6 +2,8 @@
 
 ## Speeds and Feeds Log
 
+Our Speeds and Feeds Log is done in Sheets and embedded below. You can edit the table here: [Manufacturing Log](https://docs.google.com/spreadsheets/d/17wtE6dioKRdUfbwWF88CBMi5Qvfgx0ehQS78kkqmdQ4/edit?usp=sharing){:target="_blank"}
+
 <iframe style="width:100%; height:50vw;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false" ></iframe>
 
 ### Feed and Speed Calculations
