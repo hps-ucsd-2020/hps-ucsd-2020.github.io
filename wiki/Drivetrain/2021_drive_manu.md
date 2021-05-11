@@ -2,6 +2,8 @@
 
 ## Speeds and Feeds Log
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false"></iframe>
+
 |Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
 |:--------|:-------:|:-------:|:-------:|:-------:|:-------:|--------:|
 |4/6/21|#201 1/4" 3F|15000|30|MDF|0.25|BURN.  TOO FAST.  0.1 was fine at this speed.  Perhaps more RPM just follow Shapeoko reccomendations|
