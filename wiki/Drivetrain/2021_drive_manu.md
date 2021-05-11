@@ -2,7 +2,7 @@
 
 ## Speeds and Feeds Log
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe set style="width:100%; height:50vw” src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrDz71N3e2Rbf1pyW2Qyn5cjHmfNB7hbe1cxrdN-PpEvFPFYLPJsnG42L_q5yabq5laKLmqWzi1Mor/pubhtml?widget=true&amp;headers=false"></iframe>
 
 |Date |Tool |RPM |Feed (in/min)|Material |Depth of Cut (in) |Outcome |
 |:--------|:-------:|:-------:|:-------:|:-------:|:-------:|--------:|
