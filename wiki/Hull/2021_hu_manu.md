@@ -232,3 +232,55 @@ What we did:
     - I (Sharron) called RevChem directly and got redirected to Mark Prince. I sent an email with our request, and some details about our project and past projects, and had a follow up call (05/04) about receiving the product.
     - Should expect to receive the shipment at SunRez Wednesday morning (05/05 around 7 am).
     - Details about payment or receiving for free and distributing a sponsorship packet will be discussed later.
+    
+## 5/10/21
+
+### PVA Spray:
+- NOTE: PVA is basically what they put in gluesticks. It's water-soluble and non-toxic.
+- We use an air-pressured spray gun to apply the PVA. 
+	- As you apply, the hull will turn a cloudy green.
+    - Any heavy droplets of excess PVA that land on the plug should be gently brushed out with a clean painter's brush, NOT dabbed out with a cloth or hand.
+    	- When brushing out spots, brush at a 45 deg angle.
+        - The PVA will puddle up at "the crease" where the plug meets the table. Brush lightly at it, using the corner of the bristles to drag the product away from the concentrated area/across the crease. BE MINDFUL to not scrape the plug with the metal portion of the brush.
+	- Treat the spraygun as if you're using a regular spraypaint can:
+    	- DO NOT angle your hand away from the hull
+        - Keep your stream at a consistent angle to the surface
+        - Due to the nature of the spray gun, the stream will be angled almost straight down onto the plug. Don't hold sideways.
+        - The path of the spray should be from left to right, then upwards to the right at a 45 deg angle, and downwards to the right at a 45 deg angle for consistent coverage.
+    - When spraying, it's beneficial to set the spray nozzle/fan to a wider, more even spray.
+- Not much wait time between coats of PVA; just make sure it's not running and puddling.
+- Wait about half an hour (a little longer) after laying PVA before moving onto the next step.
+
+### DURATEC (Black Tooling Gel Coat):
+- NOTE: The DURATEC is intended to come off with the female mold.
+- DURATEC measured in grams (2% catalyst by weight to DURATEC)
+- DURATEC has a short work time once catalyzed; prepare to have only 8 minutes for proper application.
+- WAIT BETWEEN LAYERS TO AVOID "CROWS' FEET"
+	- Crows' feet are deep ripples that extend into the first layer of DURATEC.
+	- If crows' feet still occur, a light layer of Bondo (not very hot) can be used to fill in the holes after the DURATEC has cured.
+- "Two-bucket production line." 
+- Let DURATEC cure before being discarded. Catalyze to allow for curing.
+- Apply DURATEC in two layers:
+	- Focus on plug first then cover table.
+    - One person poors, another person uses the roller, and two other people use clean brushes to brush out the DURATEC.
+    	- Brush pattern should be in long streaks length-wise
+	- Wait about 1 hour between each DURATEC layer.
+-Allow DURATEC to fully cure before the next step.
+
+### Fiberglass (Mat):
+- NOTE: We used mat fiberglass. Mat fiberglass has no consistent weaving pattern and is easily tearable by hand, and makes it easier to mold to the curves of the plug.
+- Tear off lengths of fiberglass and lay on the plug/table (end-to-end) to map out the pieces before using resin for application.
+	- Utilize darts - make tears in the fiberglass to allow it to curve around the plug.
+    - The flange of the mold was laid out first: a smaller lip was set around the plug while the flange took up most of the width of the fiberglass strips.
+    	- Estimate of about 1/5 of the strip laid onto the plug itself, and the rest on the table.
+- We used UV Resin.
+- Apply resin to the surface first then lay down the fiberglass lengths.
+	- Full saturation of the fiberglass is important. 
+    - Try to smooth out the fiberglass so that it's one consistent, connected surface.
+    - Tear and trim where there is buckling if required. Much of the buckling, and air bubbles, can be reduced with the small, metal rollers and with brushes. Press/roll them out.
+    - Application of resin can be done with a paint roller and brushes.
+    - Tear small pieces of fiberglass to patch spots when necessary.
+- We laid the first layer of fiberglass for the anticipated 6-layer female mold.
+- Allow it to cure in the sun/under the light before applying the next layer of fiberglass.
+
+Shout-out: big thanks to Jay for helping us purchase paint rollers and sleeves. He's now officially a sponsor of HPS and incredibly appreciated by the team.
