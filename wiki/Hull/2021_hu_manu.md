@@ -284,3 +284,34 @@ What we did:
 - Allow it to cure in the sun/under the light before applying the next layer of fiberglass.
 
 Shout-out: big thanks to Jay for helping us purchase paint rollers and sleeves. He's now officially a sponsor of HPS and incredibly appreciated by the team.
+
+## 5/15/21
+
+We bolstered the plug with another 3 layers of fiberglass:
+
+### Mat Reinforcement around the lip
+- Added 3 thinner strips of mat fiberglass around the lip (btwn the hull and tabletop) for extra support. Directly applied and wetted with resin on the plug itself.
+- 3 Strips were applied staggered: a first one that was mostly on the table, a second one that was mostly on the plug, then a final one directly in the middle.
+
+### Wet-out Station
+- Made up of 2 saw horses, a large plank and a cardboard top. (Additionally put cardboard all over on the floor to protect the ground from resin
+- Used to wet out the thicker pieces of fiberglass (mat side has the most trouble absorbing, start with that side up)
+- People at the plug would "order" strips of varying lengths, they were cut and wet out by the wet-out crew.
+
+### Applying 3 new layers
+- Apply wetted-out strips mat side down onto the plug, using paintbrushes to smooth out initially.
+- We could have made a plan for where to put the strips and how long, but we kinda free handed it, and added "bandaids" at the end at any thin spots or seam looking areas.
+- Pay special attention near the nose cone and the tail to roll out! Since they are the least flat parts. For the nose cone, we pre-cut 3 pieces, (15in, 18in, 20in lengths roughly) and added darts to the middle and sides for easier smoothing. The pieces coming from around the sides were sandwiched in between.
+- Apply the strips in such away that the edges never match up: avoiding seams means avoiding tears (in both senses of the word).
+- Use a roller to remove airbubbles, roll relatively fast, dont pull away material from the lip!
+- Can use fingers around the lip to avoid air bubbles as well.
+- For particularly stubborn air bubbles, sometimes applying a bit more resin will do the trick.
+
+
+### Curing and Clean up
+- We let the plug cure in the sun for about 20 mins (we flipped it halfway to make sure to get any part in the shade)
+- Let all resin covered material cure in the sun before throwing out (this includes gloves which were changed frequently!)
+- Use acetone to clean out the rollers, (disassemble and be sure to get the grooves as well).
+- Note, it is normal for the plug to make cracking sounds afterwards, that indicates that the mold is releasing!
+
+Next steps, building a frame around the mold (that does not touch it so it doesnt pull the wood in), and popping the mold!
