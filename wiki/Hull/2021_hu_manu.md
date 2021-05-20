@@ -235,6 +235,8 @@ What we did:
     
 ## 5/10/21
 
+Members: Alex, Antoinette, Asa, Kylan, Sharron, Signe
+
 ### PVA Spray:
 - NOTE: PVA is basically what they put in gluesticks. It's water-soluble and non-toxic.
 - We use an air-pressured spray gun to apply the PVA. 
@@ -315,3 +317,27 @@ We bolstered the plug with another 3 layers of fiberglass:
 - Note, it is normal for the plug to make cracking sounds afterwards, that indicates that the mold is releasing!
 
 Next steps, building a frame around the mold (that does not touch it so it doesnt pull the wood in), and popping the mold!
+
+## 5/17/21
+
+Members: Alex, Antoinette, Sharron
+
+### Creating the Frame to Pop the Mold (Cutting the Pieces)
+- When planning out pieces to use for the frame
+	- Plan with 2x4 sections sitting so that the pieces are taller than they are wide.
+    - Plan the frame so that it sits close to the mold without touching the mold itself.
+    - Don't stick to a square frame, we had each side surrounded by three pieces that hugged the curves of the mold. Each end has a "butt" piece.
+    - Used curved pieces of 2x4 to your advantage.
+- When fitting pieces to use for the frame
+	- We performed angle cuts (something like miter joints) so that the pieces sit flush (or as close to flush as necessary) to each other.
+    - We used a jigsaw to make the angle cuts. Not preferable. A skill saw is much more practical for this application.
+    - The frame will end up looking like a coffin...
+- When fastening the frame to itself
+	- Use hot batches of BONDO in place of wood glue (less wait time).
+    	- Score X's or other marks into the smooth portion of the wood you're sticking with BONDO and press the BONDO into the grain. The X's won't be needed for ends of wood where you've performed a cut, but make sure to press the bondo into the grain. 
+        - Apply bondo to both components that are meant to be stuck together.
+    	- Hold the fastened pieces together until the BONDO "cheeses." Fill any gaps with more BONDO before it cheeses, or make a smaller, fresh batch to fill in the gaps after the fact.
+       	 ### - Proper BONDO practice when using; clean as you go.
+    - BONDO will probably only need to be used at the "butt" end pieces of the frame (at the tip of the nose and the tail).
+    - Wood screws of appropriate size used as well (Jay was working on this step when we left; it's midterms week).
+    
