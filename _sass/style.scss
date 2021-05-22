@@ -188,7 +188,7 @@ body{
 
 #copy-button {
   color: $color-ac;
-  background-color: $color-ac;
+  background-color: $color-bg-d;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -244,3 +244,11 @@ body{
   background: $color-bg-d;
 }
 
+.sponsor-element{
+  margin: 5px;
+  img {
+    background: white;
+    height: 250px;
+    width: 250px;
+  }
+}
