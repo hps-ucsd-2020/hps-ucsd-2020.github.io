@@ -331,6 +331,7 @@ Members: Alex, Antoinette, Sharron
 - When fitting pieces to use for the frame
 	- We performed angle cuts (something like miter joints) so that the pieces sit flush (or as close to flush as necessary) to each other.
     - We used a jigsaw to make the angle cuts. Not preferable. A skill saw is much more practical for this application.
+    - If your pieces see-saw, you might have to sand down resin deposits with 36 grit sandpaper.
     - The frame will end up looking like a coffin...
 - When fastening the frame to itself
 	- Use hot batches of BONDO in place of wood glue (less wait time).
@@ -340,4 +341,23 @@ Members: Alex, Antoinette, Sharron
        	 ### - Proper BONDO practice when using; clean as you go.
     - BONDO will probably only need to be used at the "butt" end pieces of the frame (at the tip of the nose and the tail).
     - Wood screws of appropriate size used as well (Jay was working on this step when we left; it's midterms week).
+
+## 5/21/21
+
+Members: Victor, Paul, Antoinette
+
+- We bondoed the remainder of the pieces of the frame together generously.
+- After curing, we used 36 grit sandpaper to scratch up the resin under the footprint of the frame (in order to create some grooves for future bondo to cling to).
+- Spend an ungodly amount of time in search for bondo (home depot may let you down, and you may find yourself on a perilous quest through the U-Haul jungle to find the elusive Harbor Freight.) 
+-  Make the mother of all bondo batches (enough to cover the entire perimeter of the frame). Apply the bondo generously to the table, and a bit to the bottom of the frame, and place the frame on the table in a timely fashion.
+-  Let cure while you have a delicious lunch, milk Panchos for all their surf n turfs.
+-  Reinforce the frame's attachment to the table with fiberglass! (Use a wetout station, wet station, place strips mat side up)
+-  Attach fiberglass strips along the frame, alternating in and out. Add extra diagonal support at the corners and joints.
+-  Cure with a UV light!	
+-  Use the tap tap method to determine if the resin is cured! (It makes a much lighter tip tap noise when ready).
+
+
+
+
+
     
