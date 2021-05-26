@@ -357,7 +357,24 @@ Members: Victor, Paul, Antoinette
 -  Use the tap tap method to determine if the resin is cured! (It makes a much lighter tip tap noise when ready).
 
 
+## 5/22/21
+Members: Signe, Asa, Kylan, Victor
 
-
+- Cut legs for the mold
+ 	- Mark where the legs should be (it was sorta arbitrary, just make sure it is far enough away from the center of mass) 
+ 	- 4x 30 inch lengths of 2x4 pieces of wood (try your best to keep it straight when cutting). 
+ 	- 1x 21 inch length of 2x4 and 1x 26 inch length of 2x4 for crossbar (so the table doesn't shake).
+ 	- Legs are clamped to the wood frame and then use shims to level the legs. 
+ 	- Bondo was used to fill in the gaps between the fiberglass and legs (don't fill in the shims).
+ 	- Once cured, remove clamps and shims and fill the gap with more Bondo.
+ 	- After that is cured, use screws to secure the legs to wood frame.
+ 	- Screw in the crossbars (make sure it's level). 
+ - Releasing the mold
+	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
+	- Use shims to wedge under the mold and hammer them it.
+	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard) .
+	- Invert and TADA! a mold is finally done! 
+	
+Here's the video of it being released(it's the first 5 minutes, the rest is just filler) [https://youtu.be/BDBtWh9--M4](https://youtu.be/BDBtWh9--M4)
 
     
