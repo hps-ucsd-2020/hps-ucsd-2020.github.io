@@ -361,14 +361,14 @@ Members: Victor, Paul, Antoinette
 Members: Signe, Asa, Kylan, Victor
 
 - Cut legs for the mold
- 	-Mark where the legs should be (it was sorta arbitrary, just make sure it is far enough away from the center of mass) 
- 	-4x 30 inch lengths of 2x4 pieces of wood (try your best to keep it straight when cutting). 
- 	-1x 21 inch length of 2x4 and 1x 26 inch length of 2x4 for crossbar (so the table doesn't shake).
- 	-Legs are clamped to the wood frame and then use shims to level the legs. 
- 	-Bondo was used to fill in the gaps between the fiberglass and legs (don't fill in the shims).
- 	-Once cured, remove clamps and shims and fill the gap with more Bondo.
- 	-After that is cured, use screws to secure the legs to wood frame.
- 	-Screw in the crossbars (make sure it's level). 
+ 	- Mark where the legs should be (it was sorta arbitrary, just make sure it is far enough away from the center of mass) 
+ 	- 4x 30 inch lengths of 2x4 pieces of wood (try your best to keep it straight when cutting). 
+ 	- 1x 21 inch length of 2x4 and 1x 26 inch length of 2x4 for crossbar (so the table doesn't shake).
+ 	- Legs are clamped to the wood frame and then use shims to level the legs. 
+ 	- Bondo was used to fill in the gaps between the fiberglass and legs (don't fill in the shims).
+ 	- Once cured, remove clamps and shims and fill the gap with more Bondo.
+ 	- After that is cured, use screws to secure the legs to wood frame.
+ 	- Screw in the crossbars (make sure it's level). 
  - Releasing the mold
 	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
 	- Use shims to wedge under the mold and hammer them it.
