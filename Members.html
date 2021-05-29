@@ -7,7 +7,7 @@ title: Members
   <h2 class="fade-in" style="text-align:center">{{ year.year }}</h2>
     {% for team in year.teams %}
       <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
-        {% include image-board.html data=team.members element="member-element.html" %}
+        {% include flex-list.html data=team.members element="member-element.html" %}
     {% endfor %}
 {% endfor %}
 <script src="assets/js/anime.min.js"></script>
