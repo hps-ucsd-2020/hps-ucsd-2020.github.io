@@ -1,0 +1,22 @@
+---
+layout: default
+title: About HPS
+---
+
+<h1 class="fade-in" style="text-align:center">About HPS</h1>
+  <div class="about-layout">
+    <div class="about-column">
+      <img class="fade-in" src="assets/img/team-img/team_3.jpg" alt="Team photo from 2019" />
+      {% include content-box.html data=site.data.about.general %}
+    </div>
+
+
+    <div class="about-column">
+      {% include content-box.html data=site.data.about.competition %}
+      {% include content-box.html data=site.data.about.latest_submarine %}
+      <img class="fade-in" src="assets/img/sub-gallery-img/santiana-2019.jpg" alt="Santiana Hull at ISR 2019" />
+
+    </div>
+  </div>
+<script src="assets/js/anime.min.js"></script>
+<script src="assets/js/about.js"></script>

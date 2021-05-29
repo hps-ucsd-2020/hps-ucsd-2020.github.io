@@ -1,42 +1,42 @@
 home:
-- home-slideshow/team_3.jpg
-- home-slideshow/isr19-flag.jpg
-- home-slideshow/dive_4.JPG
-- home-slideshow/hull_7.jpg
-- home-slideshow/drive_4.png
-- home-slideshow/elec_3.jpg
+- slideshow-images/home-slideshow/team_3.jpg
+- slideshow-images/home-slideshow/isr19-flag.jpg
+- slideshow-images/home-slideshow/dive_4.JPG
+- slideshow-images/home-slideshow/hull_7.jpg
+- slideshow-images/home-slideshow/drive_4.png
+- slideshow-images/home-slideshow/elec_3.jpg
 
 hull:
-- hull-img/hull_1.jpg
-- hull-img/hull_7.jpg
-- hull-img/hull_3.png
-- hull-img/hull_4.jpg
-- hull-img/hull_5.jpg
-- hull-img/hull_6.jpg
+- slideshow-images/hull-img/hull_1.jpg
+- slideshow-images/hull-img/hull_7.jpg
+- slideshow-images/hull-img/hull_3.png
+- slideshow-images/hull-img/hull_4.jpg
+- slideshow-images/hull-img/hull_5.jpg
+- slideshow-images/hull-img/hull_6.jpg
 
 dive:
-- dive-img/dive_1.JPG
-- dive-img/dive_2.jpeg
-- dive-img/dive_3.jpeg
-- dive-img/dive_4.JPG
+- slideshow-images/dive-img/dive_1.JPG
+- slideshow-images/dive-img/dive_2.jpeg
+- slideshow-images/dive-img/dive_3.jpeg
+- slideshow-images/dive-img/dive_4.JPG
 
 drive:
-- drive-img/Full_Drivetrain_Assembly.jpg
-- drive-img/drive-render-2.png
-- drive-img/drive_1.jpg
-- drive-img/drive-machine-shop.jpg
+- slideshow-images/drive-img/Full_Drivetrain_Assembly.jpg
+- slideshow-images/drive-img/drive-render-2.png
+- slideshow-images/drive-img/drive_1.jpg
+- slideshow-images/drive-img/drive-machine-shop.jpg
 
 
 elec:
-- elec-img/elec_1.png
-- elec-img/elec_2.png
-- elec-img/elec_3.jpg
-- elec-img/elec_4.jpg
+- slideshow-images/elec-img/elec_1.png
+- slideshow-images/elec-img/elec_2.png
+- slideshow-images/elec-img/elec_3.jpg
+- slideshow-images/elec-img/elec_4.jpg
 
 hsi:
-- hsi-img/steering_1.png
-- hsi-img/cycloid-gearbox.gif
-- hsi-img/Cycloidal_drive.gif
+- slideshow-images/hsi-img/steering_1.png
+- slideshow-images/hsi-img/cycloid-gearbox.gif
+- slideshow-images/hsi-img/Cycloidal_drive.gif
 
 doc:
-- doc-img/doc_1.png
+- slideshow-images/doc-img/doc_1.png
