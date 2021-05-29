@@ -377,4 +377,27 @@ Members: Signe, Asa, Kylan, Victor
 	
 Here's the video of it being released(it's the first 5 minutes, the rest is just filler) [https://youtu.be/BDBtWh9--M4](https://youtu.be/BDBtWh9--M4)
 
-    
+## 5/28/21
+Members: Paul, Victor, Antoinette
+
+Pre-cut the sections for the layup of the first half of the sub!
+Layers:
+- 2 symmetrical halves of matt, 2in on the flange (triangular pieces to cover middle)
+- 3 pieces of biax (middle, left, right)
+- 3 pieces of biax (middle, left, right)
+
+(We have a sketch)
+
+Added a fourth layer of wax. Clingwrapped the mold to keep it clean.
+
+Notes:
+- wear longsleeves and gloves when working with matt!
+- Also sweep the floor before cutting glass on the floor. 
+
+Layup planned to be made on Friday June 4th.
+Probably can be released on Saturday.
+
+
+
+
+
