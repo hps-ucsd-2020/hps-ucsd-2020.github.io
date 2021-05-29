@@ -68,6 +68,14 @@ It is common in CNC machining to leave an "Onion skin" layer at the bottom of yo
 
 When making 2.5D parts, one can easily use thicker material stock than needed and machine the object with respect to the top surface.  Then, in a second operation, the part can be flipped and the bottom surface can now be faced down to the correct height.  You can get creative wwith the kind of "reverse" tabs you'll have to create.
 
+## Shapeoko Calibration
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=V9E3VEYlfwA">
+</iframe> 
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=P4VverLXpCI">
+</iframe> 
+
 ## Techniques
 ### Fusion (CAM)
 It should go wihtout saying, but you always need to be thinking 10 steps ahead when doing CAM.  It is very complicated, especially when you are learning.  You will make mistakes, but you will also learn from them when you WRITE THEM DOWN.  This isn't to shame you or embarass you, it is for us to be better machinists in the future.
