@@ -8,44 +8,13 @@ title: About HPS
 <div class="about-layout">
   <div class="about-column">
     <img class="fade-in" src="assets/img/team-img/team_3.jpg" alt="Team photo from 2019" />
-    <div class="about-rounded-box fade-in">
-      <div class="box-title">
-        <h2>General</h2>
-      </div>
-      <div class="box-body">
-        <p>Human-Powered Submarine (HPS) is a UC San Diego based student organization that designs, constructs, and competes with a human-propelled, fully flooded submarine.</p>
-        <p>Each year, students dedicate their time to manufacturing and testing their submarine in preparation for the International Submarine Races (ISR) in Bethesda, Maryland, and the European International Submarine Races (eISR) in Gosport, UK.</p>
-        <p>Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership. Many have gone on to pursue research or internships related to their work on the team. While the students’ specific interests are varied, their dedication and enthusiasm are reflected in their final product.</p>
-        <p>Check out our wiki and <a href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!</p>
-      </div>
-    </div>
+    {% include content-box.html data=site.data.about.general %}
   </div>
 
 
   <div class="about-column">
-    <div class="about-rounded-box fade-in">
-      <div class="box-title">
-        <h2>Competition</h2>
-      </div>
-
-      <div class="box-body">
-        <p>We alternate between racing in the International Submarine Races (ISR) and the European International Submarine Races (eISR) every year. For more information about these races, visit their websites!</p>
-        <p><a href="https://internationalsubmarineraces.org" target="_blank">https://internationalsubmarineraces.org</a></p>
-        <p><a href="https://www.subrace.eu" target="_blank">https://www.subrace.eu</a></p>
-      </div>
-    </div>
-
-    <div class="about-rounded-box fade-in">
-      <div class="box-title">
-        <h2>Latest Submarine</h2>
-      </div>
-
-      <div class="box-body">
-        <p>Our latest submarine is Santiana, which we intended to race in ISR 2019.</p>
-        <p>Santiana’s hull was retrofitted from “Spicy Tuna Roll,” raced in ISR 14, which was made with a wet layup of fiberglass. The nose-cone and windows were replaced, the steering was improved upon, and the propulsion system was changed from a tuna tail to a new propeller.</p>
-      </div>
-    </div>
-
+    {% include content-box.html data=site.data.about.competition %}
+    {% include content-box.html data=site.data.about.latest_submarine %}
     <img class="fade-in" src="assets/img/sub-gallery-img/santiana-2019.jpg" alt="Santiana Hull at ISR 2019" />
 
   </div>
