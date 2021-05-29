@@ -68,7 +68,7 @@ It is common in CNC machining to leave an "Onion skin" layer at the bottom of yo
 
 When making 2.5D parts, one can easily use thicker material stock than needed and machine the object with respect to the top surface.  Then, in a second operation, the part can be flipped and the bottom surface can now be faced down to the correct height.  You can get creative wwith the kind of "reverse" tabs you'll have to create.
 
-## Shapeoko Calibration
+## Shapeoko Calibrations
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/V9E3VEYlfwA">
 </iframe> 
