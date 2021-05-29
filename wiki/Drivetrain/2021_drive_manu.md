@@ -70,10 +70,10 @@ When making 2.5D parts, one can easily use thicker material stock than needed an
 
 ## Shapeoko Calibration
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=V9E3VEYlfwA">
+src="https://www.youtube.com/embed/V9E3VEYlfwA">
 </iframe> 
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=P4VverLXpCI">
+src="https://www.youtube.com/embed/P4VverLXpCI">
 </iframe> 
 
 ## Techniques
