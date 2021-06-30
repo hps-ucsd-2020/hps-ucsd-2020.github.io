@@ -7,7 +7,7 @@
     - name: Sharron Perez
       position:
       quote:
-      img:
+      img: 'bgless-diver.png'
 
   - team: Drivetrain
     members:
@@ -134,6 +134,6 @@
       position: Treasurer
       quote:
       img:
-        
+
 # - year: 2021-22
 #   teams:
