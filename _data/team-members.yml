@@ -7,93 +7,118 @@
     - name: Sharron Perez
       position:
       quote:
+      img:
 
   - team: Drivetrain
     members:
     - name: Jack Donohoe
       position: Drivetrain Lead
       quote:
+      img:
+
     - name: Jared Benge
       position: Manufacturing Lead
       quote: Satisfaction
+      img:
     - name: Aryian Schreiner
       position: 
-      quote: 
+      quote:
+      img:
     - name: Cynthia Guzman
       position: 
-      quote: 
+      quote:
+      img:
     - name: Kyle Venstrom
       position: 
       quote:
+      img:
     - name: Loren Phillips
       position: 
       quote:
+      img:
     - name: Miles Chen
       position: 
       quote:
+      img:
     - name: Paul Barnhouse
       position: 
       quote:
+      img:
     - name: Victor Leung
       position: 
       quote:
+      img:
 
   - team: Hull
     members:
     - name: Signe Laundrup
       position: Hull Lead
       quote:
+      img:
     - name: Alexander "Xander" Westra
       position: Hull Lead
       quote:
+      img:
     - name: Kristina Koharchik
       position: 
       quote:
+      img:
     - name: Asa Head
       position: 
       quote:
+      img:
     - name: Antoinette Gautier
       position:
       quote:
+      img:
     - name: Andy Vu
       position: 
       quote:
+      img:
     - name: Saul Chaplin
       position:
       quote:
+      img:
 
   - team: Pilot
     members:
     - name: Carson Black
       position: Pilot
       quote:
+      img:
 
   - team: Dive
     members:
     - name: Kylan "Ky" Dennis
       position: Dive Lead
       quote:
+      img:
 
   - team: Documentation
     members:
     - name: Antoinette Gautier
       position: Documentation Lead
       quote:
+      img:
     - name: Parth Patel
       position: WikiLord
       quote: wow fam desu
+      img:
     - name: Shubham Bhargava
       position: 
       quote:
-  
+      img:
+
   - team: Electronics
     members:
     - name: Tyler Jang
       position: Electronics Lead
       quote:
+      img:
     - name: Parth Patel
       position:
       quote: 
+      img:
 
 
   - team: Media
@@ -101,11 +126,14 @@
     - name: Jeffery Han
       position: Media Lead
       quote:
+      img:
 
   - team: Treasury
     members:
     - name: Carson Black
       position: Treasurer
       quote:
+      img:
+        
 # - year: 2021-22
 #   teams:
