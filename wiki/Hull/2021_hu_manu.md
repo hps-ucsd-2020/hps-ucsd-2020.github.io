@@ -397,7 +397,34 @@ Notes:
 Layup planned to be made on Friday June 4th.
 Probably can be released on Saturday.
 
+## 6/4/21
+Members: Paul, Victor, Antoinette
 
+Preparation for laying up the fiberglass:
+- Apply a liberal amount of PVA to the mold
+ 	- Use a 3" brush to apply the PVA
+ 	 	- Use tape to remove the loose brush hairs before using it
+ 	- Start from the top and work your way down
+ 	- Remember to get the flange
+ 	- Stop brushing when it starts to get sticky  
+- Applying the gel coat
+ 	- Use about 3/4 of a can of black gel coat and the approprate amount of catalyst 
+ 	- Use 3" brushes to distribute the gel coat all around
+ 	- Work from top to bottom to let the gel flow down
+ 	- Use long strokes to cover more at once
+ 	- Stop brushing when it gets sticky
+ 
+Layup of fiberglass:
+- Set up wet-out station
+- Cut pieces of fiberglass into thirds to make it easier to work with
+- Not necessary to make it too wet, can always add more later on
+- Use the plastic scrapers to get rid of air bubbles instead of metal roller
+- Order of fiberglass was matt, biax, biax
+
+Notes:
+- Don't use very thick resin, it makes it very hard to work with
+ 	- iHad ssues with getting the air out and it sticking to your gloves and ruining the matt
+- Wear longsleeves and gloves and take fresh air breaks!
 
 
 
