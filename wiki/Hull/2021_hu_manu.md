@@ -370,10 +370,10 @@ Members: Signe, Asa, Kylan, Victor
  	- After that is cured, use screws to secure the legs to wood frame.
  	- Screw in the crossbars (make sure it's level). 
  - Releasing the mold
-	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
-	- Use shims to wedge under the mold and hammer them it.
-	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard) .
-	- Invert and TADA! a mold is finally done! 
+ 	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
+ 	- Use shims to wedge under the mold and hammer them it.
+ 	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard).
+ 	- Invert and TADA! a mold is finally done! 
 	
 Here's the video of it being released(it's the first 5 minutes, the rest is just filler) [https://youtu.be/BDBtWh9--M4](https://youtu.be/BDBtWh9--M4)
 
@@ -402,17 +402,17 @@ Members: Paul, Victor, Antoinette
 
 Preparation for laying up the fiberglass:
 - Apply a liberal amount of PVA to the mold
- 	- Use a 3" brush to apply the PVA
- 	 	- Use tape to remove the loose brush hairs before using it
- 	- Start from the top and work your way down
+	- Use a 3" brush to apply the PVA
+		- Use tape to remove the loose brush hairs before using it
+	- Start from the top and work your way down
  	- Remember to get the flange
  	- Stop brushing when it starts to get sticky  
 - Applying the gel coat
- 	- Use about 3/4 of a can of black gel coat and the approprate amount of catalyst 
- 	- Use 3" brushes to distribute the gel coat all around
- 	- Work from top to bottom to let the gel flow down
- 	- Use long strokes to cover more at once
- 	- Stop brushing when it gets sticky
+	- Use about 3/4 of a can of black gel coat and the approprate amount of catalyst 
+	- Use 3" brushes to distribute the gel coat all around
+	- Work from top to bottom to let the gel flow down
+	- Use long strokes to cover more at once
+	- Stop brushing when it gets sticky
  
 Layup of fiberglass:
 - Set up wet-out station
@@ -423,7 +423,7 @@ Layup of fiberglass:
 
 Notes:
 - Don't use very thick resin, it makes it very hard to work with
- 	- iHad ssues with getting the air out and it sticking to your gloves and ruining the matt
+	- Had ssues with getting the air out and it sticking to your gloves and ruining the matt
 - Wear longsleeves and gloves and take fresh air breaks!
 
 
