@@ -1,0 +1,24 @@
+# Documentation Team Log!
+
+## 7/6/2021
+Hey It's Antoinette~
+
+Did:
+- Gathered pictures for Dr. Becker in this [Google Folder](https://drive.google.com/drive/folders/1RZ4ywF5MG9XobbFNfNsmHptrais8jHMW?usp=sharing)
+- Started doc log (idea is for each team to have one to track progress, make it a daily thing?)
+
+On the to-do list for the website (really the only things left):
+- Home page Remodel
+- Members Page
+    1. Redraw and crop default diver drawing
+    2. Cut all member pics out, crop and make bg-less
+    3. Remove quotes (sry Parth)
+- Really gotta think about how to upload, crop, compress and change pics on the website easilyyy (rethink folder structure?)
+    1. Displaying photos on wiki, figure that out (everyone needs to be able to do that)
+    2. Changing the photos on the home page or team pages to keep them current? Maybe only doc members need to worry abt this
+    3. Basically a good photo storage/naming system would be *fanstastique*
+
+Less important but also on the to-do list:
+- Figure out a prettier way to display these logs (and the manu logs for hull)
+
+That's all for today!
