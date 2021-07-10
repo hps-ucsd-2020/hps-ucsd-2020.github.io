@@ -22,3 +22,15 @@ Less important but also on the to-do list:
 - Figure out a prettier way to display these logs (and the manu logs for hull)
 
 That's all for today!
+
+## 7/10/21
+Made good progress on the member page today! I redrew the diver and figured out how to change the bubble sizes.
+
+To do list for next time:
+- Fix layout issues so name and position are hugging the image closer
+- Add new roster for 2021-2022 with proper positions
+- cut out square + bg-less images of everyone!
+
+Note, some documentation is starting to happen in HSI which is exciting! Also image uploading does work, Ky has confirmed it, it's actually not a huge ordeal!
+I will reach out to Shubham again about the compression algorithm and cropping tool, but I really don't think it is too much of an issue?
+
