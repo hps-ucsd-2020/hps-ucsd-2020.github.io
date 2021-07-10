@@ -6,118 +6,94 @@
     members:
     - name: Sharron Perez
       position:
-      quote:
       img: 'default_diver.png'
 
   - team: Drivetrain
     members:
     - name: Jack Donohoe
       position: Drivetrain Lead
-      quote:
       img: 'default_diver.png'
 
     - name: Jared Benge
       position: Manufacturing Lead
-      quote: Satisfaction
       img:
     - name: Aryian Schreiner
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Cynthia Guzman
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Kyle Venstrom
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Loren Phillips
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Miles Chen
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Paul Barnhouse
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Victor Leung
       position: 
-      quote:
       img: 'default_diver.png'
 
   - team: Hull
     members:
     - name: Signe Laundrup
       position: Hull Lead
-      quote:
       img: 'default_diver.png'
     - name: Alexander "Xander" Westra
       position: Hull Lead
-      quote:
       img: 'default_diver.png'
     - name: Kristina Koharchik
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Asa Head
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Antoinette Gautier
       position:
-      quote:
       img: 'default_diver.png'
     - name: Andy Vu
       position: 
-      quote:
       img: 'default_diver.png'
     - name: Saul Chaplin
       position:
-      quote:
       img: 'default_diver.png'
 
   - team: Pilot
     members:
     - name: Carson Black
       position: Pilot
-      quote:
       img: 'default_diver.png'
 
   - team: Dive
     members:
     - name: Kylan "Ky" Dennis
       position: Dive Lead
-      quote:
       img: 'default_diver.png'
 
   - team: Documentation
     members:
     - name: Antoinette Gautier
       position: Documentation Lead
-      quote:
       img: 'default_diver.png'
     - name: Parth Patel
       position: WikiLord
-      quote: wow fam desu
       img: 'default_diver.png'
     - name: Shubham Bhargava
       position: 
-      quote:
       img: 'default_diver.png'
 
   - team: Electronics
     members:
     - name: Tyler Jang
       position: Electronics Lead
-      quote:
       img: 'default_diver.png'
     - name: Parth Patel
       position:
-      quote: 
       img: 'default_diver.png'
 
 
@@ -125,14 +101,12 @@
     members:
     - name: Jeffery Han
       position: Media Lead
-      quote:
       img: 'default_diver.png'
 
   - team: Treasury
     members:
     - name: Carson Black
       position: Treasurer
-      quote:
       img: 'default_diver.png'
 
 # - year: 2021-22
