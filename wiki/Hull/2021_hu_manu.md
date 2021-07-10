@@ -426,5 +426,24 @@ Notes:
 	- Had issues with getting the air out and it sticking to your gloves and ruining the matt
 - Wear longsleeves and gloves and take fresh air breaks!
 
+## 6/5/21
+
+We determined that the first half we made was unusable due to a couple of issues:
+
+- We did not use sufficient gel coat (since we trying to get 2 applications out of the same can). For the mold, we had used the entire gallon, but we tried to get away with less.
+- Additionally we didn't let it set/cure long enough. (always follow directions on can!!)
+- The resin was too thick, (too much styrene). This was done because Jay thought the resin was too thin for the mold process, and wanted to avoid drainage. However, this was overcorrected.
+- Because it was so thick, it did not wet out the fiberglass properly, and it was being pushed though the gel coat since it was not curing fast enough.
+- Because of all the previous issues, we worked pretty slowly, which did not help the thin layer of gel coat trying to hold everything in.
+- The resin was just overall too hard to work with, many airbubbles, also the shape was concave so the rollers were not helpful :(
+
+To combat this, we should try to do the following in the future:
+- Generous amount of gel coat, dont over-work it (stop when it starts getting too thick and cottage cheesy)
+- Use a spray gun for gel coat? Or at least for PVA.
+- Proper curing time
+- Regular resin thickness
+- Potentially cure the first layer of matt before continuing to ensure that the rest does not bleed through (but maybe that wont be an issue)
+
+We cut another set of fiberglass layers.
 
 
