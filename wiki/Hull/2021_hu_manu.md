@@ -369,11 +369,11 @@ Members: Signe, Asa, Kylan, Victor
 	- Once cured, remove clamps and shims and fill the gap with more Bondo.
 	- After that is cured, use screws to secure the legs to wood frame.
 	- Screw in the crossbars (make sure it's level). 
- - Releasing the mold
- 	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
- 	- Use shims to wedge under the mold and hammer them it.
- 	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard).
- 	- Invert and TADA! a mold is finally done! 
+- Releasing the mold
+	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
+	- Use shims to wedge under the mold and hammer them it.
+	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard).
+	- Invert and TADA! a mold is finally done! 
 	
 Here's the video of it being released(it's the first 5 minutes, the rest is just filler) [https://youtu.be/BDBtWh9--M4](https://youtu.be/BDBtWh9--M4)
 
