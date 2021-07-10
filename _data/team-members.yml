@@ -16,7 +16,7 @@
 
     - name: Jared Benge
       position: Manufacturing Lead
-      img:
+      img: 'default_diver.png'
     - name: Aryian Schreiner
       position: 
       img: 'default_diver.png'
