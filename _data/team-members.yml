@@ -56,12 +56,10 @@
     - name: Antoinette Gautier
       position:
       img: 'default_diver.png'
-    - name: Andy Vu
-      position: 
-      img: 'default_diver.png'
-    - name: Saul Chaplin
-      position:
-      img: 'default_diver.png'
+    - name: Alex Moretti
+    position:
+    img: 'default_diver.png'
+
 
   - team: Pilot
     members:
