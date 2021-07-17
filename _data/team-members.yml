@@ -6,20 +6,20 @@
     members:
     - name: Sharron Perez
       position:
-      img: 'default_diver.png'
+      img: 'sharron_su21.png'
 
   - team: Drivetrain
     members:
     - name: Jack Donohoe
       position: Drivetrain Lead
-      img: 'default_diver.png'
+      img: 'jack_su21.png'
 
     - name: Jared Benge
       position: Manufacturing Lead
       img: 'default_diver.png'
     - name: Aryian Schreiner
       position: 
-      img: 'default_diver.png'
+      img: 'aryian_su21.png'
     - name: Cynthia Guzman
       position: 
       img: 'default_diver.png'
