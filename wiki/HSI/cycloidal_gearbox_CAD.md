@@ -11,7 +11,7 @@ If the settings are correct, the line should be smooth with no visual sharp edge
 Once you have the four input variables, use the following matlab code to procure the parametric equations required for SolidWorks input.
 
 ```
-function cycloidal_2(C,R,N,E)
+function cycloidal(C,R,N,E)
 % Function to generate the outer cycloidal pattern with C= outer radius of
 % static pins, R= radius of pins, N= number of pins (gear ratio), E
 % eccentricity of shaft
@@ -37,3 +37,5 @@ In the pop-up box, select parametric curve
 Make sure to leave Matlab open, as you will need to copy-paste each equation twice.
 In the pop-up box for equation driven curve, input your x and y equations and select a t of 0 to pi.
 Repeat this process selecting a t of 0 to pi. No, you can not select a t of pi to 2\*pi. No, I do not know why.
+
+Once you have the drawing of the cycloidal gear, you want to create the part. The first step is to create holes in the drawing for the output.
