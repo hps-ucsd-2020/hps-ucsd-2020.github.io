@@ -28,7 +28,7 @@ In SolidWorks, create a new sketch on the top plane. Insert an equation driven c
 
 In the pop-up box, select parametric curve
 
-![Equation driven curve pop-up](assets/img/wiki-img/eq_curve_parameters.png)
+![Equation driven curve pop-up](https://github.com/hps-ucsd-2020/hps-ucsd-2020.github.io/blob/1d744bead89d08bc74b5d667f373cb764cedb1d1/assets/img/wiki-img/eq_curve_parameters.png)
 
 Make sure to leave Matlab open, as you will need to copy-paste each equation twice.
 In the pop-up box for equation driven curve, input your x and y equations and select a t of 0 to pi.
