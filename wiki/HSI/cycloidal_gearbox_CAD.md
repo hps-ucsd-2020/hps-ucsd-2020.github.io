@@ -24,7 +24,7 @@ This will print two equations, which you will use later in the equation driven c
 
 In SolidWorks, create a new sketch on the top plane. Insert an equation driven curve,
 
-![Visual showing where to insert an equation driven curve](assets/img/wiki-img/insert_eq_curve.png)
+![Visual showing where to insert an equation driven curve](https://github.com/hps-ucsd-2020/hps-ucsd-2020.github.io/blob/ab586fb4d7ce3adb1b3fe5957fe1b686b88f9be4/assets/img/wiki-img/insert_eq_curve.png)
 
 In the pop-up box, select parametric curve
 
