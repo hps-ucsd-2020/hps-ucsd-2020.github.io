@@ -11,12 +11,16 @@ If the settings are correct, the line should be smooth with no visual sharp edge
 Once you have the four input variables, use the following matlab code to procure the parametric equations required for SolidWorks input.
 
 ```
-function [yeqn, xeqn]=cycloidal(C,R,N,E)
+function cycloidal_2(C,R,N,E)
 % Function to generate the outer cycloidal pattern with C= outer radius of
 % static pins, R= radius of pins, N= number of pins (gear ratio), E
 % eccentricity of shaft
-    yeqn=fprintf('X=(%.2f*cos(t))-(%.2f*cos(t+arctan(sin((1-%.2f)*t)/((%.2f/(%.2f*%.2f))-cos((1-%.2f)*t)))))-(%.2f*cos(%.2f*t)) \n',C,R,N,C,E,N,N,E,N);
-    xeqn=fprintf('Y=(-%.2f*sin(t))+(%.2f*sin(t+arctan(sin((1-%.2f)*t)/((%.2f/(%.2f*%.2f))-cos((1-%.2f)*t)))))+(%.2f*sin(%.2f*t)) \n',C,R,N,C,E,N,N,E,N);
+    yfn = strcat('X=(%.2f*cos(t))-(%.2f*cos(t+arctan(sin((1-%.2f)*t)',...
+        '/((%.2f/(%.2f*%.2f))-cos((1-%.2f)*t)))))-(%.2f*cos(%.2f*t)) \n');
+    xfn = strcat('Y=(-%.2f*sin(t))+(%.2f*sin(t+arctan(sin((1-%.2f)*t)',...
+        '/((%.2f/(%.2f*%.2f))-cos((1-%.2f)*t)))))+(%.2f*sin(%.2f*t)) \n');
+    yeqn = fprintf(yfn,C,R,N,C,E,N,N,E,N);
+    xeqn = fprintf(xfn,C,R,N,C,E,N,N,E,N);
 ```
 
 In matlab, assign the variables C, R, N, and E to their corresponding values from Desmos. Then, run `cycloidal(C,R,N,E);`  in matlab.
