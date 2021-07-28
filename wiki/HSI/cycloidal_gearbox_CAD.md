@@ -38,4 +38,23 @@ Make sure to leave Matlab open, as you will need to copy-paste each equation twi
 In the pop-up box for equation driven curve, input your x and y equations and select a t of 0 to pi.
 Repeat this process selecting a t of 0 to pi. No, you can not select a t of pi to 2\*pi. No, I do not know why.
 
-Once you have the drawing of the cycloidal gear, you want to create the part. The first step is to create holes in the drawing for the output.
+Once you have the drawing of the cycloidal gear, you want to create the part. The first step is to create holes in the part for the output shaft.
+In the sketch, draw a centerline from the origin (which will be at the center of mass of the cycloid) outward in any direction,
+ending where the center of your output hole will be. Then, click the arrow next to "Linear Sketch Pattern" and select "Circular Sketch Pattern."
+The circle should then automatically loop around the origin, and anywhere between 4 and 6 output holes should be sufficient.
+<!-- Input hole size here, figure out later -->
+After this, create a single hole in the center of the cycloid, which will function as an input hole.
+This will need to be the same size as the exterior diameter of the bearing used on the input shaft. With that, all holes in the gear are done.
+It should be at least 5mm thick.
+
+The next part to make is the gearbox housing, inside of which the cycloids will rotate.
+This will first require the base, which needs to be large enough to house the pins as well as a wall or support structure for the gearbox.
+In the example piece I'm creating, the base will need to be at least 35mm in radius, and should be about 5mm thick.
+In the center of the base, draw a circle which will be the size of the exterior diameter of the bearing which you use to hold the driveshaft in place.
+Extrude the base, which should be at least 5mm thick.
+
+Next will be the pin circle. From the drawing of your base, create a centerline from the center of the circle outward.
+The length of this line must be the radius of your pin circle, which is the C value from Desmos. On the end of this line, draw a circle of radius R, which is also from Desmos.
+Similarly to the output holes, create a circular sketch pattern from this, surrounding the origin.
+The number of occurances in this pattern should be equal to N, the variable from Desmos, which is one more than the number of teeth in the cycloidal gear.
+Since the gearbox should have two gears to minimize vibration, make the pins twice the length of the gear thickness.
