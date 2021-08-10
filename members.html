@@ -3,12 +3,22 @@ layout: default
 title: Members
 ---
 <h1 class="fade-in" style="text-align:center">Members</h1>
+
+<div style="display:flex; justify-content: center;">
+<select name="sel-year" id="sel-year">
+    <option value="2021-2022">2021-2022</option>
+    <option value="2020-2021">2020-2021</option>
+  </select>
+</div>
+
 {% for year in site.data.team-members %}
-  <h2 class="fade-in" style="text-align:center">{{ year.year }}</h2>
+  <!--<h2 class="fade-in" style="text-align:center">{{ year.year }}</h2> -->
     {% for team in year.teams %}
       <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
         {% include image-board.html data=team.members element="member-element.html" %}
     {% endfor %}
 {% endfor %}
+
 <script src="assets/js/anime.min.js"></script>
 <script src="assets/js/members.js"></script>
+
