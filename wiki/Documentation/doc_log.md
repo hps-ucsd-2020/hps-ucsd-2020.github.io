@@ -34,3 +34,12 @@ To do list for next time:
 Note, some documentation is starting to happen in HSI which is exciting! Also image uploading does work, Ky has confirmed it, it's actually not a huge ordeal!
 I will reach out to Shubham again about the compression algorithm and cropping tool, but I really don't think it is too much of an issue?
 
+## 8/19/21
+Switched it up and worked on homepage remodel today!
+I finally switched to using a Personal Auth Token instead of a password. I made a nice new branch for the remodel, added a small description box and social media buttons.
+
+To do in the future:
+- Graphic about merchandise for homepage
+- Make flyers for Oceans 21
+- Make post graphic abt Oceans 21
+- Eventually, go through other main pages and do a clean up (About, Members, Teams, Donate)
