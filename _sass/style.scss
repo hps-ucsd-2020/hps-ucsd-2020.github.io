@@ -281,6 +281,20 @@ body{
 .home-layout{
   display:flex;
   flex-flow: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+
+}
+
+.socials_cont{
+  display:flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials_button{
+  margin:10px;
+  width:75px;
 }
