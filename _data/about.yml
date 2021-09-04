@@ -25,3 +25,11 @@ latest_submarine:
 
     Santiana’s hull was retrofitted from “Spicy Tuna Roll,” raced in ISR 14, which was made with a wet layup of fiberglass. The nose-cone and windows were replaced, the steering was improved upon, and the propulsion system was changed from a tuna tail to a new propeller.
 
+short_description:
+  title: What is Human Powered Submarine?
+  text: |
+    We are a university project team that is part of a larger international organization.
+    We focus on making human-propelled submarines and racing them every year. Locations alternate between Maryland and England.
+    Our project consists of a drivetrain system, electronic or mechanical steering systems, and safety mechanisms contained within a flooded hull.
+
+    Check out our <a href="/About.html"> about page </a> or our social media to find out more! 
