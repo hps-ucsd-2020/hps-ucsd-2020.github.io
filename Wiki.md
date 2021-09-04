@@ -1,5 +1,5 @@
 ---
-layout: git-wiki-default
+layout: wikipage
 ---
 ## Welcome to the HPS Wiki!
 

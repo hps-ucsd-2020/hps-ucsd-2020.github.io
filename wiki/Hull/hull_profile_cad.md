@@ -4,6 +4,9 @@
 
 First you will need to go to [http://airfoiltools.com](http://airfoiltools.com){:target="_blank"} to choose airfoils (best page ever). 
 
+Here is a helpful diagram of an airfoil with all of the relevant nomenclature!
+![airfoil diagram](http://airfoiltools.com/images/display/camberedairfoil3.jpg)
+
 Change the number of points to 200 to generate a more precise curve.
 
 Important considerations:
@@ -13,17 +16,18 @@ Important considerations:
 * You need a vertical and a horizontal profile.
 * We will use this orientation convention - with the front of the submarine at the origin: see picture below
 
-![Hull Profile Orientation Convention](assets/img/wiki-img/hull_profiles_convention.png)
+![Hull Profile Orientation Convention](../../assets/img/wiki-img/hull_profiles_convention.png)
 
 
 ### Importing Data into MATLAB (or Excel)
 
 #### Excel Instructions
-* Be sure to label your separate columns! Color coding might also be helpful.
+* The data we need from this site can be found in the "Dat file" element at the top. Copy both columns into excel starting from the zero entries.
 * Copy paste the coordinates from airfoiltools.com into Excel.
-* Make sure your coordinates are in separate columns (you may want to use the text to columns button)
+* Be sure to label your separate columns! Color coding might also be helpful.
+* Make sure your coordinates are in separate columns.
 * Because the data provided on the site in in 2D, you will need to add a column of zeroes to make it 3D. So add the extra dimensions according to our convention! This means the vertical profile needs an x column of 0, and the horizontal profile requires a y column of 0s.
-* Notice that airfoiltools gives you the top and bottom curve in succession.
+* Notice that airfoiltools gives you the top and bottom curve in succession; they are separated by a blank row in the middle of each x and y column.
 * Manually add bookend curves with (0 0 0) and (0 0 1) so that the separate curves meet in those points. It's ideal to have the same number of points for the curves, and avoid duplicate points within the same curve.
 
 #### Matlab Instructions

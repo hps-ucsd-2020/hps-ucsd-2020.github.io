@@ -1,116 +1,29 @@
-// Colors
-$palebud: #E0FFB2;
-$seaserpent: #57C9D1;
-$spanishgray: #979797;
-$spanishgray-dark: #A8A8A8;
-$deeplemon: #FCBA17;
-$imperialblue: #003F77;
-$imperialblue-light: #104F87; // Mixins
-@mixin headings {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @content;
+body{
+  @include headings {
+    color: $color-ac;
   }
 }
 
-html {
-  background-color: $imperialblue-light;
-  font-family: Arial;
-}
+.markdown-quickstyle {
+  margin: 10px;
+  color: $color-fg-d;
 
-.no-margin {
-  margin: 0;
-}
-
-.main {
-  background-color: $imperialblue;
-  color: $spanishgray;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  min-height: 75px;
-  border-bottom: 5px solid $deeplemon;
-
-  h1 {
-    color: $deeplemon;
+  @include headings {
+    color: $color-ac;
   }
-}
 
-.main-title {
-  margin-left: 10px;
-}
-
-.main-navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-
-  %a-main {
-    margin-left: 10px;
-    margin-right: 10px;
+  a{
     text-decoration: none;
-    font-weight: bold;
-  }
-
-  a.current {
-    @extend %a-main;
-
-    &:link,
-    &:visited {
-      color: $palebud;
+    &:link, &:visited {
+      color: $color-ac;
     }
 
     &:hover {
-      color: $palebud;
-    }
-  }
-
-  a.not-current {
-    @extend %a-main;
-
-    &:link,
-    &:visited {
-      color: $spanishgray;
-    }
-
-    &:hover {
-      color: $palebud;
+      color: $color-ac-l;
     }
   }
 }
-
-footer {
-  background-color: $imperialblue;
-  color: $spanishgray;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  min-height: 75px;
-  width: 100%;
-  border-top: 5px solid $deeplemon;
-  margin-top: 20px;
-}
-
-.slideshow {
-  img {
-    width: 100%;
-    max-height: 700px;
-    object-fit: cover;
-  }
-  margin-bottom: 20px;
-}
-team
+// team
 .centered-flexbox {
   display: flex;
   flex-direction: row;
@@ -121,49 +34,19 @@ team
   h1 {
     font-size: 100px;
     word-break: break-word;
-    color: $deeplemon;
+    color: $color-ac;
     margin: 20px;
   }
 }
 
-.markdown-quickstyle {
-  margin: 10px;
-  color: $spanishgray-dark;
-
-  @include headings {
-    color: $deeplemon;
+.slideshow {
+  img {
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
   }
-
-  a{
-    text-decoration: none;
-    &:link, &:visited {
-      color: $deeplemon;
-    }
-
-    &:hover {
-      color: $palebud;
-    }
-  }
+  margin-bottom: 20px;
 }
-
-.image-board {
-  text-align: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: space-between;
-
-  .element {
-    margin: 5px;
-
-    img {
-      width: 175px;
-      height: 175px;
-    }
-  }
-}
-
 
 .mem-name {
   margin: 2.5em 0em 0em 0em;
@@ -199,7 +82,7 @@ team
 
     .teams-title {
       transition: background-color 0.3s 0.2s;
-      background-color: $imperialblue;
+      background-color: $color-bg-d;
       padding: 1px 15px;
       // Making the title box display flex boxes
       display: flex;
@@ -212,7 +95,7 @@ team
 
       h2 {
         transition: color 0.3s 0.2s;
-        color: $deeplemon;
+        color: $color-ac;
       }
       /* Arrows */
       .arrow-box {
@@ -223,7 +106,7 @@ team
       .arrow {
         transition: border-color 0.3s 0.2s, transform 0.3s 0.2s, -webkit-transform 0.3s 0.2s;
         border-style: solid;
-        border-color: $deeplemon;
+        border-color: $color-ac;
         border-width: 0 4px 4px 0;
         display: inline-block;
         padding: 5px;
@@ -236,7 +119,7 @@ team
     }
 
     .teams-include-format {
-      background-color: $imperialblue;
+      background-color: $color-bg-d;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -259,12 +142,12 @@ team
         flex: 1;
         font-size: 20px;
         padding: 15px;
-        background-color: $spanishgray-dark;
+        background-color: $color-fg-d;
         border-radius: 12px;
         margin: 20px;
 
         p {
-          color: $imperialblue;
+          color: $color-bg;
         }
       }
     }
@@ -277,16 +160,16 @@ team
     max-height: 850px;
 
     .teams-title {
-      background-color: $deeplemon;
+      background-color: $color-ac;
       transition: background-color 0.3s 0s;
 
       h2 {
-        color: $imperialblue;
+        color: $color-bg;
         transition: background-color 0.3s 0s;
       }
 
       .arrow {
-        border-color: $imperialblue;
+        border-color: $color-bg;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         transition: border-color 0.3s 0s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
@@ -295,46 +178,8 @@ team
   }
 
   .active-window {
-    background-color: $imperialblue;
+    background-color: $color-bg;
   }
-}
-
-.about-layout {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-}
-
-.about-column {
-  flex: 1 1 50%;
-  padding-right: 5px;
-  padding-left: 5px;
-
-  img {
-    width: 100%;
-  }
-}
-
-.about-rounded-box {
-  background-color: $imperialblue;
-  border-radius: 12px;
-  margin-bottom: 10px;
-}
-
-.box-body {
-  padding: 0 10px 3px;
-}
-
-.box-title {
-  background-color: $deeplemon;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.box-title h2 {
-  color: $imperialblue-light;
-  padding: 5px;
-  margin: 5px;
 }
 
 #donate-container {
@@ -346,10 +191,10 @@ team
 }
 
 #donate-button {
-  color: $imperialblue;
+  color: $color-bg;
   font-size: 25px;
   font-weight: bold;
-  background-color: $deeplemon;
+  background-color: $color-ac;
   text-align: center;
   padding: 32px 32px;
   border-radius: 25px;
@@ -360,13 +205,13 @@ team
 }
 
 #copy-button {
-  color: $deeplemon;
-  background-color: $imperialblue;
+  color: $color-ac;
+  background-color: $color-bg-d;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   border-style: solid;
-  border-color: $deeplemon;
+  border-color: $color-ac;
   border-radius: 6px;
   padding: 5px;
   cursor: pointer;
@@ -380,8 +225,8 @@ team
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 140px;
-  background-color: $seaserpent;
-  color: $imperialblue;
+  background-color: $color-bg-l;
+  color: $color-bg;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
@@ -402,7 +247,7 @@ team
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: $seaserpent transparent transparent transparent;
+  border-color: $color-bg-l transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -410,26 +255,55 @@ team
   opacity: 1;
 }
 
-// Below are git-wiki things ---------------
+.member-element{
+  height: 150px;
+  width: 250px;
+  margin: 5px;
+  background: $color-bg-d;
+}
 
-.git-wiki-page{
-  @extend .markdown-quickstyle;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-size: 15px;
-  
-
-  .tools-element{
-    border-left: 3px solid $deeplemon;
-    padding-left: 5px;
-    margin: 5px;
+.sponsor-element{
+  margin: 5px;
+  img {
+    background: white;
+    height: 250px;
+    width: 250px;
   }
 }
 
-.git-wiki-copyrights {
-  @extend .markdown-quickstyle;
-  flex-grow: 10; // force to the left (janky solution)
-  text-align: left;
+.about-layout{
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.about-column{
+  flex: 1 1 50%;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.home-layout{
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.socials_cont{
+  display:flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials_button{
+  margin:10px;
+  width:75px;
 }
