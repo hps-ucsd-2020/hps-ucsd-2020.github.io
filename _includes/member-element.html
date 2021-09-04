@@ -1,5 +1,5 @@
 <div style="height:300px;width:250px;background:#003f77" class="element circle-bkg fade-in">
-  <h4 class='mem-name'>{{ include.e.name | default }}</h4>
-  <img src='assets/img/yearbook-img/{{ include.e.img }}'>
-  <p class='mem-position'>{{ include.e.position | default }}</p>
+  <h4 class='mem-name'>{{ item.name | default }}</h4>
+  <img src='assets/img/yearbook-img/{{ item.img }}'>
+  <p class='mem-position'>{{ item.position | default }}</p>
 </div>

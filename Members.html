@@ -11,13 +11,13 @@ title: Members
   </select>
 </div>
 
-{% for year in site.data.team-members %}
-  <!--<h2 class="fade-in" style="text-align:center">{{ year.year }}</h2> -->
-    {% for team in year.teams %}
-      <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
-        {% include flex-list.html data=team.members element="member-element.html" %}
-    {% endfor %}
-{% endfor %}
+
+<!--<h2 class="fade-in" style="text-align:center">{{ year.year }}</h2> -->
+  {% for team in site.data.team-members[0] %}
+    <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
+      {% include flex-list.html data=team.members element="member-element.html" %}
+  {% endfor %}
+
 
 <script src="assets/js/anime.min.js"></script>
 <script src="assets/js/members.js"></script>
