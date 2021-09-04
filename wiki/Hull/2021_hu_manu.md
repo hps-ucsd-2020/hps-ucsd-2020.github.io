@@ -361,18 +361,18 @@ Members: Victor, Paul, Antoinette
 Members: Signe, Asa, Kylan, Victor
 
 - Cut legs for the mold
- 	- Mark where the legs should be (it was sorta arbitrary, just make sure it is far enough away from the center of mass) 
- 	- 4x 30 inch lengths of 2x4 pieces of wood (try your best to keep it straight when cutting). 
- 	- 1x 21 inch length of 2x4 and 1x 26 inch length of 2x4 for crossbar (so the table doesn't shake).
- 	- Legs are clamped to the wood frame and then use shims to level the legs. 
- 	- Bondo was used to fill in the gaps between the fiberglass and legs (don't fill in the shims).
- 	- Once cured, remove clamps and shims and fill the gap with more Bondo.
- 	- After that is cured, use screws to secure the legs to wood frame.
- 	- Screw in the crossbars (make sure it's level). 
- - Releasing the mold
+	- Mark where the legs should be (it was sorta arbitrary, just make sure it is far enough away from the center of mass) 
+	- 4x 30 inch lengths of 2x4 pieces of wood (try your best to keep it straight when cutting). 
+	- 1x 21 inch length of 2x4 and 1x 26 inch length of 2x4 for crossbar (so the table doesn't shake).
+	- Legs are clamped to the wood frame and then use shims to level the legs. 
+	- Bondo was used to fill in the gaps between the fiberglass and legs (don't fill in the shims).
+	- Once cured, remove clamps and shims and fill the gap with more Bondo.
+	- After that is cured, use screws to secure the legs to wood frame.
+	- Screw in the crossbars (make sure it's level). 
+- Releasing the mold
 	- Using some rubber mallets and hammers, hit the edges of the mold to release it from the table.
 	- Use shims to wedge under the mold and hammer them it.
-	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard) .
+	- Lift the mold up and use metal I-beams to support it (use kevlar golves and be careful of the sharp edges of the mold, they are a decapitation hazard).
 	- Invert and TADA! a mold is finally done! 
 	
 Here's the video of it being released(it's the first 5 minutes, the rest is just filler) [https://youtu.be/BDBtWh9--M4](https://youtu.be/BDBtWh9--M4)
@@ -397,7 +397,53 @@ Notes:
 Layup planned to be made on Friday June 4th.
 Probably can be released on Saturday.
 
+## 6/4/21
+Members: Paul, Victor, Antoinette
 
+Preparation for laying up the fiberglass:
+- Apply a liberal amount of PVA to the mold
+	- Use a 3" brush to apply the PVA
+		- Use tape to remove the loose brush hairs before using it
+	- Start from the top and work your way down
+ 	- Remember to get the flange
+ 	- Stop brushing when it starts to get sticky  
+- Applying the gel coat
+	- Use about 3/4 of a can of black gel coat and the approprate amount of catalyst 
+	- Use 3" brushes to distribute the gel coat all around
+	- Work from top to bottom to let the gel flow down
+	- Use long strokes to cover more at once
+	- Stop brushing when it gets sticky
+ 
+Layup of fiberglass:
+- Set up wet-out station
+- Cut pieces of fiberglass into thirds to make it easier to work with
+- Not necessary to make it too wet, can always add more later on
+- Use the plastic scrapers to get rid of air bubbles instead of metal roller
+- Order of fiberglass was matt, biax, biax
 
+Notes:
+- Don't use very thick resin, it makes it very hard to work with
+	- Had issues with getting the air out and it sticking to your gloves and ruining the matt
+- Wear longsleeves and gloves and take fresh air breaks!
+
+## 6/5/21
+
+We determined that the first half we made was unusable due to a couple of issues:
+
+- We did not use sufficient gel coat (since we trying to get 2 applications out of the same can). For the mold, we had used the entire gallon, but we tried to get away with less.
+- Additionally we didn't let it set/cure long enough. (always follow directions on can!!)
+- The resin was too thick, (too much styrene). This was done because Jay thought the resin was too thin for the mold process, and wanted to avoid drainage. However, this was overcorrected.
+- Because it was so thick, it did not wet out the fiberglass properly, and it was being pushed though the gel coat since it was not curing fast enough.
+- Because of all the previous issues, we worked pretty slowly, which did not help the thin layer of gel coat trying to hold everything in.
+- The resin was just overall too hard to work with, many airbubbles, also the shape was concave so the rollers were not helpful :(
+
+To combat this, we should try to do the following in the future:
+- Generous amount of gel coat, dont over-work it (stop when it starts getting too thick and cottage cheesy)
+- Use a spray gun for gel coat? Or at least for PVA.
+- Proper curing time
+- Regular resin thickness
+- Potentially cure the first layer of matt before continuing to ensure that the rest does not bleed through (but maybe that wont be an issue)
+
+We cut another set of fiberglass layers.
 
 
