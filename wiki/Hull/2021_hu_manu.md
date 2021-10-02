@@ -446,4 +446,9 @@ To combat this, we should try to do the following in the future:
 
 We cut another set of fiberglass layers.
 
+## 10/2/21
 
+Today begins the first, of many, in person workdays on campus from 9:00 am to 3:30pm/5:00pm. Today we decided to sort oit some things.
+
+-We first began the process of building an area around teh cage where we can work on the hull of the submarine while avoiding any UV Ray from the sun. We built a small shaded area for ourselves using our tarps and our canopy. With some experimenting, we were able to figure out that our Sunrez resin won't cure instantly while working in this area, so moving fowards this will be the main work area for th hull.
+-We also did some shopping at Harbor Fright and picked up some rubber gloves, wax towels, extra tarps, etc., in order to get reeady for upcoming workdays.
