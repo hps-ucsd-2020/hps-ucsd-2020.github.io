@@ -452,3 +452,56 @@ Today begins the first, of many, in person workdays on campus from 9:00 am to 3:
 
 -We first began the process of building an area around teh cage where we can work on the hull of the submarine while avoiding any UV Ray from the sun. We built a small shaded area for ourselves using our tarps and our canopy. With some experimenting, we were able to figure out that our Sunrez resin won't cure instantly while working in this area, so moving fowards this will be the main work area for th hull.
 -We also did some shopping at Harbor Fright and picked up some rubber gloves, wax towels, extra tarps, etc., in order to get reeady for upcoming workdays.
+
+## 10/15/21
+
+Laying up half of the hull! 
+
+- Waxed for the 11th time 
+- Set out fiberglass pieces in order (matt-biax-biax and center left right)
+- Cut out pieces of peel ply(2 feet longer than the mold), mesh (about the same length as the mold), and vacuum bagging plastic( 2-3 feet extra for dog ears) 
+	- Peel ply was keep fiberglass down when vacuum bagging
+	- Mesh makes it easier for vacuum
+	- Vacuum bag was taped together (not necessary because hole was already there 
+- Used sticky (tacky/seal) tape to line the perimeter of the mold about 1 inch from the edge
+- Put masking tape over it so resin does not get into the white paper protecting the sticky tape
+- Set up resin pouring station and used paper cups to pour resin into the fiberglass and mold
+- 4 people per side with 2 designated resin pourers, switched out after each layer
+- Resin pourers-tip bucket with spout at the top and roll the bucket to pour
+- Put in pieces of fiberglass center, left, right to make sure the side pieces are in place
+- Use extra fiberglass if gaps between fiberglass
+- Use the plastic scrapers to get resin into fiberglass and air bubbles out
+- Use paintbrushes to get bubbles out and make sure the matt fibers does not clump up
+- Have a tray of acetone to put brushes and plastic scrapers to clean
+- Change gloves and continue with laying up the second and third layer
+- Cut extra fiberglass off so it doesn’t go over the tape.
+- Once done, lay blue peel ply layer, smooth it out with the scraper
+- Lay green mesh on top of it, making darts (cuts in the material so it conforms to the curve) where necessary 
+- Cut extra material off so it doesn’t go over the tape
+- Lay vacuum bag material over the other 2 layers
+- Create dog ears (tabs that stick up to allow for vacuum bag material to conform)
+	- Get 6 inch stip of tacky tape
+	- Starting at one end of the mold, tear some of the paper off the tacky tape already on the mold flange and stick the piece of tacky tape to that
+	- Stick the vacuum bag to the tacky tape and make sure there are no wrinkles
+	- Pull some extra vacuum bag material, remove the paper off the tape, and stick it on the other side, making sure there are no wrinkles
+	- Make dog ears about every foot
+- At the other end, place vacuum hose in and seal it with the tacky tape
+- Remove the paper from the remaining tacky tape on the flange and stick the vacuum bag to it, making sure there are no wrinkles
+- Connect to vacuum pump and start sucking
+	- Hopefully, it should pull the vacuum material to fiberglass
+	- If not, go around the seal and find any leaks and patch them with more sticky tape
+- Let it cure for a few hours
+- Remember to clean up the fiberglass and everything afterwards!
+
+Things for the future
+- Use only one vacuum bag
+- Spray PVA on the mold after the wax
+	- Spray gun didn't have the right adapter for the air compressor so we couldn’t spray PVA after the wax layer
+- Better vacuum pump
+	- Took too long to get air out
+- Better seal
+	- Likely a leak somewhere that we couldn’t find
+	- Make sure we are more careful about sealing the vacuum bag to the tacky tape
+- Need to cure it sooner
+	- After letting it sit overnight, the resin was pooling the the bottom of the mold
+
