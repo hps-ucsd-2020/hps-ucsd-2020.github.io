@@ -37,9 +37,6 @@
     - name: Antoinette Gautier
       position:
       img: 'antoinette_su21.png'
-    - name: Alex Moretti
-      position:
-      img: 'alex_su21.png'
     - name: Victor Leung
       position: 
       img: 'victor_su21.png'
@@ -84,6 +81,9 @@
     members:
     - name: Antoinette Gautier
       position: Documentation Lead
+      img: 'antoinette_su21.png'
+    - name: YaoSheng Huang
+      position:
       img: 'antoinette_su21.png'
 
   - team: Media
