@@ -1,278 +1,279 @@
 # - year: 2021-22
 #   teams:
-- year: 2021-22
-  teams:
-  - team: Team Captain
-    members:
-    - name: Sharron Perez
-      position:
-      img: 'sharron_su21.png'
+umbrella:
+  - year: 2021-22
+    all_teams:
+    - team: Team Captain
+      members:
+      - name: Sharron Perez
+        position:
+        img: 'sharron_su21.png'
 
-  - team: Drivetrain
-    members:
-    - name: Jack Donohoe
-      position: Manufacturing Lead
-      img: 'jack_su21.png'
-    - name: Aryian Schreiner
-      position: Drivetrain Lead
-      img: 'aryian_su21.png'
-    - name: Cynthia Guzman
-      position: 
-      img: 'cynthia_su21.png'
-    - name: Loren Phillips
-      position: 
-      img: 'loren_su21.png'
-    - name: Miles Chen
-      position: 
-      img: 'miles_su21.png'
-    - name: Paul Barnhouse
-      position: 
-      img: 'paul_su21.png'
-    - name: Eric Limonadi
-      position: 
-      img: 
+    - team: Drivetrain
+      members:
+      - name: Jack Donohoe
+        position: Manufacturing Lead
+        img: 'jack_su21.png'
+      - name: Aryian Schreiner
+        position: Drivetrain Lead
+        img: 'aryian_su21.png'
+      - name: Cynthia Guzman
+        position: 
+        img: 'cynthia_su21.png'
+      - name: Loren Phillips
+        position: 
+        img: 'loren_su21.png'
+      - name: Miles Chen
+        position: 
+        img: 'miles_su21.png'
+      - name: Paul Barnhouse
+        position: 
+        img: 'paul_su21.png'
+      - name: Eric Limonadi
+        position: 
+        img: 
 
-  - team: Hull
-    members:
-    - name: Asa Head
-      position: Hull Lead
-      img: 'asa_su21.png'
-    - name: Antoinette Gautier
-      position:
-      img: 'antoinette_su21.png'
-    - name: Victor Leung
-      position: 
-      img: 'victor_su21.png'
-    - name: Kylan "Ky" Dennis
-      position: Dive Lead
-      img: 'ky_su21.png'
-    - name: Paul Barnhouse
-      position: 
-      img: 'paul_su21.png'
-    - name: Sharron Perez
-      position:
-      img: 'sharron_su21.png'  
-    - name: Jackson Burchard
-      position:
-      img: 
-    - name: Kaitlyn Callagher
-      position:
-      img: 
-    - name: Molly Perez
-      position:
-      img: 
-    - name: Andy Vu
-      position:
-      img:
-    - name: Janitzia Olivas
-      position:
-      img:
-    - name: Cindy Tran
-      position:
-      img:
-    - name: Kyle Chen
-      position:
-      img:
-    - name: Maximillian Go
-      position:
-      img:
-  
+    - team: Hull
+      members:
+      - name: Asa Head
+        position: Hull Lead
+        img: 'asa_su21.png'
+      - name: Antoinette Gautier
+        position:
+        img: 'antoinette_su21.png'
+      - name: Victor Leung
+        position: 
+        img: 'victor_su21.png'
+      - name: Kylan "Ky" Dennis
+        position: Dive Lead
+        img: 'ky_su21.png'
+      - name: Paul Barnhouse
+        position: 
+        img: 'paul_su21.png'
+      - name: Sharron Perez
+        position:
+        img: 'sharron_su21.png'  
+      - name: Jackson Burchard
+        position:
+        img: 
+      - name: Kaitlyn Callagher
+        position:
+        img: 
+      - name: Molly Perez
+        position:
+        img: 
+      - name: Andy Vu
+        position:
+        img:
+      - name: Janitzia Olivas
+        position:
+        img:
+      - name: Cindy Tran
+        position:
+        img:
+      - name: Kyle Chen
+        position:
+        img:
+      - name: Maximillian Go
+        position:
+        img:
+    
 
-  - team: Pilot
-    members:
-    - name: Carson Black
-      position:
-      img: 'carson_su21.png'
-    - name: Kylan "Ky" Dennis
-      position:
-      img: 'ky_su21.png'
+    - team: Pilot
+      members:
+      - name: Carson Black
+        position:
+        img: 'carson_su21.png'
+      - name: Kylan "Ky" Dennis
+        position:
+        img: 'ky_su21.png'
 
-  - team: HSI / Steering
-    members:
-    - name: Victor Leung
-      position: HSI Lead
-      img: 'victor_su21.png'
-    - name: Miles Chen
-      position: 
-      img: 'miles_su21.png'
-    - name: Kylan "Ky" Dennis
-      position:
-      img: 'ky_su21.png'
-    - name: Ethan Kozberg
-      position:
-      img:
+    - team: HSI / Steering
+      members:
+      - name: Victor Leung
+        position: HSI Lead
+        img: 'victor_su21.png'
+      - name: Miles Chen
+        position: 
+        img: 'miles_su21.png'
+      - name: Kylan "Ky" Dennis
+        position:
+        img: 'ky_su21.png'
+      - name: Ethan Kozberg
+        position:
+        img:
 
-  - team: Dive
-    members:
-    - name: Kylan "Ky" Dennis
-      position: Dive Lead
-      img: 'ky_su21.png'
-    - name: Erica Carter
-      position:
-      img:
-    - name: Alaina Liu
-      position:
-      img:
-    - name: Kaitlyn Callagher
-      position:
-      img:
-    - name: Anne Lin
-      position:
-      img:
-    - name: Molly Perez
-      position:
-      img:
-    - name: Eric Limonadi
-      position:
-      img:
-    - name: Cindy Tran
-      position:
-      img:
-    - name: Kyle Chen
-      position:
-      img:
-    - name: Maximillian Go 
-      position:
-      img:
+    - team: Dive
+      members:
+      - name: Kylan "Ky" Dennis
+        position: Dive Lead
+        img: 'ky_su21.png'
+      - name: Erica Carter
+        position:
+        img:
+      - name: Alaina Liu
+        position:
+        img:
+      - name: Kaitlyn Callagher
+        position:
+        img:
+      - name: Anne Lin
+        position:
+        img:
+      - name: Molly Perez
+        position:
+        img:
+      - name: Eric Limonadi
+        position:
+        img:
+      - name: Cindy Tran
+        position:
+        img:
+      - name: Kyle Chen
+        position:
+        img:
+      - name: Maximillian Go 
+        position:
+        img:
 
-  - team: Documentation
-    members:
-    - name: Antoinette Gautier
-      position: Documentation Lead
-      img: 'antoinette_su21.png'
-    - name: YaoSheng Huang
-      position:
-      img: 'antoinette_su21.png'
+    - team: Documentation
+      members:
+      - name: Antoinette Gautier
+        position: Documentation Lead
+        img: 'antoinette_su21.png'
+      - name: YaoSheng Huang
+        position:
+        img: 
 
-  - team: Media
-    members:
-    - name: Sharron Perez
-      position:
-      img: 'sharron_su21.png'
-    - name: Antoinette Gautier
-      position: Documentation Lead
-      img: 'antoinette_su21.png'
+    - team: Media
+      members:
+      - name: Sharron Perez
+        position:
+        img: 'sharron_su21.png'
+      - name: Antoinette Gautier
+        position: Documentation Lead
+        img: 'antoinette_su21.png'
 
-  - team: Treasury
-    members:
-    - name: Sharron Perez
-      position:
-      img: 'sharron_su21.png'
-    - name: Asa Head
-      position:
-      img: 'asa_su21.png'
-    - name: Jack Donohoe
-      position: Manufacturing Lead
-      img: 'jack_su21.png'
-
-
-# - year: 2020-21
-#  teams:
-- year: 2020-21
-  teams:
-  - team: Team Captain
-    members:
-    - name: Sharron Perez
-      position:
-      img: 'sharron_su21.png'
-
-  - team: Drivetrain
-    members:
-    - name: Jack Donohoe
-      position: Drivetrain Lead
-      img: 'jack_su21.png'
-
-    - name: Jared Benge
-      position: Manufacturing Lead
-      img: 'default_diver.png'
-    - name: Aryian Schreiner
-      position: 
-      img: 'aryian_su21.png'
-    - name: Cynthia Guzman
-      position: 
-      img: 'cynthia_su21.png'
-    - name: Kyle Venstrom
-      position: 
-      img: 'default_diver.png'
-    - name: Loren Phillips
-      position: 
-      img: 'loren_su21.png'
-    - name: Miles Chen
-      position: 
-      img: 'miles_su21.png'
-    - name: Paul Barnhouse
-      position: 
-      img: 'paul_su21.png'
-    - name: Victor Leung
-      position: 
-      img: 'victor_su21.png'
-
-  - team: Hull
-    members:
-    - name: Signe Laundrup
-      position: Hull Lead
-      img: 'default_diver.png'
-    - name: Alexander "Xander" Westra
-      position: Hull Lead
-      img: 'default_diver.png'
-    - name: Kristina Koharchik
-      position: 
-      img: 'kristina_su21.png'
-    - name: Asa Head
-      position: 
-      img: 'asa_su21.png'
-    - name: Antoinette Gautier
-      position:
-      img: 'antoinette_su21.png'
-    - name: Alex Moretti
-      position:
-      img: 'alex_su21.png'
+    - team: Treasury
+      members:
+      - name: Sharron Perez
+        position:
+        img: 'sharron_su21.png'
+      - name: Asa Head
+        position:
+        img: 'asa_su21.png'
+      - name: Jack Donohoe
+        position: Manufacturing Lead
+        img: 'jack_su21.png'
 
 
-  - team: Pilot
-    members:
-    - name: Carson Black
-      position: Pilot
-      img: 'carson_su21.png'
+  # - year: 2020-21
+  #  teams:
+  - year: 2020-21
+    all_teams:
+    - team: Team Captain
+      members:
+      - name: Sharron Perez
+        position:
+        img: 'sharron_su21.png'
 
-  - team: Dive
-    members:
-    - name: Kylan "Ky" Dennis
-      position: Dive Lead
-      img: 'ky_su21.png'
+    - team: Drivetrain
+      members:
+      - name: Jack Donohoe
+        position: Drivetrain Lead
+        img: 'jack_su21.png'
 
-  - team: Documentation
-    members:
-    - name: Antoinette Gautier
-      position: Documentation Lead
-      img: 'antoinette_su21.png'
-    - name: Parth Patel
-      position: WikiLord
-      img: 'parth_su21.png'
-    - name: Shubham Bhargava
-      position: 
-      img: 'default_diver.png'
+      - name: Jared Benge
+        position: Manufacturing Lead
+        img: 'default_diver.png'
+      - name: Aryian Schreiner
+        position: 
+        img: 'aryian_su21.png'
+      - name: Cynthia Guzman
+        position: 
+        img: 'cynthia_su21.png'
+      - name: Kyle Venstrom
+        position: 
+        img: 'default_diver.png'
+      - name: Loren Phillips
+        position: 
+        img: 'loren_su21.png'
+      - name: Miles Chen
+        position: 
+        img: 'miles_su21.png'
+      - name: Paul Barnhouse
+        position: 
+        img: 'paul_su21.png'
+      - name: Victor Leung
+        position: 
+        img: 'victor_su21.png'
 
-  - team: Electronics
-    members:
-    - name: Tyler Jang
-      position: Electronics Lead
-      img: 'tyler_su21.png'
-    - name: Parth Patel
-      position:
-      img: 'parth_su21.png'
+    - team: Hull
+      members:
+      - name: Signe Laundrup
+        position: Hull Lead
+        img: 'default_diver.png'
+      - name: Alexander "Xander" Westra
+        position: Hull Lead
+        img: 'default_diver.png'
+      - name: Kristina Koharchik
+        position: 
+        img: 'kristina_su21.png'
+      - name: Asa Head
+        position: 
+        img: 'asa_su21.png'
+      - name: Antoinette Gautier
+        position:
+        img: 'antoinette_su21.png'
+      - name: Alex Moretti
+        position:
+        img: 'alex_su21.png'
 
 
-  - team: Media
-    members:
-    - name: Jeffery Han
-      position: Media Lead
-      img: 'jeffrey_su21.png'
+    - team: Pilot
+      members:
+      - name: Carson Black
+        position: Pilot
+        img: 'carson_su21.png'
 
-  - team: Treasury
-    members:
-    - name: Carson Black
-      position: Treasurer
-      img: 'carson_su21.png'
+    - team: Dive
+      members:
+      - name: Kylan "Ky" Dennis
+        position: Dive Lead
+        img: 'ky_su21.png'
+
+    - team: Documentation
+      members:
+      - name: Antoinette Gautier
+        position: Documentation Lead
+        img: 'antoinette_su21.png'
+      - name: Parth Patel
+        position: WikiLord
+        img: 'parth_su21.png'
+      - name: Shubham Bhargava
+        position: 
+        img: 'default_diver.png'
+
+    - team: Electronics
+      members:
+      - name: Tyler Jang
+        position: Electronics Lead
+        img: 'tyler_su21.png'
+      - name: Parth Patel
+        position:
+        img: 'parth_su21.png'
+
+
+    - team: Media
+      members:
+      - name: Jeffery Han
+        position: Media Lead
+        img: 'jeffrey_su21.png'
+
+    - team: Treasury
+      members:
+      - name: Carson Black
+        position: Treasurer
+        img: 'carson_su21.png'
 
 
