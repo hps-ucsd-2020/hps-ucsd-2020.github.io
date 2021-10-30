@@ -31,7 +31,7 @@ umbrella:
         img: 'paul_su21.png'
       - name: Eric Limonadi
         position: 
-        img: 
+        img: default_diver.png
 
     - team: Hull
       members:
@@ -55,28 +55,28 @@ umbrella:
         img: 'sharron_su21.png'  
       - name: Jackson Burchard
         position:
-        img: 
+        img: default_diver.png
       - name: Kaitlyn Callagher
         position:
-        img: 
+        img: default_diver.png
       - name: Molly Perez
         position:
-        img: 
+        img: default_diver.png
       - name: Andy Vu
         position:
-        img:
+        img: default_diver.png
       - name: Janitzia Olivas
         position:
-        img:
+        img: default_diver.png
       - name: Cindy Tran
         position:
-        img:
+        img: default_diver.png
       - name: Kyle Chen
         position:
-        img:
+        img: default_diver.png
       - name: Maximillian Go
         position:
-        img:
+        img: default_diver.png
     
 
     - team: Pilot
@@ -101,7 +101,7 @@ umbrella:
         img: 'ky_su21.png'
       - name: Ethan Kozberg
         position:
-        img:
+        img: default_diver.png
 
     - team: Dive
       members:
@@ -110,31 +110,31 @@ umbrella:
         img: 'ky_su21.png'
       - name: Erica Carter
         position:
-        img:
+        img: default_diver.png
       - name: Alaina Liu
         position:
-        img:
+        img: default_diver.png
       - name: Kaitlyn Callagher
         position:
-        img:
+        img: default_diver.png
       - name: Anne Lin
         position:
-        img:
+        img: default_diver.png
       - name: Molly Perez
         position:
-        img:
+        img: default_diver.png
       - name: Eric Limonadi
         position:
-        img:
+        img: default_diver.png
       - name: Cindy Tran
         position:
-        img:
+        img: default_diver.png
       - name: Kyle Chen
         position:
-        img:
+        img: default_diver.png
       - name: Maximillian Go 
         position:
-        img:
+        img: default_diver.png
 
     - team: Documentation
       members:
@@ -143,7 +143,7 @@ umbrella:
         img: 'antoinette_su21.png'
       - name: YaoSheng Huang
         position:
-        img: 
+        img: default_diver.png
 
     - team: Media
       members:
