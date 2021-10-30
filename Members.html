@@ -2,23 +2,15 @@
 layout: default
 title: Members
 ---
+
 <h1 class="fade-in" style="text-align:center">Members</h1>
+<h2 class="fade-in" style="text-align:center">{{ site.data.team-members.umbrella[0].year }}</h2>
 
-<div style="display:flex; justify-content: center;">
-<select name="sel-year" id="sel-year">
-    <option value="2021-2022">2021-2022</option>
-    <option value="2020-2021">2020-2021</option>
-  </select>
-</div>
-
-
-<!--<h2 class="fade-in" style="text-align:center">{{ year.year }}</h2> -->
-  {% for team in site.data.team-members[0] %}
-    <h3 class="fade-in" style="text-align:center">{{ team.team }}</h3>
-      {% include flex-list.html data=team.members element="member-element.html" %}
-  {% endfor %}
-
+{% for item in site.data.team-members.umbrella[0].all_teams %} <!-- Loops through all_team, each team at a time-->
+  <!-- Given a single team-->
+  <h3 class="fade-in" style="text-align:center">{{ item.team }}</h3> <!-- Print team name-->
+  {% include flex-list.html data=item.members element="member-element.html" %} <!-- Paste member name/info-->
+{% endfor %}
 
 <script src="assets/js/anime.min.js"></script>
 <script src="assets/js/members.js"></script>
-
