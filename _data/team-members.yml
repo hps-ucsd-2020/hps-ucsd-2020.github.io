@@ -28,6 +28,9 @@
     - name: Paul Barnhouse
       position: 
       img: 'paul_su21.png'
+    - name: Eric Limonadi
+      position: 
+      img: 
 
   - team: Hull
     members:
@@ -49,6 +52,31 @@
     - name: Sharron Perez
       position:
       img: 'sharron_su21.png'  
+    - name: Jackson Burchard
+      position:
+      img: 
+    - name: Kaitlyn Callagher
+      position:
+      img: 
+    - name: Molly Perez
+      position:
+      img: 
+    - name: Andy Vu
+      position:
+      img:
+    - name: Janitzia Olivas
+      position:
+      img:
+    - name: Cindy Tran
+      position:
+      img:
+    - name: Kyle Chen
+      position:
+      img:
+    - name: Maximillian Go
+      position:
+      img:
+  
 
   - team: Pilot
     members:
@@ -70,12 +98,42 @@
     - name: Kylan "Ky" Dennis
       position:
       img: 'ky_su21.png'
+    - name: Ethan Kozberg
+      position:
+      img:
 
   - team: Dive
     members:
     - name: Kylan "Ky" Dennis
       position: Dive Lead
       img: 'ky_su21.png'
+    - name: Erica Carter
+      position:
+      img:
+    - name: Alaina Liu
+      position:
+      img:
+    - name: Kaitlyn Callagher
+      position:
+      img:
+    - name: Anne Lin
+      position:
+      img:
+    - name: Molly Perez
+      position:
+      img:
+    - name: Eric Limonadi
+      position:
+      img:
+    - name: Cindy Tran
+      position:
+      img:
+    - name: Kyle Chen
+      position:
+      img:
+    - name: Maximillian Go 
+      position:
+      img:
 
   - team: Documentation
     members:
