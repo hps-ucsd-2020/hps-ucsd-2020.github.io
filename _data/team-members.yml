@@ -45,7 +45,7 @@ umbrella:
         position: 
         img: 'victor_su21.png'
       - name: Kylan "Ky" Dennis
-        position: Dive Lead
+        position: 
         img: 'ky_su21.png'
       - name: Paul Barnhouse
         position: 
@@ -151,7 +151,7 @@ umbrella:
         position:
         img: 'sharron_su21.png'
       - name: Antoinette Gautier
-        position: Documentation Lead
+        position: 
         img: 'antoinette_su21.png'
 
     - team: Treasury
@@ -163,7 +163,7 @@ umbrella:
         position:
         img: 'asa_su21.png'
       - name: Jack Donohoe
-        position: Manufacturing Lead
+        position: 
         img: 'jack_su21.png'
 
 
