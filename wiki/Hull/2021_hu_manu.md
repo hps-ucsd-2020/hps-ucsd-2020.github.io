@@ -3,6 +3,9 @@
 Here is the overall plan:
 [https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing)
 
+Here is the Fall 2021-22 Plan
+https://docs.google.com/document/d/15_tKZz3YFxhcwXQBZGW7vrNx5y2WiCRteNhGTrewzRI/edit
+
 ## 3/5/21
 
 ### What we did
@@ -505,3 +508,37 @@ Things for the future
 - Need to cure it sooner
 	- After letting it sit overnight, the resin was pooling the the bottom of the mold
 
+## 10/22/21
+
+We repeated the process of the past two weeks into one Saturday Meeting today.
+This was by far the longest workday of this quarter and required all hands on deck.
+We decided to lay up the second half of the submarine during this workday.
+Before we got started we set up a dark space in between two cages to work in using tarps and the canopy
+Just like last time we needed to put the relaxing agent into the female mold, thanks to its effectiveness from last time we decided to use Partall Wax again.
+At the beginning of the workday we waxed on 11 more layers of wax into the mold.
+After we waxed on the coats we moved forward to laying up the 3 layers of fiberglass (1 mat layer and 2 biax layers)
+Just like last time we placed the glass in the mold first then we layer the resin on it. We repeated this process 3 times in a row
+Once we finished laying up we attempted to cure the glass using a Sunrez UV lamp, the process took a long time and it was a bit difficult to keep the UV lamp stable over the female mold and keeping it on.
+Once we cured the hull as much as we could we decided to keep it out all day the next day
+I returned the next day to pop the hull half out of the female mold. It popped off very quickly due to the large amount of wax in the mold and it was another substantial success.
+
+Things For the Future:
+Use LESS resin
+We went a bit too long on waxing
+Make sure there is no drip page occurring on the molds.
+
+## 10/29/21
+
+This workday was a bit slow and laid back
+We made a large amount of progress in the last 4 weeks and we need some time to plan for certain logistic like the hatch, nose cone, and the location of the two halves
+We spent some time planning for what to CAD on the hulls at the beginning of the workday
+After the planning, we set up the canopy to start working. This workday was spent cutting the sharp edges of the two hulls with angle grinders
+This process was a bit dangerous due to the large amount  of fiberglass dust that is created when cutting into the hulls. 
+This means everyone was required to wear dust masks and respirators while working
+We cut the edges off to the base of the hulls. We then switched tops to sand the edges down to the same level.
+We were planning on using a planar tool to accomplish this but it wasn’t available at the time. 
+We sanded down the edges to both hull halves to the point where they appear as small boats.
+We then cleaned up all the fiberglass dust, talked about future plans, and ended early.
+
+Things for the Future:
+Make sure people wear gloves while angle grinding the hulls, the fiberglass dust will get all over your hands and cause severe itching.
