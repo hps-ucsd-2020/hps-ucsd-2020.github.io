@@ -3,6 +3,9 @@
 Here is the overall plan:
 [https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1FpEpg2pam0QTiP-ILc7xGTU_rcyUhyg0Rh0q4cnGLFo/edit?usp=sharing)
 
+Here is the Fall 2021-22 Plan
+https://docs.google.com/document/d/15_tKZz3YFxhcwXQBZGW7vrNx5y2WiCRteNhGTrewzRI/edit
+
 ## 3/5/21
 
 ### What we did
@@ -446,4 +449,96 @@ To combat this, we should try to do the following in the future:
 
 We cut another set of fiberglass layers.
 
+## 10/2/21
 
+Today begins the first, of many, in person workdays on campus from 9:00 am to 3:30pm/5:00pm. Today we decided to sort oit some things.
+
+-We first began the process of building an area around teh cage where we can work on the hull of the submarine while avoiding any UV Ray from the sun. We built a small shaded area for ourselves using our tarps and our canopy. With some experimenting, we were able to figure out that our Sunrez resin won't cure instantly while working in this area, so moving fowards this will be the main work area for th hull.
+-We also did some shopping at Harbor Fright and picked up some rubber gloves, wax towels, extra tarps, etc., in order to get reeady for upcoming workdays.
+
+## 10/15/21
+
+Laying up half of the hull! 
+
+- Waxed for the 11th time 
+- Set out fiberglass pieces in order (matt-biax-biax and center left right)
+- Cut out pieces of peel ply(2 feet longer than the mold), mesh (about the same length as the mold), and vacuum bagging plastic( 2-3 feet extra for dog ears) 
+	- Peel ply was keep fiberglass down when vacuum bagging
+	- Mesh makes it easier for vacuum
+	- Vacuum bag was taped together (not necessary because hole was already there 
+- Used sticky (tacky/seal) tape to line the perimeter of the mold about 1 inch from the edge
+- Put masking tape over it so resin does not get into the white paper protecting the sticky tape
+- Set up resin pouring station and used paper cups to pour resin into the fiberglass and mold
+- 4 people per side with 2 designated resin pourers, switched out after each layer
+- Resin pourers-tip bucket with spout at the top and roll the bucket to pour
+- Put in pieces of fiberglass center, left, right to make sure the side pieces are in place
+- Use extra fiberglass if gaps between fiberglass
+- Use the plastic scrapers to get resin into fiberglass and air bubbles out
+- Use paintbrushes to get bubbles out and make sure the matt fibers does not clump up
+- Have a tray of acetone to put brushes and plastic scrapers to clean
+- Change gloves and continue with laying up the second and third layer
+- Cut extra fiberglass off so it doesn’t go over the tape.
+- Once done, lay blue peel ply layer, smooth it out with the scraper
+- Lay green mesh on top of it, making darts (cuts in the material so it conforms to the curve) where necessary 
+- Cut extra material off so it doesn’t go over the tape
+- Lay vacuum bag material over the other 2 layers
+- Create dog ears (tabs that stick up to allow for vacuum bag material to conform)
+	- Get 6 inch stip of tacky tape
+	- Starting at one end of the mold, tear some of the paper off the tacky tape already on the mold flange and stick the piece of tacky tape to that
+	- Stick the vacuum bag to the tacky tape and make sure there are no wrinkles
+	- Pull some extra vacuum bag material, remove the paper off the tape, and stick it on the other side, making sure there are no wrinkles
+	- Make dog ears about every foot
+- At the other end, place vacuum hose in and seal it with the tacky tape
+- Remove the paper from the remaining tacky tape on the flange and stick the vacuum bag to it, making sure there are no wrinkles
+- Connect to vacuum pump and start sucking
+	- Hopefully, it should pull the vacuum material to fiberglass
+	- If not, go around the seal and find any leaks and patch them with more sticky tape
+- Let it cure for a few hours
+- Remember to clean up the fiberglass and everything afterwards!
+
+Things for the future
+- Use only one vacuum bag
+- Spray PVA on the mold after the wax
+	- Spray gun didn't have the right adapter for the air compressor so we couldn’t spray PVA after the wax layer
+- Better vacuum pump
+	- Took too long to get air out
+- Better seal
+	- Likely a leak somewhere that we couldn’t find
+	- Make sure we are more careful about sealing the vacuum bag to the tacky tape
+- Need to cure it sooner
+	- After letting it sit overnight, the resin was pooling the the bottom of the mold
+
+## 10/22/21
+
+We repeated the process of the past two weeks into one Saturday Meeting today.
+This was by far the longest workday of this quarter and required all hands on deck.
+We decided to lay up the second half of the submarine during this workday.
+Before we got started we set up a dark space in between two cages to work in using tarps and the canopy
+Just like last time we needed to put the relaxing agent into the female mold, thanks to its effectiveness from last time we decided to use Partall Wax again.
+At the beginning of the workday we waxed on 11 more layers of wax into the mold.
+After we waxed on the coats we moved forward to laying up the 3 layers of fiberglass (1 mat layer and 2 biax layers)
+Just like last time we placed the glass in the mold first then we layer the resin on it. We repeated this process 3 times in a row
+Once we finished laying up we attempted to cure the glass using a Sunrez UV lamp, the process took a long time and it was a bit difficult to keep the UV lamp stable over the female mold and keeping it on.
+Once we cured the hull as much as we could we decided to keep it out all day the next day
+I returned the next day to pop the hull half out of the female mold. It popped off very quickly due to the large amount of wax in the mold and it was another substantial success.
+
+Things For the Future:
+Use LESS resin
+We went a bit too long on waxing
+Make sure there is no drip page occurring on the molds.
+
+## 10/29/21
+
+This workday was a bit slow and laid back
+We made a large amount of progress in the last 4 weeks and we need some time to plan for certain logistic like the hatch, nose cone, and the location of the two halves
+We spent some time planning for what to CAD on the hulls at the beginning of the workday
+After the planning, we set up the canopy to start working. This workday was spent cutting the sharp edges of the two hulls with angle grinders
+This process was a bit dangerous due to the large amount  of fiberglass dust that is created when cutting into the hulls. 
+This means everyone was required to wear dust masks and respirators while working
+We cut the edges off to the base of the hulls. We then switched tops to sand the edges down to the same level.
+We were planning on using a planar tool to accomplish this but it wasn’t available at the time. 
+We sanded down the edges to both hull halves to the point where they appear as small boats.
+We then cleaned up all the fiberglass dust, talked about future plans, and ended early.
+
+Things for the Future:
+Make sure people wear gloves while angle grinding the hulls, the fiberglass dust will get all over your hands and cause severe itching.

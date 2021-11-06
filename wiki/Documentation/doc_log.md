@@ -43,3 +43,20 @@ To do in the future:
 - Make flyers for Oceans 21
 - Make post graphic abt Oceans 21
 - Eventually, go through other main pages and do a clean up (About, Members, Teams, Donate)
+
+
+## 10/23/21
+Things that need to happen soon:
+- Add logo to the homepage
+- Get all leads set up with a log (sheets or direct on wiki - make sure they know how to edit it)
+- Update photos on home page?
+- Update member photos and add new members!
+
+## 11/1/21
+Finally updated the new members page!! Shoutout to Yao for figuring out how the heck to reference yml files.
+MAIN GOAL: Brush up all pages n have a website we are rly proud of by end of the quarter!
+Next on the to do list:
+- Picture Day! New group photo for front page, member photos with team shirt!
+
+
+

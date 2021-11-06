@@ -51,7 +51,7 @@ Design Considerations:
 * pilot's shoulder width
 * Maximum length
 
-Click the increase decimal button (so that it adds zeroes accordingly to the end). (see picture)
+Click the increase decimal button a couple of times (so that it adds zeroes accordingly to the end, making all of the columns the same length). (see picture)
 
 ### Importing Curves into SolidWorks
 
@@ -62,7 +62,9 @@ Click the increase decimal button (so that it adds zeroes accordingly to the end
 * Export your curves to text files. Make sure the columns all line up. Name them accordingly.
 * In the Top Ribbon, click Insert > Curve > from Curve Through xyz Points. (see screenshot)
 * Click Browse and choose the appropriate text file. Make sure that the columns are separated correctly. Press ok.
+* NOTE! In the Geisel computers, sometimes it does not like opening files, try moving the text file to different folders, it worked for us?!
 * Name your curve as you import them like "xy top curve" for example.
+* Create a sketch on the plane of interest, and click "Convert Entities" and then select the curve. Then you can mirror it.
 
 Repeat these 4 steps for 3 of the curves. We can mirror the profile to obtain the last curve by symmetry.
 
