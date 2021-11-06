@@ -23,6 +23,21 @@ body{
     }
   }
 }
+
+
+//title
+.title_text{
+ display: inline;
+ vertical-align: middle;
+}
+
+//title logo
+.title_logo{
+  display: inline;
+  width: 150px;
+  padding: 5px 0px;
+}
+
 // team
 .centered-flexbox {
   display: flex;
