@@ -52,7 +52,10 @@ umbrella:
         img: 'paul_su21.png'
       - name: Sharron Perez
         position:
-        img: 'sharron_su21.png'  
+        img: 'sharron_su21.png'
+      - name: Eddy Rodas Lima
+        position:
+        img: default_diver.png
       - name: Jackson Burchard
         position:
         img: default_diver.png
