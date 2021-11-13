@@ -58,5 +58,8 @@ MAIN GOAL: Brush up all pages n have a website we are rly proud of by end of the
 Next on the to do list:
 - Picture Day! New group photo for front page, member photos with team shirt!
 
+## 11/6/21
+Fixed up the Header ribbon to include our official HPS logo and to make the Header look more professional.
+
 
 
