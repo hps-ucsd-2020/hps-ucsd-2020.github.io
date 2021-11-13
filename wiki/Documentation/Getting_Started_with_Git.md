@@ -5,5 +5,5 @@
 3. Download the [Github Desktop app](https://desktop.github.com/) to do Git stuff, and the [Sublime app](https://www.sublimetext.com/) to edit files. 
 4. Go to our HPS github repository, and using the Github app, clone the repository onto your computer.
 5. To edit files, on the Github app ribbon (File, Edit, View, etc), click "Repository" --> "Open in External Editor" and select Sublime as your editor.
-6. Download Ruby and Jekyll to run the website locally.
+6. Download Ruby and Jekyll to be able to locally run the website. In the Github Desktop, open the Command Prompt inside your repository under "Repository" --> "Open in Command Prompt". Then, to run the website locally, run ">> bundle exec jekyll serve" in the Command Prompt.
     - This may vary based on your Operating systems, if it's not Windows 10.
