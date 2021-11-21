@@ -8,36 +8,50 @@ title: Donate!
 
 <div id="donate-container">
 
-	<h4 class="fade-in"> * To find us, you can copy 
+	<h4 class="fade-in"> * To find us on the donation website, you can copy 
     <div class="tooltip">
       <button id="copy-button" onclick="copyText('Human Powered Submarine Project (ASME)')" onmouseout="outFunc()">
         <span class="tooltiptext" id="copy-tooltip-text">Click to copy</span>
         Human Powered Submarine Project (ASME)
       </button>
-    </div> into the "search for more giving options" box. *
+    </div> into the "Search for more giving options..." box. *
   </h4> <br>
 
+  <button id="donate-button" onclick="openDonate('https://giveto.ucsd.edu/giving/home/add-gift')">
+      Click here to give to UC San Diego <br> Human Powered Submarine
+  </button>
 
-	<script>
+  <iframe id="donate-page" width="750" height="450" style="display:none"></iframe> 
+
+
+  <script>
     async function copyText(text) {
       try {
         await navigator.clipboard.writeText(text);
       } catch(err) {
         console.log('Error in copying text: ', err);
       }
-
       var tooltip = document.getElementById("copy-tooltip-text");
       tooltip.innerHTML = "Copied to clipboard!";
     }
+
     function outFunc() {
       var tooltip = document.getElementById("copy-tooltip-text");
       tooltip.innerHTML = "Click to copy"
     }
+
+    async function openDonate(url) {
+      try {
+        document.getElementById("donate-page").src = url;
+        document.getElementById("donate-page").style.display = 'block';
+        document.getElementById("donate-button").style.display = 'none';
+      } catch(err) {
+        console.log('Error opening Donation link: ', err);
+      }
+    }
   </script>
 
 
-	<div> <a class="fade-in" href="https://giveto.ucsd.edu/giving/home/add-gift" id="donate-button" target="_blank"> Give To UC San Diego <br> Human Powered Submarine</a> </div>
-	<br>
 
 </div>
 
