@@ -61,5 +61,22 @@ Next on the to do list:
 ## 11/6/21
 Fixed up the Header ribbon to include our official HPS logo and to make the Header look more professional.
 
+## 11/21/21
+Pushed the new donate page to master.
+Looking over the website here are the main tasks I would like to accomplish this quarter (or early next quarter):
 
+* Members page
+    * Headshots of new members?
+    * Fix pilot and treasury, basically make sure everyone is in the right spot.
+* Home page
+    * New group photo!
+    * New main photos in general
+* Teams page
+    * Fix formatting issue flexbox
+    * Updated photos.... (there's a theme here)
+* About page
+    * Archive the current one for subs history page (format still in the works)
+    * Add info about Calypso!
+
+I will make a more detailed list in preparation for winter quarter soon! -Antoinette
 
