@@ -32,6 +32,10 @@ umbrella:
       - name: Eric Limonadi
         position: 
         img: default_diver.png
+      - name: Elle Lavichant
+        position: 
+        img: default_diver.png
+
 
     - team: Hull
       members:
@@ -84,9 +88,6 @@ umbrella:
 
     - team: Pilot
       members:
-      - name: Carson Black
-        position:
-        img: 'carson_su21.png'
       - name: Kylan "Ky" Dennis
         position:
         img: 'ky_su21.png'
@@ -160,14 +161,17 @@ umbrella:
     - team: Treasury
       members:
       - name: Sharron Perez
-        position:
+        position: Treasury Lead
         img: 'sharron_su21.png'
-      - name: Asa Head
+      - name: Miles Chen
         position:
-        img: 'asa_su21.png'
-      - name: Jack Donohoe
+        img: 'miles_su21.png'
+      - name: Alaina Liu
         position: 
-        img: 'jack_su21.png'
+        img: default_diver.png
+      - name: Elle Lavichant
+        position: 
+        img: default_diver.png
 
 
   # - year: 2020-21
