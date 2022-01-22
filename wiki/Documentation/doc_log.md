@@ -80,3 +80,36 @@ Looking over the website here are the main tasks I would like to accomplish this
 
 I will make a more detailed list in preparation for winter quarter soon! -Antoinette
 
+## 1/22/22
+Hello! It's winter quarter now and here are the biggest ideas we wanna implement!
+
+* Make use of the Blog Page as an actual "year at a glance"
+    * Post 1-2 times a quarter with updates and fun pics
+    * Recognize difficulty of Covid-19 working
+    * Calypso process
+    * Tribute to Mark
+    * Captain's adress
+    * Zoom group pics!
+
+Member's Page
+* Get new member photos
+    * People send in their own
+    * Square format  
+* Add Linked in button for each everyone
+
+Calypso Write up
+* Have a page for her!
+* Maybe make it part of a larger sub history gallery/archive thingy
+
+Home Page
+* New group photo for crying out loud!!
+* New slideshow photos in general (hunt for them in the discord)
+
+Wiki
+* Permanent side menu bar
+* Float photos on right
+
+There's more but these are the big ones!
+Happy midterms season ;u; -Antoinette
+
+
