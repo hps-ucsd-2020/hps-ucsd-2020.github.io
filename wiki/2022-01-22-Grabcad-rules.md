@@ -1,5 +1,5 @@
-## Grabcad Rules 2022### 
-File Sorting
+## Grabcad Rules 2022
+### File Sorting
 1. Place your work in the correct subteam folder. the only Solidworks file that should be in the main folder is the full assembly.
 
 2. Within each subteam folder, create a folder for each assembly which will be inserted into the full team assembly, ie drivetrain assembly. The only solidworks file in this folder should be the teams full assembly.
@@ -29,11 +29,10 @@ name_of_partv1.SLDPRT
 
 if completely remaking:
 name_of_partv2.SLDPRT
-- place in same folder as v1 (assumed latest version is correct)
+place in same folder as v1 (assumed latest version is correct)
 
 if making 2 options (ie rectangle or crescent tail)
 name_of_part_descriptorv1.SLDPRT
 and
 name_of_part_descriptorv1.SLDPRT
 (diff descriptors).
-
