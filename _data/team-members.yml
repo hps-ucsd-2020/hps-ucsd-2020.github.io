@@ -35,6 +35,10 @@ umbrella:
       - name: Elle Lavichant
         position: 
         img: default_diver.png
+      - name: Gustav Blankenberg
+        position: 
+        img: default_diver.png
+        
 
 
     - team: Hull
@@ -83,6 +87,9 @@ umbrella:
         img: default_diver.png
       - name: Maximillian Go
         position:
+        img: default_diver.png
+      - name: Gustav Blankenberg
+        position: 
         img: default_diver.png
     
 
