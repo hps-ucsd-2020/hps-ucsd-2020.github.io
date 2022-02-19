@@ -7,164 +7,289 @@ umbrella:
       members:
       - name: Sharron Perez
         position:
+        website: "https://www.google.com"
         img: 'sharron_su21.png'
+        web-img: 'Linkedin.svg'
 
     - team: Drivetrain
       members:
       - name: Jack Donohoe
         position: Manufacturing Lead
+        website: 
         img: 'jack_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Aryian Schreiner
         position: Drivetrain Lead
+        website:
         img: 'aryian_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Cynthia Guzman
-        position: 
+        position:
+        website:
         img: 'cynthia_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Loren Phillips
         position: 
+        website:
         img: 'loren_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Miles Chen
         position: 
+        website:
         img: 'miles_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Paul Barnhouse
         position: 
+        website:
         img: 'paul_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Eric Limonadi
         position: 
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
 
     - team: Hull
       members:
       - name: Asa Head
         position: Hull Lead
+        website:
         img: 'asa_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Antoinette Gautier
         position:
+        website:
         img: 'antoinette_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Victor Leung
         position: 
+        website:
         img: 'victor_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Kylan "Ky" Dennis
         position: 
+        website:
         img: 'ky_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Paul Barnhouse
         position: 
+        website:
         img: 'paul_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Sharron Perez
         position:
+        website:
         img: 'sharron_su21.png'  
+        web-img: 'Linkedin.svg'
+
       - name: Jackson Burchard
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Kaitlyn Callagher
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Molly Perez
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Andy Vu
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Janitzia Olivas
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Cindy Tran
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Kyle Chen
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Maximillian Go
         position:
+        website:
         img: default_diver.png
-    
+        web-img: 'Linkedin.svg'
 
     - team: Pilot
       members:
       - name: Carson Black
         position:
+        website:
         img: 'carson_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Kylan "Ky" Dennis
         position:
+        website:
         img: 'ky_su21.png'
+        web-img: 'Linkedin.svg'
 
     - team: HSI / Steering
       members:
       - name: Victor Leung
         position: HSI Lead
+        website:
         img: 'victor_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Miles Chen
         position: 
+        website:
         img: 'miles_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Kylan "Ky" Dennis
         position:
+        website:
         img: 'ky_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Ethan Kozberg
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
 
     - team: Dive
       members:
       - name: Kylan "Ky" Dennis
         position: Dive Lead
+        website:
         img: 'ky_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Erica Carter
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Alaina Liu
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Kaitlyn Callagher
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Anne Lin
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Molly Perez
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Eric Limonadi
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Cindy Tran
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Kyle Chen
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
+
       - name: Maximillian Go 
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
 
     - team: Documentation
       members:
       - name: Antoinette Gautier
         position: Documentation Lead
+        website:
         img: 'antoinette_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: YaoSheng Huang
         position:
+        website:
         img: default_diver.png
+        web-img: 'Linkedin.svg'
 
     - team: Media
       members:
       - name: Sharron Perez
         position:
+        website:
         img: 'sharron_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Antoinette Gautier
         position: 
+        website:
         img: 'antoinette_su21.png'
+        web-img: 'Linkedin.svg'
 
     - team: Treasury
       members:
       - name: Sharron Perez
         position:
+        website:
         img: 'sharron_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Asa Head
         position:
+        website:
         img: 'asa_su21.png'
+        web-img: 'Linkedin.svg'
+
       - name: Jack Donohoe
         position: 
+        website:
         img: 'jack_su21.png'
+        web-img: 'Linkedin.svg'
 
 
   # - year: 2020-21
