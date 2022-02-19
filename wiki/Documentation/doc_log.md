@@ -107,6 +107,11 @@ Home Page
 
 Wiki
 * Permanent side menu bar
+    * Progress: relevant files are in "jekyll-theme-santiana" repository 
+    * https://github.com/hps-ucsd-2020/jekyll-theme-santiana/tree/main/_includes
+    * https://github.com/hps-ucsd-2020/jekyll-theme-santiana/blob/main/_includes/toc.html
+    * https://github.com/hps-ucsd-2020/jekyll-theme-santiana/blob/main/_includes/toc-lib.html
+    * https://github.com/hps-ucsd-2020/jekyll-theme-santiana/blob/main/_sass/components.scss
 * Float photos on right
 
 There's more but these are the big ones!
