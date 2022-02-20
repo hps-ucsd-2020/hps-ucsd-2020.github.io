@@ -117,4 +117,18 @@ Wiki
 There's more but these are the big ones!
 Happy midterms season ;u; -Antoinette
 
+## 2/19/22
+
+In person meetings are starting up again and we are looking at a new workspace on campus!
+
+New updates:
+- Redesigning the teams page to look like the tasty noodle house menu! [https://www.tastynoodlehouse.us/san-diego](https://www.tastynoodlehouse.us/san-diego) Ethan is going to design little logos for each team!
+- We are working on adding a linkedin link for all members! Yao has set up the framework for this (new line in yml file, spreadsheet).
+- We should update everyone's pictures and also take new group pictures!
+- Linked in for HPS
+- We began registration process for eISR 2022!
+L8ter S8terz
+Antoinette
+
+
 
