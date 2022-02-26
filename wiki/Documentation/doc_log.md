@@ -146,5 +146,6 @@ Personal goals:
 - Archives Page!! Old team photos / team rosters / Historical Documents and Awards!
 - Have posts about past submarines somewhere (specs, Santiana info, etc...)
 - Have a page for Calypso!
+- Private database for team accounts n passwords n such.
 
 Ok, as usual, see y'all next time.
