@@ -127,8 +127,24 @@ New updates:
 - We should update everyone's pictures and also take new group pictures!
 - Linked in for HPS
 - We began registration process for eISR 2022!
+
+
 L8ter S8terz
 Antoinette
 
+## 2/26/22
+- Sent out a form for T-shirts today! Should be filled out by next Friday (March 4th). Sharron and I will place the order for T-shirts the next day in workday.
+- Yao is starting the teams page redesign. It's a bit involved, lots of re-structuring but he's got it!
+- Need to start looking at plane tickets? o_O
 
+Personal goals: 
+- Get next round of T-Shirts out
+- Get new group / members pictures beginning of Spring Quarter.
+- Get a new pool test video to put on the website!
+- Revamp Teams page with Tasty Noodle House style 
+- Revamp Members page with Linkedin links and new pics, maybe flip cards?
+- Archives Page!! Old team photos / team rosters / Historical Documents and Awards!
+- Have posts about past submarines somewhere (specs, Santiana info, etc...)
+- Have a page for Calypso!
 
+Ok, as usual, see y'all next time.
