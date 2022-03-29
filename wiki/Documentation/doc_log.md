@@ -149,3 +149,12 @@ Personal goals:
 - Private database for team accounts n passwords n such.
 
 Ok, as usual, see y'all next time.
+
+## 3/29/22
+Quick checklist for Week 1 workday:
+- DIB space socials posts
+- Applying for workspace thru Jacobs- due April 10
+- Maybe we should do incident report for failed tail print?
+- Figure out website goals / deadlines for this quarter (T-shirts and Group pics)
+
+
