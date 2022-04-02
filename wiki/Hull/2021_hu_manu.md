@@ -542,3 +542,16 @@ We then cleaned up all the fiberglass dust, talked about future plans, and ended
 
 Things for the Future:
 Make sure people wear gloves while angle grinding the hulls, the fiberglass dust will get all over your hands and cause severe itching.
+
+## 11/18/21
+
+This workday was extremley productive for the quarter. It was during this worday where we accomplished our goal that we set out for Fall Quarter. We put the two hull halves together using resin and fiberglass. The process took around an hour and a half. We alligned the two hull halves together using the female mold table. We placed wooden blocks in the female mold and placed the bottom half on the top of them. Then we placed the top half on top of the bottom half. Then we placed strips of fiberglass cloth around the outer edges of the two halves and hit them with resin (Epoxy Resin) After wards we placed wider strips of fiberglass cloth on the top of the previous fiberglass cloth strips. We hit it with even more resin. We wanted to attempt to repeat this process on the inside of the two hulls however the resin wasn't cured completley yet. It took around one and a half weeks for the resin to cure completley and when it did the the hull was finally one and we reached our goal this quarter. Afterwards we planned for next quarter workdays.
+
+## 4/1/22
+
+Today the workday involved a lot of finalizing discussion on the front hatches
+We looked into how we are going to get the top hatch and the bottom half made using CAD
+We googled numerous PET companies to look into finding the right material to use that can handle 25.6 psi
+We also had to move our stuff into a different room
+Overall, we finalized our plan to send the cad files for the bottom hatch to a company called Lormac and making the mold for the upper hatch on solidworks ourselves and vacuum forming it Envision Studios
+We still need to work out the kinks of the EXACT measurements, but other than that we can get started on cutting next week
