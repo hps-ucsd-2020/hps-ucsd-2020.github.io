@@ -13,6 +13,11 @@ hull:
 - slideshow-images/hull-img/hull_4.jpg
 - slideshow-images/hull-img/hull_5.jpg
 - slideshow-images/hull-img/hull_6.jpg
+- slideshow-images/hull-img/asa_drilling.jpg
+- slideshow-images/hull-img/hull_group.jpg
+- slideshow-images/hull-img/ky_in_nosecone.jpg
+- slideshow-images/hull-img/max_jigsaw.jpg
+- slideshow-images/hull-img/victor_drawing.jpg
 
 dive:
 - slideshow-images/dive-img/dive_1.JPG
@@ -25,6 +30,7 @@ drive:
 - slideshow-images/drive-img/drive-render-2.png
 - slideshow-images/drive-img/drive_1.jpg
 - slideshow-images/drive-img/drive-machine-shop.jpg
+- slideshow-images/drive-img/test_stand_sp22.jpg
 
 
 elec:
@@ -40,3 +46,5 @@ hsi:
 
 doc:
 - slideshow-images/doc-img/doc_1.png
+- slideshow-images/doc-img/geisel1.jpg
+- slideshow-images/doc-img/geisel2.jpg
