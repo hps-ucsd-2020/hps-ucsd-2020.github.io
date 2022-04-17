@@ -157,4 +157,22 @@ Quick checklist for Week 1 workday:
 - Maybe we should do incident report for failed tail print?
 - Figure out website goals / deadlines for this quarter (T-shirts and Group pics)
 
+## 4/16/22
+
+Shirts should be arriving the apr 22. Hope to do a Group + headshot day may 7th.
+Teams page photos were rearranged. New pics that would be nice:
+- New Drivetrain Render
+- New Drive Manufacturing group pics (bother Aryian)
+- Render for Steering
+- Meta Pictures during picture day for Doc!
+- Pictures of dive certs!
+
+We need to think about what to display on teams overview / landing / apetizers page.
+
+Big ideas:
+Backend redevelopment?
+Old picture storage not on github!
+Starting to make a timeline! 
+Main goal for the end of this quarter:
+Members + Teams Page
 
