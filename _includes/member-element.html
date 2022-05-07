@@ -1,6 +1,31 @@
+<div class="flip-card fade-in">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h4 class='mem-name'>{{ item.name | default }}</h4>
+      <img src='assets/img/yearbook-img/{{ item.img }}' width="150px">
+    </div>
+    <div class="flip-card-back">
+      <h4 class='mem-name'>{{ item.name | default }}</h4>
+        <p class='mem-position'> 
+          Position: {{ item.position | default }}
+
+          {% if item.position != empty %}
+          member
+          {% endif%}
+        </p>
+        <p>Insert fun quirky facts about me!</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!---
+
 <div class="element circle-bkg fade-in member-element">
   <h4 class='mem-name'>{{ item.name | default }}</h4>
   <img src='assets/img/yearbook-img/{{ item.img }}' width="150px">
   <p class='mem-position'>{{ item.position | default }}</p>
 </div>
 
+-->
