@@ -176,3 +176,14 @@ Starting to make a timeline!
 Main goal for the end of this quarter:
 Members + Teams Page
 
+## 5/7/22
+
+What was done today:
+Made flip cards on members page
+
+To Do for next week
+- Add new headshots if availiable
+- Add LinkedIn Button to flipcards
+- Change website colors/theme
+
+Note: perhaps add a horizontal line under date in wiki (style choice)
