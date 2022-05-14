@@ -270,6 +270,7 @@ body{
   opacity: 1;
 }
 
+//-----------------Styling for members page flip cards-------------------------
 
 .flip-card {
   background-color: transparent;
@@ -306,7 +307,7 @@ body{
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: $color-bg-l;
   color: black;
 }
 
@@ -317,18 +318,14 @@ body{
   transform: rotateY(180deg);
 }
 
-
-
-
-
-
-
 .member-element{
   height: 300px;
   width: 250px;
   margin: 10px;
   background: $color-bg-d;
 }
+
+//-----------------------------------------------------------------------------
 
 .sponsor-element{
   margin: 5px;
