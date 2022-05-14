@@ -2,18 +2,22 @@
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <h4 class='mem-name'>{{ item.name | default }}</h4>
-      <img src='assets/img/yearbook-img/{{ item.img }}' width="150px">
+      <img src='assets/img/yearbook-img/{{ item.img }}' width="200px">
     </div>
     <div class="flip-card-back">
       <h4 class='mem-name'>{{ item.name | default }}</h4>
         <p class='mem-position'> 
           Position: {{ item.position | default }}
 
-          {% if item.position != empty %}
+          {% if item.position == nil %}
           member
-          {% endif%}
+          {% endif %}
         </p>
         <p>Insert fun quirky facts about me!</p>
+        <p>Connect with me!</p>
+        <a href='{{item.linkedIn}}' class="linkedInBtn">
+          <img src="../assets/img/sponsor-img/linkedin-logo.svg" class="linkedInBtn" alt="LinkedIn Button">
+        </a>
     </div>
   </div>
 </div>

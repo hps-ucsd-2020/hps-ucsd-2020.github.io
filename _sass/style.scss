@@ -325,6 +325,23 @@ body{
   background: $color-bg-d;
 }
 
+/* Style for LinkedIn Button*/
+img.linkedInBtn{
+  border:0.1em solid #FFFFFF;
+  border-radius:0.20em;
+  color:#FFFFFF;
+  transition: all 0.2s;
+  width: 90%;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+
+.linkedInBtn:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
 //-----------------------------------------------------------------------------
 
 .sponsor-element{
