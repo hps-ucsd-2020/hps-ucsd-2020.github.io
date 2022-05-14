@@ -1,6 +1,86 @@
 umbrella:
-# - year: 2021-22
-#   teams:
+  # - year: 2022-23
+  #   teams:
+  - year: 2022-23
+    all_teams:
+    - team: Team Captain
+      members:
+      - name: Victor Leung
+        position:
+        img: ''
+
+    - team: Drivetrain
+      members:
+      - name: Aryian Schreiner
+        position: Drivetrain Lead
+        img: ''
+      - name: Aedan Chen
+        position: Manufacturing Lead
+        img: ''
+
+    - team: Hull
+      members:
+      - name: Cindy Tran
+        position: Hull Co-Lead
+        img: ''
+      - name: Alex #[Insert]
+        position: Hull Co-Lead
+        img: ''
+      - name: Max #[Insert]
+        position: Hull Co-Lead
+        img: ''
+
+    - team: HSI / Steering
+      members:
+      - name: Ethan Kozberg
+        position: HSI Lead
+        img: ''
+
+    - team: Dive
+      members:
+      - name: #[Insert]
+        position: Dive Lead
+        img: ''
+      - name: Kylan "Ky" Dennis
+        position: Pilot
+        img: ''
+
+    - team: Documentation
+      members:
+      - name: Antoinette Gautier
+        position: Media Lead
+        img: ''
+      - name: Edward New
+        position: Web Lead
+        img: ''
+
+    - team: Treasury
+      members:
+      - name: Miles Chen
+        position: Treasury Lead
+        img: ''
+
+    - team: Secretary
+      members:
+      - name: Miles Chen
+        position:
+        img: ''
+
+    - team: Social Outreach
+      members:
+      - name: Alaina Lu
+        position: Social Lead
+        img: ''
+    
+    - team: Research and Development
+      members:
+      - name: Reaseach Lead
+        position:
+        img: ''
+
+
+  # - year: 2021-22
+  #   teams:
   - year: 2021-22
     all_teams:
     - team: Team Captain
