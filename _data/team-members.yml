@@ -1,34 +1,34 @@
+umbrella:
 # - year: 2021-22
 #   teams:
-umbrella:
   - year: 2021-22
     all_teams:
     - team: Team Captain
       members:
       - name: Sharron Perez
         position:
-        img: 'sharron_su21.png'
+        img: '/2021-22/sharron_su21.png'
 
     - team: Drivetrain
       members:
       - name: Jack Donohoe
         position: Manufacturing Lead
-        img: 'jack_su21.png'
+        img: '/2021-22/jack_su21.png'
       - name: Aryian Schreiner
         position: Drivetrain Lead
-        img: 'aryian_su21.png'
+        img: '/2021-22/aryian_su21.png'
       - name: Cynthia Guzman
         position: 
-        img: 'cynthia_su21.png'
+        img: '/2021-22/cynthia_su21.png'
       - name: Loren Phillips
         position: 
-        img: 'loren_su21.png'
+        img: '/2021-22/loren_su21.png'
       - name: Miles Chen
         position: 
-        img: 'miles_su21.png'
+        img: '/2021-22/miles_su21.png'
       - name: Paul Barnhouse
         position: 
-        img: 'paul_su21.png'
+        img: '/2021-22/paul_su21.png'
       - name: Eric Limonadi
         position: 
         img: default_diver.png
@@ -45,22 +45,22 @@ umbrella:
       members:
       - name: Asa Head
         position: Hull Lead
-        img: 'asa_su21.png'
+        img: '/2021-22/asa_su21.png'
       - name: Antoinette Gautier
         position:
-        img: 'antoinette_su21.png'
+        img: '/2021-22/antoinette_su21.png'
       - name: Victor Leung
         position: 
-        img: 'victor_su21.png'
+        img: '/2021-22/victor_su21.png'
       - name: Kylan "Ky" Dennis
         position: 
-        img: 'ky_su21.png'
+        img: '/2021-22/ky_su21.png'
       - name: Paul Barnhouse
         position: 
-        img: 'paul_su21.png'
+        img: '/2021-22/paul_su21.png'
       - name: Sharron Perez
         position:
-        img: 'sharron_su21.png'
+        img: '/2021-22/sharron_su21.png'
       - name: Eddy Rodas Lima
         position:
         img: default_diver.png
@@ -97,19 +97,19 @@ umbrella:
       members:
       - name: Kylan "Ky" Dennis
         position:
-        img: 'ky_su21.png'
+        img: '/2021-22/ky_su21.png'
 
     - team: HSI / Steering
       members:
       - name: Victor Leung
         position: HSI Lead
-        img: 'victor_su21.png'
+        img: '/2021-22/victor_su21.png'
       - name: Miles Chen
         position: 
-        img: 'miles_su21.png'
+        img: '/2021-22/miles_su21.png'
       - name: Kylan "Ky" Dennis
         position:
-        img: 'ky_su21.png'
+        img: '/2021-22/ky_su21.png'
       - name: Ethan Kozberg
         position:
         img: default_diver.png
@@ -118,7 +118,7 @@ umbrella:
       members:
       - name: Kylan "Ky" Dennis
         position: Dive Lead
-        img: 'ky_su21.png'
+        img: '/2021-22/ky_su21.png'
       - name: Erica Carter
         position:
         img: default_diver.png
@@ -151,7 +151,7 @@ umbrella:
       members:
       - name: Antoinette Gautier
         position: Documentation Lead
-        img: 'antoinette_su21.png'
+        img: '/2021-22/antoinette_su21.png'
       - name: YaoSheng Huang
         position:
         img: default_diver.png
@@ -160,19 +160,19 @@ umbrella:
       members:
       - name: Sharron Perez
         position:
-        img: 'sharron_su21.png'
+        img: '/2021-22/sharron_su21.png'
       - name: Antoinette Gautier
         position: 
-        img: 'antoinette_su21.png'
+        img: '/2021-22/antoinette_su21.png'
 
     - team: Treasury
       members:
       - name: Sharron Perez
         position: Treasury Lead
-        img: 'sharron_su21.png'
+        img: '/2021-22/sharron_su21.png'
       - name: Miles Chen
         position:
-        img: 'miles_su21.png'
+        img: '/2021-22/miles_su21.png'
       - name: Alaina Liu
         position: 
         img: default_diver.png
