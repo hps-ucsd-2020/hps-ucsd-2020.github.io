@@ -7,22 +7,22 @@ umbrella:
       members:
       - name: Victor Leung
         position:
-        img: ''
+        img: '/2021-22/victor_sp22.jpg'
 
     - team: Drivetrain
       members:
       - name: Aryian Schreiner
         position: Drivetrain Lead
-        img: ''
+        img: '/2021-22/aryian_sp22.jpg'
       - name: Aedan Chen
         position: Manufacturing Lead
-        img: ''
+        img: '/2021-22/aedan_sp22.jpg'
 
     - team: Hull
       members:
       - name: Cindy Tran
         position: Hull Co-Lead
-        img: ''
+        img: '/2021-22/cindy_sp22.jpg'
       - name: Alex #[Insert]
         position: Hull Co-Lead
         img: ''
@@ -43,40 +43,40 @@ umbrella:
         img: ''
       - name: Kylan "Ky" Dennis
         position: Pilot
-        img: ''
+        img: '/2021-22/ky_sp22.jpg'
 
     - team: Documentation
       members:
       - name: Antoinette Gautier
         position: Media Lead
-        img: ''
+        img: '/2021-22/antoinette_sp22.jpg'
       - name: Edward New
         position: Web Lead
-        img: ''
+        img: '/2021-22/edward_sp22.jpg'
 
     - team: Treasury
       members:
       - name: Miles Chen
         position: Treasury Lead
-        img: ''
+        img: '/2021-22/miles_sp22.jpg'
 
     - team: Secretary
       members:
       - name: Miles Chen
         position:
-        img: ''
+        img: '/2021-22/miles_sp22.jpg'
 
     - team: Social Outreach
       members:
       - name: Alaina Lu
         position: Social Lead
-        img: ''
+        img: '/2021-22/alaina_sp22.jpg'
     
     - team: Research and Development
       members:
       - name: Reaseach Lead
         position:
-        img: ''
+        img: '/2021-22/gus_sp22.jpg'
 
 
   # - year: 2021-22
