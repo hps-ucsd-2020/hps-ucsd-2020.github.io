@@ -305,6 +305,11 @@ body{
   backface-visibility: hidden;
 }
 
+.mem-img{
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: $color-bg-l;
@@ -318,12 +323,7 @@ body{
   transform: rotateY(180deg);
 }
 
-.member-element{
-  height: 300px;
-  width: 250px;
-  margin: 10px;
-  background: $color-bg-d;
-}
+
 
 /* Style for LinkedIn Button*/
 img.linkedInBtn{

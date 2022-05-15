@@ -7,7 +7,7 @@ umbrella:
       members:
       - name: Sharron Perez
         position:
-        img: 'sharron_su21.png'
+        img: 'sharron_sp22.jpg'
         linkedIn: https://something.com/ #TEST
 
     - team: Drivetrain
