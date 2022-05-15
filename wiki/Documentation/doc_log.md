@@ -187,3 +187,15 @@ To Do for next week
 - Change website colors/theme
 
 Note: perhaps add a horizontal line under date in wiki (style choice)
+
+## 5/14/22
+
+What was done today:
+- Added LinkedIn buttons to members flip cards
+- Added the first round of headshots to the repo (croppped and compressed to 500x500)
+
+To Do for next week:
+- Decide on website colors and theme
+- Finsih adding headshots to members page
+- Discuss style changes for LinkedIn button
+- Hopefully merge a steady state of newMembersPage branch into master
