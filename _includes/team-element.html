@@ -7,17 +7,18 @@
 {% endfor %}
 </div>
 
-
+<div class="team-content-container">
 {% for item in site.data.teams %}
-	<div id='{{item.name}}' class="team-tab-container team" style="display:none">
+	<div id='{{item.name}}' class="team-content" style="display:none">
 		{%- include teams-page-includes/{{item.contents}} -%}
 	</div>	
 {% endfor %}
+</div>
 
 <script>
 function openCity(cityName) {
 	var i;
-	var x = document.getElementsByClassName("team");
+	var x = document.getElementsByClassName("team-content");
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = "none";  
 	}
