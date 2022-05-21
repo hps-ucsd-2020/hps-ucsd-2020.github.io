@@ -199,3 +199,12 @@ To Do for next week:
 - Finsih adding headshots to members page
 - Discuss style changes for LinkedIn button
 - Hopefully merge a steady state of newMembersPage branch into master
+
+## 5/21/22
+
+What was done today:
+- not much honestly, spent the day hunting down and documenting what color variables affect which areas on the website to pinpoint which changes will change what components on the website
+
+To Do for next week:
+- Look at more colors
+- Maybe update the member's page with updated members and images
