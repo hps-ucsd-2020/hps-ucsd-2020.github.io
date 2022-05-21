@@ -6,14 +6,14 @@
   image: HPS Hull Icon v2.svg
   contents: hull.html
 - name: Dive
-  image: hps_logo_website.svg
+  image: HPS Dive Icon v2.svg
   contents: dive.html
 - name: HSI and Steering
-  image: HPS Dive Icon v2.svg
+  image: HPS Steering Icon v1.svg
   contents: hsi.html
 - name: Electronics
   image: HPS Electronics Icon v1.svg
   contents: electronics.html
 - name: Documentation and Media
-  image: hps_logo_website.svg
+  image: HPS Doc Icon v1.svg
   contents: documentation.html

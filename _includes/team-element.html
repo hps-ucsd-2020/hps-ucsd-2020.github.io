@@ -1,8 +1,27 @@
-<div class="team-box fade-in" onclick="select(this)">
-	<div class = "teams-title">
-		<img src='assets/img/sponsor-img/{{item.image}}' width='50px'>
-		<h2>{{ item.name }}</h2>
-		<div class="arrow-box"><i class="arrow"></i></div>
-	</div>
-  {% include teams-page-includes/{{item.contents}} %}
+
+
+<div class="w3-bar w3-black">
+	{% for item in site.data.teams %}
+		<button class="w3-bar-item w3-button" onclick="openCity('{{item.name}}')">
+			<img src='assets/img/sponsor-img/{{item.image}}' width='50px'>
+			<h2>{{ item.name }}</h2>
+		</button>
+	{% endfor %}
 </div>
+
+{% for item in site.data.teams %}
+	<div id='{{item.name}}' class="w3-container city" style="display:none">
+		{% include teams-page-includes/{{item.contents}} %}
+	</div>	
+{% endfor %}
+
+<script>
+function openCity(cityName) {
+	var i;
+	var x = document.getElementsByClassName("city");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	}
+	document.getElementById(cityName).style.display = "block";  
+}
+</script>
