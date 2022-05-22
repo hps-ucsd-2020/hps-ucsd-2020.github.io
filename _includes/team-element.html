@@ -1,3 +1,4 @@
+<!-- Navigation Tab */ -->
 <div class="team-tab-container">
 {% for item in site.data.teams %}
 	<button class="team-tab-button" onclick="openCity('{{item.name}}')">
@@ -7,14 +8,17 @@
 {% endfor %}
 </div>
 
+<!-- Content container -->
 <div class="team-content-container">
 {% for item in site.data.teams %}
 	<div id='{{item.name}}' class="team-content" style="display:none">
+		<!-- Importing HTML Content -->
 		{%- include teams-page-includes/{{item.contents}} -%}
 	</div>	
 {% endfor %}
 </div>
 
+<!-- Navigation script -->
 <script>
 function openCity(cityName) {
 	var i;
@@ -22,6 +26,6 @@ function openCity(cityName) {
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = "none";  
 	}
-	document.getElementById(cityName).style.display = "block";  
+	document.getElementById(cityName).style.display = "block"; 
 }
 </script>
