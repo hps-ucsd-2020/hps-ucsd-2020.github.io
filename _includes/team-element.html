@@ -11,17 +11,10 @@
 <!-- Content container -->
 <div class="team-content-container">
 {% for item in site.data.teams %}
-	{% if {{item.name}} == "Drivetrain" %}
-		<div id='{{item.name}}' class="team-content" style="visibility:visible">
-			<!-- Importing HTML Content -->
-			{% include teams-page-includes/{{item.contents}} %}
-		</div>	
-	{% else %}
-		<div id='{{item.name}}' class="team-content" style="visibility:hidden">
-			<!-- Importing HTML Content -->
-			{% include teams-page-includes/{{item.contents}} %}
-		</div>	
-	{% endif %}
+	<div id='{{item.name}}' class="team-content" style="visibility:hidden">
+		<!-- Importing HTML Content -->
+		{% include teams-page-includes/{{item.contents}} %}
+	</div>	
 {% endfor %}
 </div>
 
