@@ -11,10 +11,17 @@
 <!-- Content container -->
 <div class="team-content-container">
 {% for item in site.data.teams %}
-	<div id='{{item.name}}' class="team-content" style="display:none">
-		<!-- Importing HTML Content -->
-		{%- include teams-page-includes/{{item.contents}} -%}
-	</div>	
+	{% if {{item.name}} == "Drivetrain" %}
+		<div id='{{item.name}}' class="team-content" style="visibility:visible">
+			<!-- Importing HTML Content -->
+			{% include teams-page-includes/{{item.contents}} %}
+		</div>	
+	{% else %}
+		<div id='{{item.name}}' class="team-content" style="visibility:hidden">
+			<!-- Importing HTML Content -->
+			{% include teams-page-includes/{{item.contents}} %}
+		</div>	
+	{% endif %}
 {% endfor %}
 </div>
 
@@ -24,8 +31,10 @@ function openCity(cityName) {
 	var i;
 	var x = document.getElementsByClassName("team-content");
 	for (i = 0; i < x.length; i++) {
+		x[i].style.visibility = "hidden";  
 		x[i].style.display = "none";  
 	}
+	document.getElementById(cityName).style.visibility = "visible"; 
 	document.getElementById(cityName).style.display = "block"; 
 }
 </script>

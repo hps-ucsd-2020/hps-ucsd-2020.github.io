@@ -1,3 +1,5 @@
+// Legacy script after team-element.html update during 5/28/2022
+
 var selection = null;
 
 var fade_in = anime({
