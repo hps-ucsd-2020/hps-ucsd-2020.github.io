@@ -1,7 +1,33 @@
-<div class="team-box fade-in" onclick="select(this)">
-	<div class = "teams-title">
-		<h2>{{ item.name }}</h2>
-		<div class="arrow-box"><i class="arrow"></i></div>
-	</div>
-  {% include teams-page-includes/{{item.contents}} %}
+<!-- Navigation Tab */ -->
+<div class="team-tab-container">
+{% for item in site.data.teams %}
+	<button class="team-tab-button" onclick="openCity('{{item.name}}')">
+		<img src='assets/img/sponsor-img/{{item.image}}' width='50px'>
+		<h2>{{- item.name -}}</h2>
+	</button>
+{% endfor %}
 </div>
+
+<!-- Content container -->
+<div class="team-content-container">
+{% for item in site.data.teams %}
+	<div id='{{item.name}}' class="team-content" style="visibility:hidden">
+		<!-- Importing HTML Content -->
+		{% include teams-page-includes/{{item.contents}} %}
+	</div>	
+{% endfor %}
+</div>
+
+<!-- Navigation script -->
+<script>
+function openCity(cityName) {
+	var i;
+	var x = document.getElementsByClassName("team-content");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.visibility = "hidden";  
+		x[i].style.display = "none";  
+	}
+	document.getElementById(cityName).style.visibility = "visible"; 
+	document.getElementById(cityName).style.display = "block"; 
+}
+</script>

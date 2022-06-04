@@ -197,12 +197,34 @@ body{
   }
 }
 
+.team-tab-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+.team-content-container{
+  margin: auto;
+  width: 90%;
+}
+.team-content{
+}
+
+.team-tab-button {
+  background: #002755;
+  border: 2px solid;
+  border-radius: 2px;
+  transition-duration: 0.2s;
+  width: max-content;
+}
+.team-tab-button:hover {
+  background-color: #1B5C8C;
+}
+
 #donate-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
 #donate-button {
@@ -216,7 +238,6 @@ body{
   display: inline-block;
   text-decoration: none;
   margin: auto;
-
 }
 
 #copy-button {

@@ -1,12 +1,19 @@
+# A dependent file of /Teams.html
 - name: Drivetrain
+  image: HPS Drivetrain Icon v3.svg
   contents: drivetrain.html
 - name: Hull
+  image: HPS Hull Icon v2.svg
   contents: hull.html
 - name: Dive
+  image: HPS Dive Icon v2.svg
   contents: dive.html
 - name: HSI and Steering
+  image: HPS Steering Icon v1.svg
   contents: hsi.html
 - name: Electronics
+  image: HPS Electronics Icon v1.svg
   contents: electronics.html
 - name: Documentation and Media
+  image: HPS Doc Icon v1.svg
   contents: documentation.html
