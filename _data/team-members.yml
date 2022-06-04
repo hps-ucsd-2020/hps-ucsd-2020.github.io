@@ -7,9 +7,8 @@ umbrella:
       members:
       - name: Sharron Perez
         position:
-        website: "https://www.google.com"
-        img: 'sharron_su21.png'
-        web-img: 'Linkedin.svg'
+        img: 'sharron_sp22.jpg'
+        linkedIn: https://something.com/ #TEST
 
     - team: Drivetrain
       members:
@@ -53,7 +52,13 @@ umbrella:
         position: 
         website:
         img: default_diver.png
-        web-img: 'Linkedin.svg'
+        
+      - name: Elle Lavichant
+        position: 
+        img: default_diver.png
+      - name: Gustav Blankenberg
+        position: 
+        img: default_diver.png
 
     - team: Hull
       members:
@@ -89,10 +94,12 @@ umbrella:
 
       - name: Sharron Perez
         position:
-        website:
-        img: 'sharron_su21.png'  
-        web-img: 'Linkedin.svg'
-
+        img: 'sharron_su21.png'
+        
+      - name: Eddy Rodas Lima
+        position:
+        img: default_diver.png
+        
       - name: Jackson Burchard
         position:
         website:
@@ -139,16 +146,14 @@ umbrella:
         position:
         website:
         img: default_diver.png
-        web-img: 'Linkedin.svg'
+        
+      - name: Gustav Blankenberg
+        position: 
+        img: default_diver.png
+    
 
     - team: Pilot
       members:
-      - name: Carson Black
-        position:
-        website:
-        img: 'carson_su21.png'
-        web-img: 'Linkedin.svg'
-
       - name: Kylan "Ky" Dennis
         position:
         website:
@@ -274,22 +279,17 @@ umbrella:
     - team: Treasury
       members:
       - name: Sharron Perez
-        position:
-        website:
+        position: Treasury Lead
         img: 'sharron_su21.png'
-        web-img: 'Linkedin.svg'
-
-      - name: Asa Head
+      - name: Miles Chen
         position:
-        website:
-        img: 'asa_su21.png'
-        web-img: 'Linkedin.svg'
-
-      - name: Jack Donohoe
+        img: 'miles_su21.png'
+      - name: Alaina Liu
         position: 
-        website:
-        img: 'jack_su21.png'
-        web-img: 'Linkedin.svg'
+        img: default_diver.png
+      - name: Elle Lavichant
+        position: 
+        img: default_diver.png
 
 
   # - year: 2020-21

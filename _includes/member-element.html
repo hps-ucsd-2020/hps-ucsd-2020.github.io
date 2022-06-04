@@ -1,4 +1,28 @@
-<!-- this is a file dependent on the master file hps-ucsd-2020.github.io/Members.html --> 
+
+<div class="flip-card fade-in">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h4 class='mem-name'>{{ item.name | default }}</h4>
+      <img class='mem-img' src='assets/img/yearbook-img/{{ item.img }}' width="200px">
+    </div>
+    <div class="flip-card-back">
+      <h4 class='mem-name'>{{ item.name | default }}</h4>
+        <p class='mem-position'> 
+          Position: {{ item.position | default }}
+
+          {% if item.position == nil %}
+          member
+          {% endif %}
+        </p>
+        <p>Insert fun quirky facts about me!</p>
+        <p>Connect with me!</p>
+        <a href='{{item.linkedIn}}' class="linkedInBtn">
+          <img src="../assets/img/sponsor-img/linkedin-logo.svg" class="linkedInBtn" alt="LinkedIn Button">
+        </a>
+    </div>
+  </div>
+</div>
+
 <div class="element circle-bkg fade-in member-element">
   <h4 class='mem-name'>{{ item.name | default }}</h4>
   <img src='assets/img/yearbook-img/{{ item.img }}' width="150px">
