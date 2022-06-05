@@ -17,33 +17,76 @@ umbrella:
       - name: Aedan Chen
         position: Manufacturing Lead
         img: '/2021-22/aedan_sp22.jpg'
+      - name: Eric Limonadi
+        position: 
+        img: '/2021-22/eric_sp22.jpg'
 
     - team: Hull
       members:
       - name: Cindy Tran
         position: Hull Co-Lead
         img: '/2021-22/cindy_sp22.jpg'
-      - name: Alex #[Insert]
+      - name: Alexander Saltmarsh
         position: Hull Co-Lead
-        img: ''
-      - name: Max #[Insert]
+        img: '2021-22/alex_sp22.jpg'
+      - name: Maximillian Go
         position: Hull Co-Lead
-        img: ''
+        img: '/2021-22/max_sp22.jpg'
+      - name: Asa Head
+        position: Hull Lead
+        img: '/2021-22/asa_sp22.jpg'
+      - name: Sharron Perez
+        position:
+        img: '/2021-22/sharron_sp22.jpg'
 
     - team: HSI / Steering
       members:
       - name: Ethan Kozberg
         position: HSI Lead
-        img: ''
+        img: '/2021-22/ethan_sp22.jpg'
 
     - team: Dive
       members:
-      - name: #[Insert]
+      - name: Dylan "Dy" Kennis
         position: Dive Lead
-        img: ''
+        img: '/2021-22/ky_sp22.jpg'
       - name: Kylan "Ky" Dennis
         position: Pilot
         img: '/2021-22/ky_sp22.jpg'
+      - name: Anne Lin
+        position: 
+        img: '/2021-22/anne_sp22.jpg'
+      - name: Eric Limonadi
+        position: 
+        img: '/2021-22/eric_sp22.jpg'
+      - name: Jeffrey Han
+        position: 
+        img: '/2021-22/jeff_sp22.jpg'
+      - name: Aryian Schreiner
+        position: 
+        img: '/2021-22/aryian_sp22.jpg'
+      - name: Jack Donohoe
+        position: 
+        img: '/2021-22/jack_sp22.jpg'
+      - name: Cindy Tran
+        position:
+        img: '/2021-22/cindy_sp22.jpg'
+      - name: Victor Leung
+        position:
+        img: '/2021-22/victor_sp22.jpg'
+      - name: Alaina Lu
+        position:
+        img: '/2021-22/alaina_sp22.jpg'
+      - name: Antoinette Gautier
+        position:
+        img: '/2021-22/antoinette_sp22.jpg'
+      - name: Maximillian Go
+        position:
+        img: '/2021-22/max_sp22.jpg'
+
+
+
+
 
     - team: Documentation
       members:
