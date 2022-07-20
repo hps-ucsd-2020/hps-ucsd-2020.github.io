@@ -6,7 +6,7 @@ umbrella:
     - team: Team Captain
       members:
       - name: Victor Leung
-        position:
+        position: Team Captain
         img: '/2021-22/victor_sp22.jpg'
 
     - team: Drivetrain
@@ -83,10 +83,6 @@ umbrella:
       - name: Maximillian Go
         position:
         img: '/2021-22/max_sp22.jpg'
-
-
-
-
 
     - team: Documentation
       members:
