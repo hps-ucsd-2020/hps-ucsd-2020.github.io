@@ -16,7 +16,14 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-optional-front-matter
-remote_theme: hps-ucsd-2020/jekyll-theme-santiana@main
+
+#######################################################################
+# Commented the remote theme out to make the website a monorepo
+# to make dev workflow a little easier. Can uncomment once
+# all styles and layouts are finalized and updated to the remote theme
+#######################################################################
+# remote_theme: hps-ucsd-2020/jekyll-theme-santiana@main
+#######################################################################
 
 # Github required settings
 lsi: false

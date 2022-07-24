@@ -1,0 +1,15 @@
+<header class="no-margin">
+  <div class="title">
+    <img src="/assets/img/sponsor-img/{{ site.logo }}" alt="HPS logo" class="title_logo"> 
+  </div>
+  <div class="title">
+    <h1 class="title_text">{{ site.title }}</h1>
+  </div>
+  <div class="navbar">
+    {% for item in site.data.nav_pages %}
+    <a href="/{{ item }}.html" {% if page.title == item %}class="current"{% else %}class="not-current"{% endif %}>
+      {{ item }}
+    </a>
+  {% endfor %}
+  </div>
+</header>

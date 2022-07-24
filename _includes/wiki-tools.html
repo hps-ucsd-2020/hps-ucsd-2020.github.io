@@ -1,0 +1,14 @@
+<!-- taken from Drassil/git-wiki-theme  --!>
+<div class="wiki-tools">
+  Github: 
+  <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.site_root | default: '/' }}{{ site.wiki_folder }}/">New</a></span>
+  <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Edit</a></span>
+  <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/delete/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Delete</a></span>
+  <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">History</a></span>
+  <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Source</a></span>
+  <br>
+  Prose.io:  
+  <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{ site.wiki_folder }}">Add
+      new</a></span>
+  <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{page.path | escape}}">Edit</a></span>
+</div>
