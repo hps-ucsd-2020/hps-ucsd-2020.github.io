@@ -1,0 +1,5 @@
+/* Overriding offcanvas navbar width in header.html includes */
+.offcanvas.offcanvas-end {
+    width: 65vw;
+}
+
