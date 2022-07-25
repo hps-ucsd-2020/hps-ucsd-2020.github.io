@@ -1,15 +1,28 @@
-<header class="no-margin">
-  <div class="title">
-    <img src="/assets/img/sponsor-img/{{ site.logo }}" alt="HPS logo" class="title_logo"> 
-  </div>
-  <div class="title">
-    <h1 class="title_text">{{ site.title }}</h1>
-  </div>
-  <div class="navbar">
-    {% for item in site.data.nav_pages %}
-    <a href="/{{ item }}.html" {% if page.title == item %}class="current"{% else %}class="not-current"{% endif %}>
-      {{ item }}
+<nav class="navbar navbar-expand-md bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/Home.html">
+      <img class="mx-2" src="/assets/img/sponsor-img/{{ site.logo }}" alt="HPS logo" width="72" height="32">
+      HPS at UC San Diego
     </a>
-  {% endfor %}
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+      <ul class="navbar-nav">
+        {% for item in site.data.nav_pages %}
+          {% if page.url contains {{item}} %}
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/{{ item }}.html"> {{ item }} </a>
+            </li>
+          {% else if %}
+            <li class="nav-item">
+              <a class="nav-link" href="/{{ item }}.html"> {{ item }} </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-</header>
+</nav>
