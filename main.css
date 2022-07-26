@@ -3,3 +3,25 @@
     width: 65vw;
 }
 
+/* Default image sizing styles for carousel */
+.carousel-inner img {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Applies image sizing styles for carousel on small screens */
+@media (max-width: 991.98px) {
+    .carousel-inner .carousel-item {
+        position: relative;
+    }
+
+    .carousel-inner img {
+        width: auto;
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
