@@ -1,0 +1,15 @@
+socials:
+  - link: https://www.facebook.com/hpsucsd
+    icon: facebook
+
+  - link: https://www.instagram.com/hps_ucsandiego/
+    icon: instagram
+
+  - link: https://www.youtube.com/user/hpsucsd
+    icon: youtube
+
+  - link: https://www.linkedin.com/company/human-powered-submarine-at-uc-san-diego/
+    icon: linkedin
+
+  - link: mailto:submarine.ucsd@gmail.com
+    icon: envelope

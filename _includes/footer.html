@@ -1,4 +1,25 @@
-<footer>
-  <p>Pardon our dust!</p>
-  <p>This site is a work in progress!</p>
+<footer class="bg-secondary">
+  <section class="container-fluid">
+    <div class="row">
+
+      <div class="col col-5 col-lg-3 order-2 order-lg-1">
+        <a href="/Home.html" class="px-1 navbar-brand">
+          <img class="m-3 text-muted" src="/assets/img/sponsor-img/{{ site.logo }}" alt="HPS logo" width="72" height="32">
+          <h5 class="d-none d-lg-inline-block lead fw-normal">HPS at UC San Diego</h5>
+        </a>
+      </div>
+
+      <div class="col col-12 col-lg-6 order-4 order-lg-2 d-flex justify-content-center justify-content-lg-center align-items-center">
+        <small>&copy; 2022 Human Powered Submarine at UC San Diego</small>
+      </div>
+
+      <div class="col col-7 col-lg-3 order-3 order-lg-3 d-flex justify-content-end justify-content-lg-center align-items-center">
+        {% for item in site.data.footer_socials.socials %}
+          <a class="text-decoration-none" href="{{item.link}}" target="_blank">
+            <i class="bi bi-{{item.icon}} mx-2 fs-2 text-dark"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </footer>
