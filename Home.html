@@ -2,9 +2,13 @@
 layout: default
 title: Welcome!
 ---
+<div>
+  {% include slideshow.html slideshow = "home" %}
+</div>
 
-{% include slideshow.html slideshow = "home" %}
-
+<div>
+  {% include content-box.html data = site.data.about.short_description %}
+</div>
 <!--
 
 <div class="home-layout fade-in">
@@ -16,24 +20,6 @@ title: Welcome!
 
     <div>
       {% include content-box.html data=site.data.about.short_description %}
-    </div>
-
-    <div class="socials_cont">
-      <a href="https://www.facebook.com/hpsucsd" target="_blank">
-        <img src="/assets/img/sponsor-img/facebook.svg" alt="Facebook" class="socials_button">
-      </a>
-      
-      <a href="https://www.instagram.com/hps_ucsandiego/" target="_blank">
-        <img src="/assets/img/sponsor-img/instagram_logo.svg" alt="Instagram" class="socials_button">
-      </a>
-    
-      <a href="https://www.youtube.com/user/hpsucsd" target="_blank">
-        <img src="/assets/img/sponsor-img/youtube_logo.svg" alt="Youtube" class="socials_button">
-      </a>
-
-      <a href="mailto:submarine.ucsd@gmail.com" target="_blank">
-        <img src="/assets/img/sponsor-img/gmail_logo.svg" alt="Gmail" class="socials_button">
-      </a>
     </div>
 
   </div>
