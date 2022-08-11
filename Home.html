@@ -2,13 +2,26 @@
 layout: default
 title: Welcome!
 ---
-<div>
-  {% include slideshow.html slideshow = "home" %}
-</div>
+<section>
+  <div>
+    {% include slideshow.html slideshow = "home" %}
+  </div>
+</section>
 
-<div>
-  {% include content-box.html data = site.data.about.short_description %}
-</div>
+<section>
+  <div>
+    {% include content-box.html data = site.data.about.short_description %}
+  </div>
+</section>
+
+<section>
+  <div>
+    {% include youtube-embed.html video_id="FcCIWeJDNQc" %}
+  </div>
+</section>
+
+
+
 <!--
 
 <div class="home-layout fade-in">
