@@ -3,6 +3,17 @@
     width: 65vw;
 }
 
+/* Custom breakpoint for navbar logo text to display */
+.navbar-brand Span {
+    display: none;
+}
+
+@media (min-width: 380px) {
+    .navbar-brand Span {
+        display: inline;
+    }
+}
+
 /* Default image sizing styles for carousel */
 .carousel-inner img {
     width: 100vw;
