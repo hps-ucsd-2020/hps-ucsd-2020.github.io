@@ -1,0 +1,14 @@
+<div class="container-fluid" style="background-color: #0060ff;">
+  <div class="row d-flex align-items-center justify-content-around">
+
+    <div class="col-12 col-md-10 col-lg-6 p-5 pt-0 pt-lg-5">
+      <img class="img-fluid" src="/assets/img/{{ include.data.image }}" alt="{{ include.data.image_description }}">
+    </div>
+
+    <div class="col-10 col-lg-5 p-4 pt-5 pt-lg-4 ps-lg-5 text-white order-first order-lg-last">
+      <h2 class="text-center">{{ include.data.title }}</h2>
+      <div class="mt-4">{{ include.data.text | markdownify }}</div>
+    </div>
+
+  </div>
+</div>

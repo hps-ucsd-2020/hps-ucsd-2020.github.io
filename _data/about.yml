@@ -8,6 +8,8 @@ general:
     Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership. Many have gone on to pursue research or internships related to their work on the team. While the students' specific interests are varied, their dedication and enthusiasm are reflected in their final product.
 
     Check out our wiki and <a href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!
+  image: team-img/team_3.jpg
+  image_description: team photo
 
 competition:
   title: Competition
@@ -24,6 +26,8 @@ latest_submarine:
     Our latest submarine is Santiana, which we intended to race in ISR 2019.
 
     Santiana's hull was retrofitted from “Spicy Tuna Roll,” raced in ISR 14, which was made with a wet layup of fiberglass. The nose-cone and windows were replaced, the steering was improved upon, and the propulsion system was changed from a tuna tail to a new propeller.
+  image: sub-gallery-img/santiana-2019.jpg
+  image_description: santiana hull
 
 short_description:
   title: What is Human Powered Submarine?

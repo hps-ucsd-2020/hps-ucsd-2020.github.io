@@ -36,3 +36,17 @@
         transform: translate(-50%);
     }
 }
+
+
+/* Making homepage slideshow and navbar total 100 vh
+/* The css solves the problem but now it feels forced and suffocating? not sure
+/* !important: Make sure to remove the vh-100 class from carousel-inner if implementing the following change
+
+.carousel-inner {
+    height: 90vh;
+}
+
+.navbar {
+    height: 10vh;
+}
+*/
