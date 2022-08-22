@@ -38,6 +38,77 @@
 }
 
 
+
+/*---------- Members Page flip card styles --------------*/
+.flip-card {
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+}
+  
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* Used to maintain space in document flow for absolute front and back elements */
+.flip-card-front-spacer {
+    visibility: hidden;
+}
+
+/* Style for LinkedIn Button*/
+img.linkedInBtn{
+    border:0.1em solid #FFFFFF;
+    border-radius:0.20em;
+    color:#FFFFFF;
+    transition: all 0.2s;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: auto;
+  }
+  
+.linkedInBtn:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+
+
+
 /* Making homepage slideshow and navbar total 100 vh
 /* The css solves the problem but now it feels forced and suffocating? not sure
 /* !important: Make sure to remove the vh-100 class from carousel-inner if implementing the following change

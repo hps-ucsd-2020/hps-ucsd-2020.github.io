@@ -8,7 +8,7 @@ element: html for each individual element (should be in the _includes folder). S
                   with the data being passed in. Within the include, access the data via the 'item' var 
                   defined here.
 -->
-<div class="{{ include.style | default: "flex-list" }}">
+<div class="row justify-content-center gx-0 mx-5">
   {% for item in include.data %}
     {% include {{ include.element }} %}
   {% endfor %}

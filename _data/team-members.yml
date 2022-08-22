@@ -102,7 +102,7 @@ umbrella:
     - team: Secretary
       members:
       - name: Miles Chen
-        position:
+        position: Secretary
         img: '/2021-22/miles_sp22.jpg'
 
     - team: Social Outreach
@@ -113,8 +113,8 @@ umbrella:
     
     - team: Research and Development
       members:
-      - name: Reaseach Lead
-        position:
+      - name: Gustav Blankenberg
+        position: Reaseach Lead
         img: '/2021-22/gus_sp22.jpg'
 
 
