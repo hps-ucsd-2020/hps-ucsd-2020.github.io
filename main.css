@@ -106,8 +106,22 @@ img.linkedInBtn{
     background-color:#FFFFFF;
 }
 
+/*------- Subteams Menu ------------*/
+.subteam-icon {
+    height: 50px;
+}
 
+@media (min-width: 992px) {
+    .subteam-icon {
+        height: 65px;
+    }
+}
 
+@media (max-width: 400px) {
+    .subteam-name {
+        font-size: 0.75rem;
+    }
+}
 
 /* Making homepage slideshow and navbar total 100 vh
 /* The css solves the problem but now it feels forced and suffocating? not sure
