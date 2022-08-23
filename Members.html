@@ -9,7 +9,7 @@ title: Members
 
   {% for item in site.data.team-members.umbrella[0].all_teams %}  <!--Loops through all_team, each team at a time-->
     <!--Given a single team -->
-    <div>
+    <div class="mt-5">
       <h3>{{ item.team }}</h3> <!--Print team name-->
       {% include flex-list.html data=item.members element="member-element.html" %} <!--Paste member name/info-->
     </div>

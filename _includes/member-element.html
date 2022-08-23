@@ -3,16 +3,16 @@
     <div class="flip-card-inner card text-center rounded-5">
 
       <div class="flip-card-front rounded-5 row gx-0 justify-content-center">
-        <h4> {{ item.name }} </h4>
+        <h4 class="pt-2"> {{ item.name }} </h4>
         <div class="col-10">
           <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img }}" alt="">
         </div>
       </div>
 
       <div class="flip-card-back rounded-5">
-        <h4>{{ item.name | default }}</h4>
+        <h4 class="pt-2">{{ item.name }}</h4>
           <p> 
-            Position: {{ item.position | default }}
+            Position: {{ item.position}}
 
             {% if item.position == nil %}
               Member
@@ -28,7 +28,7 @@
 
       <!-- Duplicated flip-card-front element to take up space for absoultely positioned counterpart -->
       <div class="flip-card-front-spacer row gx-0 justify-content-center">
-        <h4> {{ item.name }} </h4>
+        <h4 class="pt-2"> {{ item.name }} </h4>
         <div class="col-10">
           <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img }}" alt="">
         </div>
