@@ -2,8 +2,28 @@
 layout: default
 title: Donate!
 ---
+<div>
+  <section class="mt-5">
+    <h1 class="text-center"> Meet Our Sponsors </h1>
+    <div class="container bg-primary bg-opacity-75 rounded-4 mb-0 mb-lg-5">
+      <div class="mt-4 pt-5">
+          {% include flex-list.html data=site.data.sponsors element="sponsor-element.html" %}
+      </div>
+    </div>
+    
+  </section>
+
+  <section>
+    <div class="container text-center">
+      <div class="pt-4 pt-md-3 pt-lg-0">
+        {% include modal.html data=site.data.modals.donate %}
+      </div>
+    </div>
+  </section>
+</div>
 
 
+<!--
 <h1 class="fade-in" style="text-align:center">Donate Here</h1>
 
 <div id="donate-container">
@@ -56,6 +76,6 @@ title: Donate!
 </div>
 
 <h1 class="fade-in" style="text-align:center">Our Sponsors</h1>
-{% include flex-list.html data=site.data.sponsors element="sponsor-element.html" %}
 <script src="assets/js/anime.min.js"></script>
 <script src="assets/js/donate.js"></script>
+-->
