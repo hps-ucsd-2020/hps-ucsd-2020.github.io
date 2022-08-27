@@ -5,18 +5,14 @@
       <div class="flip-card-front rounded-5 row gx-0 justify-content-center">
         <h4 class="pt-2"> {{ item.name }} </h4>
         <div class="col-10">
-          <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img }}" alt="">
+          <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img | default: "default_diver.png" }}" alt="">
         </div>
       </div>
 
       <div class="flip-card-back rounded-5">
         <h4 class="pt-2">{{ item.name }}</h4>
           <p> 
-            Position: {{ item.position}}
-
-            {% if item.position == nil %}
-              Member
-            {% endif %}
+            Position: {{ item.position | default: "Member"}}
           </p>
           <p>Insert fun quirky facts about me!</p>
           
@@ -30,7 +26,7 @@
       <div class="flip-card-front-spacer row gx-0 justify-content-center">
         <h4 class="pt-2"> {{ item.name }} </h4>
         <div class="col-10">
-          <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img }}" alt="">
+          <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img | default: "default_diver.png" }}" alt="">
         </div>
       </div>
 
