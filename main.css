@@ -123,6 +123,28 @@ img.linkedInBtn{
     }
 }
 
+/*-----------
+                Making sure footer stays at the bottom of the
+                page there is not enough content on the page 
+                need to update the px values to SASS variables
+                in the future.
+                                                                -------------*/
+
+.content-container {
+    min-height: calc(100vh - 60px - 64px);
+}
+
+@media (max-width: 992px) {
+    .content-container {
+        min-height: calc(100vh - 60px - 85px);
+    }
+}
+
+/*
+    footer height is currently 64px on lg screens and above and 85 px on screens
+    smaller than lg
+*/
+
 /* Making homepage slideshow and navbar total 100 vh
 /* The css solves the problem but now it feels forced and suffocating? not sure
 /* !important: Make sure to remove the vh-100 class from carousel-inner if implementing the following change
@@ -131,6 +153,12 @@ img.linkedInBtn{
     height: 90vh;
 }
 
+
+------
+       navbar height is currently 44px + 8px padding top and bottom = 60px total
+       footer placement when page is empty is currently dependednt on this so be wary
+       when this height may change in the future
+------
 .navbar {
     height: 10vh;
 }
