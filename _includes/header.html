@@ -1,4 +1,8 @@
-<nav class="navbar navbar-expand-md bg-primary">
+<!-- Spacer in document flow for navbar -->
+<div style="padding-top: 60px"></div>
+
+<!--  Navbar -->
+<nav class="navbar fixed-top navbar-expand-md bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/Home.html">
       <img class="mx-2" src="/assets/img/sponsor-img/{{ site.logo }}" alt="HPS logo" width="72" height="32">
@@ -30,3 +34,38 @@
     </div>
   </div>
 </nav>
+
+
+<!-- Autohide and show navbar on scroll -->
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+
+  autohide_nav = document.querySelector('nav');
+
+  if(autohide_nav){
+    var last_scroll_top = 0;
+    window.addEventListener('scroll', function() {
+        let scroll_top = window.scrollY;
+        if(scroll_top < last_scroll_top) {
+          autohide_nav.classList.remove('scrolled-down');
+          autohide_nav.classList.add('scrolled-up');
+        }
+        else {
+            autohide_nav.classList.remove('scrolled-up');
+            autohide_nav.classList.add('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+  }
+  });
+</script>
+
+<style>
+  .scrolled-down{
+    transform:translateY(-100%);
+    transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transition: all 0.3s ease-in-out;
+  }
+</style>
