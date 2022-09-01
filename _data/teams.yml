@@ -25,7 +25,7 @@
       modeling a few different submarine hulls in Solidworks, this team then simulates it in a finite element
       anaylsis (FEA) software to determing the optimal, hydrodynamic shape. Then it's onto manfucaturing the
       plug, a mold, and finally the actual hull out of composites like fiberglass or carbon fiber! Check out
-      <a href="https://www.youtube.com/watch?v=pi431FmxXRU"> this video</a> about how we made our Vaquita
+      <a class="link-warning" href="https://www.youtube.com/watch?v=pi431FmxXRU"> this video</a> about how we made our Vaquita
       submarine in 2018!
 
 - name: Dive

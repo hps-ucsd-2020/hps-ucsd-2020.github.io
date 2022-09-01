@@ -7,7 +7,7 @@ general:
 
     Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership. Many have gone on to pursue research or internships related to their work on the team. While the students' specific interests are varied, their dedication and enthusiasm are reflected in their final product.
 
-    Check out our wiki and <a href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!
+    Check out our wiki and <a class="link-warning" href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!
   image: team-img/team_3.jpg
   image_description: team photo
 
@@ -36,6 +36,6 @@ short_description:
     We focus on making human-propelled submarines and racing them every year. Locations alternate between Maryland and England.
     Our project consists of a drivetrain system, electronic or mechanical steering systems, and safety mechanisms contained within a flooded hull.
 
-    Check out our <a href="/About.html">about page</a> or our social media to find out more!
+    Check out our <a class="link-warning" href="/About.html">about page</a> or our social media to find out more!
   image: sub-gallery-img/calypso-schematic.jpg
   image_description: Calypso Schematic 2021
