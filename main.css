@@ -14,20 +14,23 @@
     }
 }
 
-/* Default image sizing styles for carousel */
-.carousel-inner img {
+
+/*----------------- Slideshow sizing ------------------*/
+
+/* Default image sizing styles for home page hero slideshow */
+.slideshow-hero img {
     width: 100vw;
     height: auto;
     overflow: hidden;
 }
 
 /* Applies image sizing styles for carousel on small screens */
-@media (max-width: 991.98px) {
-    .carousel-inner .carousel-item {
+@media (max-width: 992px) {
+    .slideshow-hero .carousel-item {
         position: relative;
     }
 
-    .carousel-inner img {
+    .slideshow-hero img {
         width: auto;
         height: 100vh;
         overflow: hidden;
@@ -36,6 +39,38 @@
         transform: translate(-50%);
     }
 }
+
+/* Default image sizing styles for teams page content slideshow */
+.slideshow-content img {
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Applies image sizing styles for carousel on small screens */
+@media (max-width: 992px) {
+    .slideshow-content {
+        height: 50vh;
+    }
+
+    .slideshow-content .carousel-item {
+      position: relative;
+    }
+
+    .slideshow-content img {
+        height: 50vh;
+        width: auto;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+
+
+
+
 
 /*------- Subteams Menu ------------*/
 .subteam-icon {

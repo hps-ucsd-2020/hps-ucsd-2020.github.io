@@ -1,13 +1,13 @@
 <div class="container-fluid" style="background-color: #0060ff;">
-  <div class="row d-flex align-items-center justify-content-around">
+  <div class="row d-flex align-items-center justify-content-around pb-3">
 
-    <div class="col-10 col-lg-5 p-4 pt-5 pt-lg-4 ps-lg-5 text-white">
+    <div class="col-10 col-lg-5 pt-lg-4 ps-lg-5 text-white order-last order-lg-first">
       <h2 class="text-center">{{ include.data.title }}</h2>
       <div class="mt-4">{{ include.data.text | markdownify }}</div>
     </div>
 
-    <div class="col-12 col-md-10 col-lg-6 p-5 pt-0 pt-lg-5">
-      {% include slideshow.html slideshow=include.data.slideshow %}
+    <div class="col-11 col-md-10 col-lg-6 p-2 pt-5 py-lg-5 order-first order-lg-last">
+      {% include slideshow.html slideshow=include.data.slideshow element="slideshow-content.html" %}
     </div>
 
   </div>

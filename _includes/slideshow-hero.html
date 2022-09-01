@@ -1,0 +1,13 @@
+<div class="slideshow-hero carousel-inner vh-100">
+  {% for item in site.data.slideshows[include.slideshow] %}
+    {% if forloop.first %}
+      <div class="carousel-item active">
+        <img src="/assets/img/{{item}}" alt="">
+      </div>
+    {% else if %}
+      <div class="carousel-item">
+        <img src="/assets/img/{{item}}" alt="">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
