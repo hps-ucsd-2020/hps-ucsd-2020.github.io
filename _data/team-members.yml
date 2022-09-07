@@ -3,11 +3,17 @@ umbrella:
   #   teams:
   - year: 2022-23
     all_teams:
-    - team: Team Captain
+    - team: Admin
       members:
       - name: Victor Leung
         position: Team Captain
         img: '/2021-22/victor_sp22.jpg'
+      - name: Miles Chen
+        position: Treasury Lead and Secretary
+        img: '/2021-22/miles_sp22.jpg'
+      - name: Alaina Lu
+        position: Social Lead
+        img: '/2021-22/alaina_sp22.jpg'
 
     - team: Drivetrain
       members:
@@ -47,11 +53,8 @@ umbrella:
 
     - team: Dive
       members:
-      - name: Dylan "Dy" Kennis
-        position: Dive Lead
-        img: '/2021-22/ky_sp22.jpg'
       - name: Kylan "Ky" Dennis
-        position: Pilot
+        position: Dive Lead and Pilot
         img: '/2021-22/ky_sp22.jpg'
       - name: Anne Lin
         position: 
@@ -93,24 +96,6 @@ umbrella:
         position: Web Lead
         img: '/2021-22/edward_sp22.jpg'
 
-    - team: Treasury
-      members:
-      - name: Miles Chen
-        position: Treasury Lead
-        img: '/2021-22/miles_sp22.jpg'
-
-    - team: Secretary
-      members:
-      - name: Miles Chen
-        position: Secretary
-        img: '/2021-22/miles_sp22.jpg'
-
-    - team: Social Outreach
-      members:
-      - name: Alaina Lu
-        position: Social Lead
-        img: '/2021-22/alaina_sp22.jpg'
-    
     - team: Research and Development
       members:
       - name: Gustav Blankenberg
