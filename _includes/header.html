@@ -1,5 +1,5 @@
 <!-- Spacer in document flow for navbar -->
-<div style="padding-top: 60px"></div>
+<div class="bg-primary" style="padding-top: 60px"></div>
 
 <!--  Navbar -->
 <nav class="navbar fixed-top navbar-expand-md bg-primary">
@@ -18,20 +18,40 @@
         <button type="button" class="btn-close pe-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
 
-      <ul class="navbar-nav justify-content-end pe-lg-3">
+      <ul class="navbar-nav justify-content-end pe-lg-4">
         {% for item in site.data.nav_pages %}
           {% if page.url contains {{item}} %}
-            <li class="nav-item ps-2">
+            <li class="nav-item ps-2 ps-lg-4">
               <a class="nav-link active ms-4 ms-md-0 p-3 p-md-2" aria-current="page" href="/{{ item }}.html"> {{ item }} </a>
             </li>
           {% else %}
-            <li class="nav-item ps-2">
+            <li class="nav-item ps-2 ps-lg-4">
               <a class="nav-link ms-4 ms-md-0 p-3 p-md-2" href="/{{ item }}.html"> {{ item }} </a>
             </li>
           {% endif %}
         {% endfor %}
       </ul>
+
+      <div class="d-block d-md-none" style="position:relative; height: 100%;">
+        <div class="mb-3" style="position: absolute; bottom: 0; left: 0; right: 0; margin-left: auto; margin-right: auto;">
+          
+          <div class="mb-3">
+            {% include modal.html data=site.data.modals.interest-form %}
+          </div>
+
+          <div class="text-center">
+            {% for item in site.data.footer_socials.socials %}
+              <a class="col text-decoration-none" href="{{item.link}}" target="_blank">
+                <i class="bi bi-{{item.icon}} mx-2 mx-sm-3 fs-2 text-dark text-opacity-75"></i>
+              </a>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+
     </div>
+
   </div>
 </nav>
 
@@ -50,7 +70,7 @@
           autohide_nav.classList.remove('scrolled-down');
           autohide_nav.classList.add('scrolled-up');
         }
-        else {
+        else if (scroll_top > 60 && scroll_top >= last_scroll_top) {
             autohide_nav.classList.remove('scrolled-up');
             autohide_nav.classList.add('scrolled-down');
         }
