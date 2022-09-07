@@ -1,13 +1,32 @@
-<div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xxl-2 m-3">
+<div class="col-9 col-sm-6 col-md-4 col-lg-3 col-xxl-2 m-3">
   <div class="card text-center rounded-5">
     <div class="rounded-5 row gx-0 justify-content-center">
 
       <h4 class="pt-2"> {{ item.name }} </h4>
+      <p class="mb-0"> {{ item.position | default: "Member"}} </p>
 
       <div class="col-10">
         <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img | default: "default_diver.png" }}" alt="">
+
+        <a class="btn btn-primary col-11 mb-2 p-1 py-2" href="{{ item.linkedin }}">
+          <span>
+            Connect with me! <i class="bi bi-linkedin"></i>
+          </span>
+        </a>
       </div>
 
     </div>
   </div>
 </div>
+
+<!--
+      <h4 class="p-2">
+        {{ item.name }} <a href="{{ item.linkedin }}"><i class="bi bi-linkedin"></i></a>
+      </h4>
+
+      <p class="mb-0"> {{ item.position | default: "Member"}} </p>
+
+      <div class="col-10">
+        <img class="img-fluid my-3 rounded-4" src="assets/img/yearbook-img/{{ item.img | default: "default_diver.png" }}" alt="">
+      </div>
+-->

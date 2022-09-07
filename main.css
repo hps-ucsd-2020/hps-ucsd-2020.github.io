@@ -68,6 +68,16 @@
 }
 
 
+/*------------------ Memebers card linkedin button --------------------*/
+.btn .bi-linkedin {
+    display: inline;
+}
+
+@media (max-width: 370px) {
+    .btn .bi-linkedin{
+        display: none;
+    }
+}
 
 
 
