@@ -79,14 +79,6 @@
     }
 }
 
-
-/*------------ Font for home page blueprint content box -------------- */
-@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
-#calypso-blueprint-content-box {
-    font-family: 'Waiting for the Sunrise', cursive;
-}
-
-
 /*------- Subteams Menu ------------*/
 .subteam-icon {
     height: 50px;
