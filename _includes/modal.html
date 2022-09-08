@@ -3,12 +3,12 @@
 </div>
 
 <div class="row gx-0">
-  <button type="button" class="btn btn-warning col-10 mx-auto mt-2 mb-4" data-bs-toggle="modal" data-bs-target="#HPSInterestFormModal">
+  <button type="button" class="btn btn-warning col-10 mx-auto mt-2 mb-4" data-bs-toggle="modal" data-bs-target="#{{ include.id }}">
     <span class="text-center">{{ include.data.text }} <i class="ps-3 bi bi-{{ include.data.icon }}"></i></span>
   </button>
 </div>
 
-<div class="modal fade" id="HPSInterestFormModal" tabindex="-1" aria-labelledby="HPSInterestFormModal" aria-hidden="true">
+<div class="modal fade" id="{{ include.id }}" tabindex="-1" aria-labelledby="{{ include.id }}" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
 

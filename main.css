@@ -15,6 +15,12 @@
 }
 
 
+/*---------- Modal Iframe hotfix, need to find better solution -------------*/
+.modal-backdrop {
+    z-index: 1000;
+}
+
+
 /*----------------- Slideshow sizing ------------------*/
 
 /* Default image sizing styles for home page hero slideshow */
