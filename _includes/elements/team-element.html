@@ -29,12 +29,12 @@
         {% if forloop.first %}
             <div id="{{item.name}}" class="team-content" style="display: block;">
                 <!-- Importing HTML Content -->
-                {% include text-slideshow-content-box.html data=item %}
+                {% include content-section/text-slideshow.html data=item %}
             </div>
         {% else %}
             <div id="{{item.name}}" class="team-content" style="display: none;">
                 <!-- Importing HTML Content -->
-                {% include text-slideshow-content-box.html data=item %}
+                {% include content-section/text-slideshow.html data=item %}
             </div>
         {% endif %}
     {% endfor %}
@@ -58,41 +58,3 @@ function openTab(name) {
     document.getElementById(name+"-btn").classList.add("bg-warning");
 }
 </script>
-
-<!--
-
-/* Navigation Tab */
-<div class="team-tab-container">
-{% for item in site.data.teams %}
-    <button class="team-tab-button" onclick="openCity('{{item.name}}')">
-        <img src='assets/img/sponsor-img/{{item.image}}' width='50px'>
-        <h2>{{- item.name -}}</h2>
-    </button>
-{% endfor %}
-</div>
-
-/* Content container */
-<div class="team-content-container">
-{% for item in site.data.teams %}
-    <div id='{{item.name}}' class="team-content" style="visibility:hidden">
-        /* Importing HTML Content */
-
-    </div>
-{% endfor %}
-</div>
-
-/* Navigation script */
-<script>
-function openCity(cityName) {
-    var i;
-    var x = document.getElementsByClassName("team-content");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.visibility = "hidden";  
-        x[i].style.display = "none";  
-    }
-    document.getElementById(cityName).style.visibility = "visible"; 
-    document.getElementById(cityName).style.display = "block"; 
-}
-</script>
-
--->

@@ -11,7 +11,7 @@ title: Members
     <!--Given a single team -->
     <div class="mt-5">
       <h3>{{ item.team }}</h3> <!--Print team name-->
-      {% include flex-list.html data=item.members element="member-element.html" %} <!--Paste member name/info-->
+      {% include flex-list.html data=item.members element="elements/member-element.html" %} <!--Paste member name/info-->
     </div>
   {% endfor %}
 </div>

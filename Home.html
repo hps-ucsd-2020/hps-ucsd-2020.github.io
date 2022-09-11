@@ -2,58 +2,29 @@
 layout: default
 title: Welcome!
 ---
-<section>
-  <div style="background-color: #0060ff;">
-    {% include slideshow.html slideshow = "home" element="slideshow-hero.html" %}
-  </div>
-</section>
 
-<section>
-  <div>
-    {% include content-box.html data = site.data.about.short_description %}
-  </div>
-</section>
-
-<section>
-  <div class="row align-items-center gx-0" style="background-color: rgb(250, 250, 250);">
-    <div class="col-12 col-lg-8">
-      {% include youtube-embed.html video_id="FcCIWeJDNQc" %}
+<div>
+  <section>
+    <div style="background-color: #0060ff;">
+      {% include slideshow.html slideshow="home" element="slideshow-hero.html" %}
     </div>
+  </section>
 
-    <div class="col">
-      {% include modal.html data=site.data.modals.interest-form id="homePageInterestFormModal" %}
-    </div>
-  </div>
-</section>
-
-
-
-<!--
-
-<div class="home-layout fade-in">
-  <div>
-  {% include youtube-embed.html video-id="FcCIWeJDNQc" %}
-  </div>
-
-  <div style="flex-shrink: 4; max-width:600px">
-
+  <section>
     <div>
-      {% include content-box.html data=site.data.about.short_description %}
+      {% include content-section/text-image.html data=site.data.about.short_description %}
     </div>
+  </section>
 
-  </div>
+  <section>
+    <div class="row align-items-center gx-0" style="background-color: #ffffff;">
+      <div class="col-12 col-lg-8">
+        {% include youtube-embed.html video_id="FcCIWeJDNQc" description="HPS Fall 2019 Pool Test" %}
+      </div>
 
-  <div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFG9lNNCM3umg6_QKcxOMS6I8VHLZhrMcO0Si0N2iFLRcu9A/viewform?embedded=true" width="720" height="405" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
-
-  <div>
-    <img src="assets/img/sub-gallery-img/calypso-schematic.jpg" width="600px" alt="Calypso Schematic 2021">
-  </div>
-
-
+      <div class="col">
+        {% include modal.html data=site.data.modals.interest-form id="homePageInterestFormModal" %}
+      </div>
+    </div>
+  </section>
 </div>
-
-<script src="assets/js/anime.min.js"></script>
-<script src="assets/js/index.js"></script>
--->

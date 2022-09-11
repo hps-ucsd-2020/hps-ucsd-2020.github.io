@@ -73,6 +73,14 @@
     }
 }
 
+/*------------------------ About Page parallax -------------------------*/
+.parallax {
+    height: 65vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*------------------ Memebers card linkedin button --------------------*/
 .btn .bi-linkedin {

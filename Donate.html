@@ -2,12 +2,13 @@
 layout: default
 title: Donate!
 ---
+
 <div>
   <section class="mt-5">
     <h1 class="text-center"> Meet Our Sponsors </h1>
     <div class="container bg-primary bg-opacity-75 rounded-4 mb-0 mb-lg-5">
       <div class="mt-4 pt-5">
-          {% include flex-list.html data=site.data.sponsors element="sponsor-element.html" %}
+          {% include flex-list.html data=site.data.sponsors element="elements/sponsor-element.html" %}
       </div>
     </div>
     
@@ -21,61 +22,3 @@ title: Donate!
     </div>
   </section>
 </div>
-
-
-<!--
-<h1 class="fade-in" style="text-align:center">Donate Here</h1>
-
-<div id="donate-container">
-
-	<h4 class="fade-in"> * To find us on the donation website, you can copy 
-    <div class="tooltip">
-      <button id="copy-button" onclick="copyText('Human Powered Submarine Project (ASME)')" onmouseout="outFunc()">
-        <span class="tooltiptext" id="copy-tooltip-text">Click to copy</span>
-        Human Powered Submarine Project (ASME)
-      </button>
-    </div> into the "Search for more giving options..." box. *
-  </h4> <br>
-
-  <button id="donate-button" onclick="openDonate('https://giveto.ucsd.edu/giving/home/add-gift')">
-      Click here to give to UC San Diego <br> Human Powered Submarine
-  </button>
-
-  <iframe id="donate-page" width="750" height="450" style="display:none"></iframe> 
-
-
-  <script>
-    async function copyText(text) {
-      try {
-        await navigator.clipboard.writeText(text);
-      } catch(err) {
-        console.log('Error in copying text: ', err);
-      }
-      var tooltip = document.getElementById("copy-tooltip-text");
-      tooltip.innerHTML = "Copied to clipboard!";
-    }
-
-    function outFunc() {
-      var tooltip = document.getElementById("copy-tooltip-text");
-      tooltip.innerHTML = "Click to copy"
-    }
-
-    async function openDonate(url) {
-      try {
-        document.getElementById("donate-page").src = url;
-        document.getElementById("donate-page").style.display = 'block';
-        document.getElementById("donate-button").style.display = 'none';
-      } catch(err) {
-        console.log('Error opening Donation link: ', err);
-      }
-    }
-  </script>
-
-
-
-</div>
-
-<h1 class="fade-in" style="text-align:center">Our Sponsors</h1>
-<script src="assets/js/anime.min.js"></script>
-<script src="assets/js/donate.js"></script>
--->
