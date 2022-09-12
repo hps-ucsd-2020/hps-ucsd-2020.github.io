@@ -1,50 +1,30 @@
 ---
 layout: default
 title: Welcome!
-bodyclass: "no-margin"
 ---
-{% include slideshow.html slideshow="home" %}
-<div class="home-layout fade-in">
-  <div>
-  {% include youtube-embed.html video-id="FcCIWeJDNQc" %}
-  </div>
 
-  <div style="flex-shrink: 4; max-width:600px">
+<div>
+  <section>
+    <div style="background-color: #0060ff;">
+      {% include slideshow.html slideshow="home" element="slideshow-hero.html" %}
+    </div>
+  </section>
 
+  <section>
     <div>
-      {% include content-box.html data=site.data.about.short_description %}
+      {% include content-section/text-image.html data=site.data.about.short_description %}
     </div>
+  </section>
 
-    <div class="socials_cont">
-      <a href="https://www.facebook.com/hpsucsd" target="_blank">
-        <img src="/assets/img/sponsor-img/facebook.svg" alt="Facebook" class="socials_button">
-      </a>
-      
-      <a href="https://www.instagram.com/hps_ucsandiego/" target="_blank">
-        <img src="/assets/img/sponsor-img/instagram_logo.svg" alt="Instagram" class="socials_button">
-      </a>
-    
-      <a href="https://www.youtube.com/user/hpsucsd" target="_blank">
-        <img src="/assets/img/sponsor-img/youtube_logo.svg" alt="Youtube" class="socials_button">
-      </a>
+  <section>
+    <div class="row align-items-center gx-0" style="background-color: #ffffff;">
+      <div class="col-12 col-lg-8">
+        {% include youtube-embed.html video_id="FcCIWeJDNQc" description="HPS Fall 2019 Pool Test" %}
+      </div>
 
-      <a href="mailto:submarine.ucsd@gmail.com" target="_blank">
-        <img src="/assets/img/sponsor-img/gmail_logo.svg" alt="Gmail" class="socials_button">
-      </a>
+      <div class="col">
+        {% include modal.html data=site.data.modals.interest-form id="homePageInterestFormModal" %}
+      </div>
     </div>
-
-  </div>
-
-  <div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFG9lNNCM3umg6_QKcxOMS6I8VHLZhrMcO0Si0N2iFLRcu9A/viewform?embedded=true" width="720" height="405" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
-
-  <div>
-    <img src="assets/img/sub-gallery-img/calypso-schematic.jpg" width="600px" alt="Calypso Schematic 2021">
-  </div>
-
-
+  </section>
 </div>
-
-<script src="assets/js/anime.min.js"></script>
-<script src="assets/js/index.js"></script>

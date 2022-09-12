@@ -1,0 +1,11 @@
+interest-form:
+  link: https://docs.google.com/forms/d/e/1FAIpQLScFG9lNNCM3umg6_QKcxOMS6I8VHLZhrMcO0Si0N2iFLRcu9A/viewform?embedded=true
+  heading: Ready to Dive in?
+  text: Sign me up!
+  icon: pencil-square
+
+donate:
+  link: https://giveto.ucsd.edu/giving/home/add-gift
+  heading: Want to Donate?
+  text: Click Here!
+  icon: 

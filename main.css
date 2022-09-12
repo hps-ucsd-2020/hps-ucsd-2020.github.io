@@ -1,0 +1,152 @@
+/* Overriding offcanvas navbar width in header.html includes */
+.offcanvas.offcanvas-end {
+    width: 65vw;
+}
+
+/* Custom breakpoint for navbar logo text to display */
+.navbar-brand Span {
+    display: none;
+}
+
+@media (min-width: 380px) {
+    .navbar-brand Span {
+        display: inline;
+    }
+}
+
+
+/*---------- Modal Iframe hotfix, need to find better solution -------------*/
+.modal-backdrop {
+    z-index: 1000;
+}
+
+
+/*----------------- Slideshow sizing ------------------*/
+
+/* Default image sizing styles for home page hero slideshow */
+.slideshow-hero img {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Applies image sizing styles for carousel on small screens */
+@media (max-width: 992px) {
+    .slideshow-hero .carousel-item {
+        position: relative;
+    }
+
+    .slideshow-hero img {
+        width: auto;
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+/* Default image sizing styles for teams page content slideshow */
+.slideshow-content img {
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Applies image sizing styles for carousel on small screens */
+@media (max-width: 992px) {
+    .slideshow-content {
+        height: 50vh;
+    }
+
+    .slideshow-content .carousel-item {
+      position: relative;
+    }
+
+    .slideshow-content img {
+        height: 50vh;
+        width: auto;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+/*------------------------ About Page parallax -------------------------*/
+.parallax {
+    height: 65vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------ Memebers card linkedin button --------------------*/
+.btn .bi-linkedin {
+    display: inline;
+}
+
+@media (max-width: 370px) {
+    .btn .bi-linkedin{
+        display: none;
+    }
+}
+
+/*------- Subteams Menu ------------*/
+.subteam-icon {
+    height: 50px;
+}
+
+@media (min-width: 992px) {
+    .subteam-icon {
+        height: 65px;
+    }
+}
+
+@media (max-width: 400px) {
+    .subteam-name {
+        font-size: 0.75rem;
+    }
+}
+
+/*-----------
+                Making sure footer stays at the bottom of the
+                page there is not enough content on the page 
+                need to update the px values to SASS variables
+                in the future.
+                                                                -------------*/
+
+.content-container {
+    min-height: calc(100vh - 60px - 64px);
+}
+
+@media (max-width: 992px) {
+    .content-container {
+        min-height: calc(100vh - 60px - 85px);
+    }
+}
+
+/*
+    footer height is currently 64px on lg screens and above and 85 px on screens
+    smaller than lg
+*/
+
+/* Making homepage slideshow and navbar total 100 vh
+/* The css solves the problem but now it feels forced and suffocating? not sure
+/* !important: Make sure to remove the vh-100 class from carousel-inner if implementing the following change
+
+.carousel-inner {
+    height: 90vh;
+}
+
+
+------
+       navbar height is currently 44px + 8px padding top and bottom = 60px total
+       footer placement when page is empty is currently dependednt on this so be wary
+       when this height may change in the future
+------
+.navbar {
+    height: 10vh;
+}
+*/

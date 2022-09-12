@@ -1,0 +1,60 @@
+<div class="container mt-3 mt-sm-4">
+    <div class="row gx-0 bg-primary rounded">
+        {% for item in site.data.teams %}
+            {% if forloop.first %}
+                <button id="{{item.name}}-btn" class="col-4 col-lg-2 btn bg-warning" onclick="openTab('{{item.name}}')">
+                    <div>
+                        <img class="img-fluid subteam-icon" src="assets/img/sponsor-img/{{item.image}}" alt="">
+                    </div>
+                    <div class="subteam-name">
+                        {{ item.name }}
+                    </div>
+                </button>
+            {% else %}
+                <button id="{{item.name}}-btn" class="col-4 col-lg-2 btn" onclick="openTab('{{item.name}}')">
+                    <div>
+                        <img class="img-fluid subteam-icon" src="assets/img/sponsor-img/{{item.image}}" alt="">
+                    </div>
+                    <div class="subteam-name">
+                        {{ item.name }}
+                    </div>
+                </button>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container mb-3 mb-sm-5">
+    {% for item in site.data.teams %}
+        {% if forloop.first %}
+            <div id="{{item.name}}" class="team-content" style="display: block;">
+                <!-- Importing HTML Content -->
+                {% include content-section/text-slideshow.html data=item %}
+            </div>
+        {% else %}
+            <div id="{{item.name}}" class="team-content" style="display: none;">
+                <!-- Importing HTML Content -->
+                {% include content-section/text-slideshow.html data=item %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<!-- Navigation script -->
+<script>
+function openTab(name) {
+    var i;
+    var x = document.getElementsByClassName("team-content");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.visibility = "hidden";
+        x[i].style.display = "none";
+    }
+    x = document.getElementsByClassName("btn");
+    for (i = 0; i < x.length; i++) {
+        x[i].classList.remove("bg-warning");
+    }
+    document.getElementById(name).style.visibility = "visible";
+    document.getElementById(name).style.display = "block";
+    document.getElementById(name+"-btn").classList.add("bg-warning");
+}
+</script>

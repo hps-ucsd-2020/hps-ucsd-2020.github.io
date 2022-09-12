@@ -3,20 +3,24 @@ layout: default
 title: About HPS
 ---
 
-<h1 class="fade-in" style="text-align:center">About HPS</h1>
-  <div class="about-layout">
-    <div class="about-column">
-      <img class="fade-in" src="assets/img/team-img/team_3.jpg" alt="Team photo from 2019" />
-      {% include content-box.html data=site.data.about.general %}
+<div>
+  <section>
+    <div class="parallax row align-items-center gx-0" style="background-image: url(/assets/img/2022_Dive_Group_Pic.jpg);">
+      <div class="col">
+        <h1 class="text-center text-white">About Us</h1>
+      </div>
     </div>
+  </section>
 
+  <section>
+    {% include content-section/text-image.html data=site.data.about.general %}
+  </section>
 
-    <div class="about-column">
-      {% include content-box.html data=site.data.about.competition %}
-      {% include content-box.html data=site.data.about.latest_submarine %}
-      <img class="fade-in" src="assets/img/sub-gallery-img/santiana-2019.jpg" alt="Santiana Hull at ISR 2019" />
+  <section style="background-color: #ffffff;">
+    {% include content-section/text-center.html data=site.data.about.competition %}
+  </section>
 
-    </div>
-  </div>
-<script src="assets/js/anime.min.js"></script>
-<script src="assets/js/about.js"></script>
+  <section>
+    {% include content-section/image-text.html data=site.data.about.latest_submarine %}
+  </section>
+</div>
