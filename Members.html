@@ -3,14 +3,15 @@ layout: default
 title: Members
 ---
 
-<h1 class="fade-in" style="text-align:center">Members</h1>
-<h2 class="fade-in" style="text-align:center">{{ site.data.team-members.umbrella[0].year }}</h2>
+<div class="text-center">
+  <h1>Members</h1>
+  <h2>{{ site.data.team-members.umbrella[0].year }}</h2>
 
-{% for item in site.data.team-members.umbrella[0].all_teams %} <!-- Loops through all_team, each team at a time-->
-  <!-- Given a single team-->
-  <h3 class="fade-in" style="text-align:center">{{ item.team }}</h3> <!-- Print team name-->
-  {% include flex-list.html data=item.members element="member-element.html" %} <!-- Paste member name/info-->
-{% endfor %}
-
-<script src="assets/js/anime.min.js"></script>
-<script src="assets/js/members.js"></script>
+  {% for item in site.data.team-members.umbrella[0].all_teams %}  <!--Loops through all_team, each team at a time-->
+    <!--Given a single team -->
+    <div class="mt-5">
+      <h3>{{ item.team }}</h3> <!--Print team name-->
+      {% include flex-list.html data=item.members element="elements/member-element.html" %} <!--Paste member name/info-->
+    </div>
+  {% endfor %}
+</div>
