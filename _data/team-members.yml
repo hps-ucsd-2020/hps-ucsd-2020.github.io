@@ -95,6 +95,9 @@ umbrella:
       - name: Edward New
         position: Web Lead
         img: '/2021-22/edward_sp22.jpg'
+      - name: YaoSheng Huang
+        position:
+        img: '/2021-22/yao_sp22.jpg'
 
     - team: Research and Development
       members:

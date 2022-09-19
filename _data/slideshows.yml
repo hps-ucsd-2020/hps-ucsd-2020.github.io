@@ -1,5 +1,5 @@
 home:
-- slideshow-images/home-slideshow/team_3.jpg
+- slideshow-images/home-slideshow/sp22fullgroup.png
 - slideshow-images/home-slideshow/isr19-flag.jpg
 - slideshow-images/home-slideshow/dive_4.JPG
 - slideshow-images/home-slideshow/hull_7.jpg
@@ -37,6 +37,7 @@ hsi:
 - slideshow-images/hsi-img/steering_1.png
 - slideshow-images/hsi-img/cycloid-gearbox.gif
 - slideshow-images/hsi-img/Cycloidal_drive.gif
+- slideshow-images/hsi-img/fin3Dprint.JPG
 
 doc:
 - slideshow-images/doc-img/doc_1.png
