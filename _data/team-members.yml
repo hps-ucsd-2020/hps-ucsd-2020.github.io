@@ -8,102 +8,129 @@ umbrella:
       - name: Victor Leung
         position: Team Captain
         img: '/2021-22/victor_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/victor-leung-connect
       - name: Miles Chen
         position: Treasury Lead and Secretary
         img: '/2021-22/miles_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/milesleechen
       - name: Alaina Lu
         position: Social Lead
         img: '/2021-22/alaina_sp22.jpg'
+        linkedin: 
 
     - team: Drivetrain
       members:
       - name: Aryian Schreiner
         position: Drivetrain Lead
         img: '/2021-22/aryian_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/aryian-schreiner
       - name: Aedan Chen
         position: Manufacturing Lead
         img: '/2021-22/aedan_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/zhuoweichen/
       - name: Eric Limonadi
         position: 
         img: '/2021-22/eric_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/eric-limonadi
 
     - team: Hull
       members:
       - name: Cindy Tran
         position: Hull Co-Lead
         img: '/2021-22/cindy_sp22.jpg'
+        linkedin: 
       - name: Alexander Saltmarsh
         position: Hull Co-Lead
         img: '2021-22/alex_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/alexander-saltmarsh-a691a9202/
       - name: Maximillian Go
         position: Hull Co-Lead
         img: '/2021-22/max_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/maximillian-go/
       - name: Asa Head
         position: Hull Lead
         img: '/2021-22/asa_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/asa-head-2baba41a1/
       - name: Sharron Perez
         position:
         img: '/2021-22/sharron_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/sharronperez1/
 
     - team: HSI / Steering
       members:
       - name: Ethan Kozberg
         position: HSI Lead
         img: '/2021-22/ethan_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/ethan-kozberg/
 
     - team: Dive
       members:
       - name: Kylan "Ky" Dennis
         position: Dive Lead and Pilot
         img: '/2021-22/ky_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/kylan-dennis-545b0b20a/
       - name: Anne Lin
         position: 
         img: '/2021-22/anne_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/anne-lin-1371581a7
       - name: Eric Limonadi
         position: 
         img: '/2021-22/eric_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/eric-limonadi
       - name: Jeffrey Han
         position: 
         img: '/2021-22/jeff_sp22.jpg'
+        linkedin: 
       - name: Aryian Schreiner
         position: 
         img: '/2021-22/aryian_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/aryian-schreiner
       - name: Jack Donohoe
         position: 
         img: '/2021-22/jack_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/jack-donohoe-407556202
       - name: Cindy Tran
         position:
         img: '/2021-22/cindy_sp22.jpg'
+        linkedin: 
       - name: Victor Leung
         position:
         img: '/2021-22/victor_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/victor-leung-connect
       - name: Alaina Lu
         position:
         img: '/2021-22/alaina_sp22.jpg'
+        linkedin: 
       - name: Antoinette Gautier
         position:
         img: '/2021-22/antoinette_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/antoinette-g/
       - name: Maximillian Go
         position:
         img: '/2021-22/max_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/maximillian-go/
 
     - team: Documentation
       members:
       - name: Antoinette Gautier
         position: Media Lead
         img: '/2021-22/antoinette_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/antoinette-g/
       - name: Edward New
         position: Web Lead
         img: '/2021-22/edward_sp22.jpg'
+        linkedin: http://www.linkedin.com/in/edward-new
       - name: YaoSheng Huang
         position:
         img: '/2021-22/yao_sp22.jpg'
+        linkedin: 
 
     - team: Research and Development
       members:
       - name: Gustav Blankenberg
         position: Reaseach Lead
         img: '/2021-22/gus_sp22.jpg'
+        linkedin: 
 
 
   # - year: 2021-22
