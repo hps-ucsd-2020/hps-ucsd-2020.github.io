@@ -1,12 +1,81 @@
+# A dependent file of /Teams.html
 - name: Drivetrain
-  contents: drivetrain.html
+  image: HPS Drivetrain Icon v3.svg
+  slideshow: drive
+  text: |
+      The Drivetrain subteam designs and manufactures the propulsion mechanism of the submarine.
+      They efficiently convert the pilot's pedaling motion to power a propellor or a non-propellor
+      system (like a fish tail, for instance), developing both computer-aided design and machining skills.
+      
+      This year, they are creating a fish-like tail to propel the submarine. After discussing
+      and reseaching methods for obtaining the desired motion, they model their design on Soliworks.
+      They are working on a variable frequency tail by changing gear ratios, which has never been done before!
+      After modeling our parts, we create the toolpaths and manufacturing documents with the necessary
+      dimensions and tolerancing to bring the parts to life!
+      
+      Once trained, machinists will develop a process that produces a part with the required specifications.
+      Operating CNC machines with in house generated tool paths, working on manual mills and lathes,
+      and 3D printing are just a few methods that machinist at HPS use to manufacture an award winning drivetrain.
+
 - name: Hull
-  contents: hull.html
+  image: HPS Hull Icon v2.svg
+  slideshow: hull
+  text: |
+      The Hull subteam designs, simulates and manufactures the outer shell of the submarine, balancing
+      hydrodynamics, speed, and maneuverability. They make use of computer-aided modeling software as well
+      as get their hands dirty when laying up, curing, and sanding the hull.
+      
+      After chosing airfoils and modeling a few different submarine hulls in Solidworks, this team then
+      simulates it in a finite element anaylsis (FEA) software to determing the optimal, hydrodynamic shape.
+      
+      Then it's onto manfucaturing the plug, a mold, and finally the actual hull out of composites like fiberglass
+      or carbon fiber! Check out <a class="link-warning" href="https://www.youtube.com/watch?v=pi431FmxXRU"> this video</a>
+      about how we made our Vaquita submarine in 2018!
+
 - name: Dive
-  contents: dive.html
+  image: HPS Dive Icon v2.svg
+  slideshow: dive
+  text: >
+    The Dive subteam coordinates all dive related activities such as pool tests, scuba certification for
+    new members and elaborating safety protocols. The dive team focuses on the pool-related activities
+    such as pool tests and training for the competition. Dive team's two most important jobs are pilot
+    safety and ballasting the submarine - maintaining a neutral and flat buoyancy is vital for speed and
+    maneuverability.
+
 - name: HSI and Steering
-  contents: hsi.html
+  image: HPS Steering Icon v1.svg
+  slideshow: hsi
+  text: |
+      The HSI subteam is responsible for the pilot's interaction with the submarine through controls and
+      steering mechanisms. The most important part of the HSI subteam is the dead man buoy.
+      
+      When the sub is in the water, it is flooded, meaning any issues with the pilot can be potentially
+      dangerous. The dead man buoy works on a switch which must be constantly held, and if it is released
+      this will notify the divers that something is wrong.
+
+      The hatches on the submarine provide access to both the cabin and the various mechanical parts of the sub.
+      These include the maintenance hatch for drivetrain access near the rear, the pilot access hatch, and the
+      lower draining hatch.
+      
+      Additionally, there are release mechanisms for these hatches, namely an internal release mechanism on
+      the top hatch for the diver to be able to open and close their exit.
+
 - name: Electronics
-  contents: electronics.html
+  image: HPS Electronics Icon v1.svg
+  slideshow: elec
+  text: >
+      The Electronics subteam creates and programs experimental devices to enhance the submarine, developing projects
+      like electronic steering and buoyancy control. They use C++ and Arduinos to control servos and other electronic
+      components. The current projects they are working on include an electronic steering system, a CVT motor, a pilot
+      information display, and a variable pitch propellor.
+
 - name: Documentation and Media
-  contents: documentation.html
+  image: HPS Doc Icon v1.svg
+  slideshow: doc
+  text: |
+      The Documentation/Media subteam chronicles and organizes the research and processes used by all other subteams for
+      posterity, as well as communicates our journey by creating and managing our own website, wiki and social media.
+
+      This team essentially manages communication within and without the team, managing the website you are reading right
+      now! (hello!) They help create multimedia tutorials on our team wiki (accessible on the wiki tab), as well as review
+      and edit engineering drawings and design reports, developing skills in programming, web design and technical communication skills.
