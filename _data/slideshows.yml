@@ -34,10 +34,9 @@ elec:
 - slideshow-images/elec-img/elec_4.jpg
 
 hsi:
-- slideshow-images/hsi-img/steering_1.png
-- slideshow-images/hsi-img/cycloid-gearbox.gif
-- slideshow-images/hsi-img/Cycloidal_drive.gif
 - slideshow-images/hsi-img/fin3Dprint.JPG
+- slideshow-images/hsi-img/steering_1.png
+- slideshow-images/hsi-img/Cycloidal_drive.gif
 
 doc:
 - slideshow-images/doc-img/doc_1.png

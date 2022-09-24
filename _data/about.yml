@@ -23,11 +23,16 @@ competition:
 latest_submarine:
   title: Latest Submarine
   text: |
-    Our latest submarine is Santiana, which we intended to race in ISR 2019.
+    We are currently working on our latest submarine, Calypso, which we intend to race in ISR 17 (June 2023).
 
-    Santiana's hull was retrofitted from “Spicy Tuna Roll,” raced in ISR 14, which was made with a wet layup of fiberglass. The nose-cone and windows were replaced, the steering was improved upon, and the propulsion system was changed from a tuna tail to a new propeller.
+    It will convert the pilot's pedalling into a sweeping dolphin tail motion.
+    The name Calypso is a reference to the Greek mythological figure who is exiled to a remote island.
+    This submarine was designed and manufactured during the pandemic where we too were exiled to remote learning.
+
+    Pictured on the left is a previous propeller-based submarine called Santiana.
+
   image: sub-gallery-img/santiana-2019.jpg
-  image_description: santiana hull
+  image_description: Santiana hull
 
 short_description:
   title: What is Human Powered Submarine?
