@@ -17,6 +17,10 @@ umbrella:
         position: Social Lead
         img: '/2021-22/alaina_sp22.jpg'
         linkedin: 
+      - name: Sharron Perez
+        position: Student Advisor
+        img: '/2021-22/sharron_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/sharronperez1/
 
     - team: Drivetrain
       members:
@@ -32,6 +36,14 @@ umbrella:
         position: 
         img: '/2021-22/eric_sp22.jpg'
         linkedin: http://www.linkedin.com/in/eric-limonadi
+      - name: Jack Donohoe
+        position: 
+        img: '/2021-22/jack_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/jack-donohoe-407556202
+      - name: Sharron Perez
+        position: 
+        img: '/2021-22/sharron_sp22.jpg'
+        linkedin: https://www.linkedin.com/in/sharronperez1/
 
     - team: Hull
       members:
@@ -48,13 +60,17 @@ umbrella:
         img: '/2021-22/max_sp22.jpg'
         linkedin: https://www.linkedin.com/in/maximillian-go/
       - name: Asa Head
-        position: Hull Lead
+        position: Hull Advisor
         img: '/2021-22/asa_sp22.jpg'
         linkedin: https://www.linkedin.com/in/asa-head-2baba41a1/
       - name: Sharron Perez
         position:
         img: '/2021-22/sharron_sp22.jpg'
         linkedin: https://www.linkedin.com/in/sharronperez1/
+      - name: Andy Vu
+        position:
+        img: '/2021-22/andy_sp22.jpg'
+        linkedin:
 
     - team: HSI / Steering
       members:
@@ -128,7 +144,7 @@ umbrella:
     - team: Research and Development
       members:
       - name: Gustav Blankenberg
-        position: Reaseach Lead
+        position: Research Lead
         img: '/2021-22/gus_sp22.jpg'
         linkedin: 
 
