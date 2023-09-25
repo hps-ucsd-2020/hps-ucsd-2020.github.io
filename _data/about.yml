@@ -1,46 +1,44 @@
 general:
-  title: General
-  text: |
-    Human-Powered Submarine (HPS) is a UC San Diego based student organization that designs, constructs, and competes with a human-propelled, fully flooded submarine.
+    title: General
+    text: |
+        Human-Powered Submarine (HPS) is a UC San Diego based student organization that designs, constructs, and competes with a human-propelled, fully flooded submarine.
 
-    Each year, students dedicate their time to manufacturing and testing their submarine in preparation for the International Submarine Races (ISR) in Bethesda, Maryland, and the European International Submarine Races (eISR) in Gosport, UK.
+        Each year, students dedicate their time to manufacturing and testing their submarine in preparation for the International Submarine Races (ISR) in Bethesda, Maryland, and the European International Submarine Races (eISR) in Gosport, UK.
 
-    Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership. Many have gone on to pursue research or internships related to their work on the team. While the students' specific interests are varied, their dedication and enthusiasm are reflected in their final product.
+        Students on the team come from a variety of backgrounds and majors in order to develop skills in machining, CAD, composites, and leadership. Many have gone on to pursue research or internships related to their work on the team. While the students' specific interests are varied, their dedication and enthusiasm are reflected in their final product.
 
-    Check out our wiki and <a class="link-warning" href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!
-  image: team-img/sp22fullgroup.png
-  image_description: team photo
+        Check out our wiki and <a class="link-warning" href="https://www.youtube.com/user/hpsucsd" target="_blank">youtube channel</a> to see how we make the submarine!
+    image: team-img/sp23fullgroup.jpg
+    image_description: team photo
 
 competition:
-  title: Competition
-  text: |
-    We alternate between racing in the International Submarine Races (ISR) and the European International Submarine Races (eISR) every year. For more information about these races, visit their websites!
+    title: Competition
+    text: |
+        We alternate between racing in the International Submarine Races (ISR) and the European International Submarine Races (eISR) every year. For more information about these races, visit their websites!
 
-    <a href="https://internationalsubmarineraces.org" target="_blank">https://internationalsubmarineraces.org</a>
+        <a href="https://internationalsubmarineraces.org" target="_blank">https://internationalsubmarineraces.org</a>
 
-    <a href="https://www.subrace.eu" target="_blank">https://www.subrace.eu</a>
+        <a href="https://www.subrace.eu" target="_blank">https://www.subrace.eu</a>
 
 latest_submarine:
-  title: Latest Submarine
-  text: |
-    We are currently working on our latest submarine, Calypso, which we intend to race in ISR 17 (June 2023).
+    title: Latest Submarine
+    text: |
+        We have just finished working on our latest submarine, Calypso, which we took to competition at ISR 17 this June!
 
-    It will convert the pilot's pedalling into a sweeping dolphin tail motion.
-    The name Calypso is a reference to the Greek mythological figure who is exiled to a remote island.
-    This submarine was designed and manufactured during the pandemic where we too were exiled to remote learning.
+        It converts the pilot's pedalling into a sweeping dolphin tail motion.
+        The name Calypso is a reference to the Greek mythological figure who is exiled to a remote island.
+        This submarine was designed and manufactured during the pandemic where we too were exiled to remote learning.
 
-    Pictured on the left is a previous propeller-based submarine called Santiana.
-
-  image: sub-gallery-img/santiana-2019.jpg
-  image_description: Santiana hull
+    image: sub-gallery-img/calypso-2023.jpg
+    image_description: Group picture with Calypso submarine at ISR 17
 
 short_description:
-  title: What is Human Powered Submarine?
-  text: |
-    We are a university project team that is part of a larger international organization.
-    We focus on making human-propelled submarines and racing them every year. Locations alternate between Maryland and England.
-    Our project consists of a drivetrain system, electronic or mechanical steering systems, and safety mechanisms contained within a flooded hull.
+    title: What is Human Powered Submarine?
+    text: |
+        We are a university project team that is part of a larger international organization.
+        We focus on making human-propelled submarines and racing them every year. Locations alternate between Maryland and England.
+        Our project consists of a drivetrain system, electronic or mechanical steering systems, and safety mechanisms contained within a flooded hull.
 
-    Check out our <a class="link-warning" href="/About.html">about page</a> or our social media to find out more!
-  image: sub-gallery-img/calypso-schematic.jpg
-  image_description: Calypso Schematic 2021
+        Check out our <a class="link-warning" href="/About.html">about page</a> or our social media to find out more!
+    image: sub-gallery-img/calypso-schematic.jpg
+    image_description: Calypso Schematic 2021
