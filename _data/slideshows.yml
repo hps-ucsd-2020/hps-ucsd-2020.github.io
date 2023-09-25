@@ -1,10 +1,10 @@
 home:
     - slideshow-images/home-slideshow/sp22fullgroup.png
-    - slideshow-images/home-slideshow/isr19-flag.jpg
-    - slideshow-images/home-slideshow/dive_4.JPG
+    - slideshow-images/home-slideshow/calypso_dive_test_1.jpg
+    - slideshow-images/home-slideshow/calypso_ISR17.jpg
     - slideshow-images/home-slideshow/hull_7.jpg
-    - slideshow-images/home-slideshow/drive_4.png
-    - slideshow-images/home-slideshow/elec_3.jpg
+    - slideshow-images/home-slideshow/calypso_dive_test_2.jpg
+    - slideshow-images/home-slideshow/santiana_dive_test_1.jpg
 
 hull:
     - slideshow-images/hull-img/hull_7.jpg
