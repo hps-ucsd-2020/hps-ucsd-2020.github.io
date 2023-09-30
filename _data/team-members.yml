@@ -51,10 +51,6 @@ umbrella:
                   position:
                   img: "/2022-23/sofia_sp23.jpg"
                   linkedin:
-                - name: Alexander Saltmarsh
-                  position:
-                  img: "/2022-23/alex_sp23.jpg"
-                  linkedin: https://www.linkedin.com/in/alexander-saltmarsh-a691a9202/
 
           - team: HSI / Steering
             members:
@@ -92,10 +88,6 @@ umbrella:
                   position:
                   img: "/2022-23/victor_sp23.jpg"
                   linkedin: http://www.linkedin.com/in/victor-leung-connect
-                - name: Alaina Lu
-                  position:
-                  img: "/2021-22/alaina_sp22.jpg"
-                  linkedin:
 
           - team: Documentation
             members:
