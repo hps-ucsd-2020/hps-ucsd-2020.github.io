@@ -28,6 +28,10 @@ umbrella:
                   position: Drivetrain Co-Lead
                   img: "/2022-23/sofia_sp23.jpg"
                   linkedin:
+                - name: Paola Rosales
+                  position:
+                  img: "/2022-23/paola_sp23.jpg"
+                  linkedin:
 
           - team: Hull
             members:
