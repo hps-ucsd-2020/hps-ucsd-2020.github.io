@@ -8,8 +8,12 @@
   img: sponsor-img/Collins-Aerospace.svg
 - name: DroneLab
   img: sponsor-img/DroneLab.svg
+- name: EDM Performance Accessories
+  img: sponsor-img/EPA.svg
 - name: House of Scuba
   img: sponsor-img/House-of-Scuba.svg
+- name: Kenesto
+  img: sponsor-img/Kenesto.svg
 - name: Lormac Plastics
   img: sponsor-img/Lormac-Plastics.svg
 - name: Northrop Grumman
@@ -24,4 +28,7 @@
   img: sponsor-img/TESC.svg
 - name: UCSD Jacobs
   img: sponsor-img/UCSD-Jacobs.svg
-
+- name: Scripps Institute of Oceanography
+  img: sponsor-img/scripps.svg 
+- name: VisRats
+  img: sponsor-img/VisArts.svg
