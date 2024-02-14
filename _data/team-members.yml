@@ -8,14 +8,14 @@ umbrella:
                 - name: Cindy Tran
                   position: Team Captain
                   img: "/2022-23/cindy_sp23.jpg"
-                  linkedin:
+                  linkedin: https://www.linkedin.com/in/cindy-tran-461b931a1/
                 - name: Miles Chen
                   position: Treasurer
                   img: "/2022-23/miles_sp23.jpg"
                   linkedin: http://www.linkedin.com/in/milesleechen
                 - name: Joori Kim
                   position: Social Lead
-                  img: "/2022-23/victor_sp23.jpg"
+                  img: 
                   linkedin: https://www.linkedin.com/in/joori-kim-922714203
 
           - team: Drivetrain
@@ -27,11 +27,7 @@ umbrella:
                 - name: Sofia Tong
                   position: Drivetrain Co-Lead
                   img: "/2022-23/sofia_sp23.jpg"
-                  linkedin:
-                - name: Paola Rosales
-                  position:
-                  img: "/2022-23/paola_sp23.jpg"
-                  linkedin:
+                  linkedin: 
 
           - team: Hull
             members:
@@ -62,21 +58,13 @@ umbrella:
                   position: HSI Lead
                   img: "/2022-23/victor_sp23.jpg"
                   linkedin: http://www.linkedin.com/in/victor-leung-connect
-                - name: Ethan Kozberg
-                  position:
-                  img: "/2022-23/ethan_sp23.jpg"
-                  linkedin: https://www.linkedin.com/in/ethan-kozberg/
 
           - team: Electronics
             members:
                 - name: Arjun Kumar
                   position: Electronics Lead
                   img: "/2022-23/arjun_sp23.jpg"
-                  linkedin:
-                - name: Ethan Kozberg
-                  position:
-                  img: "/2022-23/ethan_sp23.jpg"
-                  linkedin: https://www.linkedin.com/in/ethan-kozberg/
+                  linkedin: https://www.linkedin.com/in/arjun-kumar-794b1223b/
 
           - team: Dive
             members:
